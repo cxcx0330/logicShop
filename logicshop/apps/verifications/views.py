@@ -4,10 +4,10 @@ from django import http
 from django.views import View
 from django_redis import get_redis_connection
 
+from celery_tasks.sms.tasks import send_sms_code
 from utils.response_code import RETCODE
 from . import constants
 from .libs.captcha.captcha import captcha
-from .libs.ronglianyun.ccp import CCP
 
 
 # Create your views here.
@@ -87,9 +87,13 @@ class SMSCodeView(View):
         # 执行管道中的命令
         pl.execute()
 
-
         # 发送短信 实例化调用方法  都是字符串数据类型 300/60 float 300//60 int
-        CCP().send_message(str(mobile), (str(sms_code), str(constants.SMS_CODE_REDIS_EXPIRES // 60)),
-                           constants.SEND_SMS_TEMPLATE_TD)
+        # 同步发送短信
+        # CCP().send_message(str(mobile), (str(sms_code), str(constants.SMS_CODE_REDIS_EXPIRES // 60)),
+        #                    constants.SEND_SMS_TEMPLATE_TD)
+        # 异步发送短信
+        # send_sms_code(str(mobile), str(sms_code))  错误的写法
+        # 调用celery发送短信 需要加上delay
+        send_sms_code.delay(str(mobile), str(sms_code))
         # 响应结果
         return http.JsonResponse({'code': RETCODE.OK, 'errmsg': '发送短信验证码成功'})

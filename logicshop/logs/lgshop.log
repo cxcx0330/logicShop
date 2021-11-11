@@ -1672,3 +1672,1473 @@ INFO 2021-11-11 08:54:17,000 basehttp 154 "GET /sms_codes/17764713162/?uuid=2b2a
 INFO 2021-11-11 08:54:24,508 basehttp 154 "GET /image_codes/6d31632c-180a-4103-99eb-80996ce507a0/ HTTP/1.1" 200 3262
 INFO 2021-11-11 08:54:25,797 basehttp 154 "GET /image_codes/2ee63c7a-6848-485c-9fb8-798f14ab51bd/ HTTP/1.1" 200 3508
 INFO 2021-11-11 08:54:36,600 basehttp 154 "GET /sms_codes/17764713162/?uuid=2ee63c7a-6848-485c-9fb8-798f14ab51bd&image_code=kefo HTTP/1.1" 200 81
+INFO 2021-11-11 09:45:56,510 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 09:46:06,576 basehttp 154 "GET / HTTP/1.1" 200 43346
+WARNING 2021-11-11 09:46:07,152 log 228 Not Found: /favicon.ico
+WARNING 2021-11-11 09:46:07,152 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3077
+INFO 2021-11-11 09:46:10,376 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-11 09:46:10,727 basehttp 154 "GET /image_codes/8a4bb21f-1cee-46b7-8295-4d2f243dbf03/ HTTP/1.1" 200 3275
+INFO 2021-11-11 09:46:16,689 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-11 09:46:26,862 basehttp 154 "GET /sms_codes/17764713162/?uuid=8a4bb21f-1cee-46b7-8295-4d2f243dbf03&image_code=ualb HTTP/1.1" 200 81
+INFO 2021-11-11 09:47:26,998 basehttp 154 "GET /image_codes/670053c6-265d-4ca9-bbb8-d93667a10ac0/ HTTP/1.1" 200 3323
+INFO 2021-11-11 09:47:55,275 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-11 09:47:55,437 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 09:47:55,437 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 09:47:55,466 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 09:47:55,501 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 09:47:55,507 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-11 09:47:55,512 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-11 09:47:55,514 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 09:47:55,516 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-11 09:47:55,523 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 09:47:55,548 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 7733
+INFO 2021-11-11 09:47:55,615 basehttp 154 "GET /image_codes/baeaf13b-bc63-4695-825a-493586d062b7/ HTTP/1.1" 200 3078
+INFO 2021-11-11 09:49:19,333 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 09:49:22,665 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 09:49:25,804 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-11 09:49:25,946 basehttp 154 "GET /image_codes/a03a3e77-4790-472e-b724-408117e51efd/ HTTP/1.1" 200 3033
+INFO 2021-11-11 09:49:30,662 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-11 09:49:30,744 basehttp 154 "GET /image_codes/a2382b4b-9280-4844-bbca-4e86738ca3e9/ HTTP/1.1" 200 3183
+INFO 2021-11-11 09:49:59,810 basehttp 154 "GET /sms_codes/17764713162/?uuid=a2382b4b-9280-4844-bbca-4e86738ca3e9&image_code=du9j HTTP/1.1" 200 81
+INFO 2021-11-11 09:51:00,457 basehttp 154 "GET /image_codes/ea7d0eaf-fe20-4691-8182-705b9071258b/ HTTP/1.1" 200 3349
+INFO 2021-11-11 09:51:20,965 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-11 09:51:21,004 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 09:51:21,005 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 09:51:21,052 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 09:51:21,053 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 09:51:21,055 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 7733
+INFO 2021-11-11 09:51:21,056 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 09:51:21,060 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 09:51:21,096 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-11 09:51:21,097 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-11 09:51:21,098 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-11 09:51:21,172 basehttp 154 "GET /image_codes/7f842fa0-7ec2-4412-9621-e599a94d8705/ HTTP/1.1" 200 3308
+INFO 2021-11-11 09:51:41,768 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-11 09:51:59,486 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 09:52:01,542 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-11 09:52:08,743 basehttp 154 "GET /sms_codes/17764713162/?uuid=7f842fa0-7ec2-4412-9621-e599a94d8705&image_code=hwvd HTTP/1.1" 200 81
+INFO 2021-11-11 09:52:11,782 basehttp 154 "GET /image_codes/ea7d0eaf-fe20-4691-8182-705b9071258b/ HTTP/1.1" 200 3205
+INFO 2021-11-11 09:53:08,776 basehttp 154 "GET /image_codes/677575fe-05b9-4193-b039-88f2e7de8722/ HTTP/1.1" 200 3275
+INFO 2021-11-11 09:53:32,316 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\verifications\views.py changed, reloading.
+INFO 2021-11-11 09:55:21,310 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 09:55:23,352 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-11 09:55:23,407 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 09:55:23,408 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 09:55:23,467 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 09:55:23,470 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 7733
+INFO 2021-11-11 09:55:23,474 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 09:55:23,474 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 09:55:23,477 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 09:55:23,548 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-11 09:55:23,556 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-11 09:55:23,558 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-11 09:55:23,929 basehttp 154 "GET /image_codes/d7e64e48-7c95-419c-9f3e-aaa107d54c6f/ HTTP/1.1" 200 3202
+INFO 2021-11-11 09:55:23,942 basehttp 154 "GET /image_codes/677575fe-05b9-4193-b039-88f2e7de8722/ HTTP/1.1" 200 3001
+INFO 2021-11-11 09:55:30,741 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-11 09:55:37,350 basehttp 154 "GET /sms_codes/17764713162/?uuid=d7e64e48-7c95-419c-9f3e-aaa107d54c6f&image_code=l8bs HTTP/1.1" 200 81
+INFO 2021-11-11 10:08:56,772 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 10:08:58,064 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 10:09:00,120 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-11 10:09:00,966 basehttp 154 "GET /image_codes/703e7147-3ea5-46f9-98bf-e76bafb7c824/ HTTP/1.1" 200 3546
+INFO 2021-11-11 10:25:26,518 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 10:25:28,812 basehttp 154 "GET / HTTP/1.1" 200 43346
+WARNING 2021-11-11 10:25:31,373 log 228 Not Found: /favicon.ico
+WARNING 2021-11-11 10:25:31,374 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3244
+INFO 2021-11-11 10:25:34,745 basehttp 154 "GET /login HTTP/1.1" 301 0
+INFO 2021-11-11 10:25:34,753 basehttp 154 "GET /login/ HTTP/1.1" 200 3165
+INFO 2021-11-11 10:25:34,875 basehttp 154 "GET /static/images/2.png HTTP/1.1" 200 6015
+INFO 2021-11-11 10:25:34,883 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1560
+INFO 2021-11-11 10:25:34,900 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2021-11-11 10:25:34,904 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2021-11-11 10:47:57,069 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 10:47:59,445 basehttp 154 "GET / HTTP/1.1" 200 43346
+WARNING 2021-11-11 10:48:01,724 log 228 Not Found: /favicon.ico
+WARNING 2021-11-11 10:48:01,724 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3244
+INFO 2021-11-11 10:48:05,998 basehttp 154 "GET /login/ HTTP/1.1" 200 3165
+WARNING 2021-11-11 10:48:13,015 log 228 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-11-11 10:48:13,016 basehttp 154 "POST /login/ HTTP/1.1" 403 2513
+INFO 2021-11-11 10:48:59,531 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 10:49:01,440 basehttp 154 "GET /login/ HTTP/1.1" 200 3254
+INFO 2021-11-11 10:49:04,691 basehttp 154 "GET /login/ HTTP/1.1" 200 3254
+INFO 2021-11-11 10:49:06,287 basehttp 154 "GET /login/ HTTP/1.1" 200 3254
+INFO 2021-11-11 10:49:12,699 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 10:49:31,581 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 10:49:35,107 basehttp 154 "GET /login/ HTTP/1.1" 200 3165
+WARNING 2021-11-11 10:49:40,530 log 228 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-11-11 10:49:40,531 basehttp 154 "POST /login/ HTTP/1.1" 403 2513
+INFO 2021-11-11 10:50:20,341 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-11 10:50:30,544 log 228 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-11-11 10:50:30,545 basehttp 154 "POST /login/ HTTP/1.1" 403 2513
+WARNING 2021-11-11 10:50:33,359 log 228 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-11-11 10:50:33,360 basehttp 154 "POST /login/ HTTP/1.1" 403 2513
+INFO 2021-11-11 10:51:03,659 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 10:51:07,929 basehttp 154 "GET /login/ HTTP/1.1" 200 3286
+ERROR 2021-11-11 10:51:14,069 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 88, in post
+    pwd = user.password  # 数据库查询的密码位密文
+AttributeError: 'QuerySet' object has no attribute 'password'
+ERROR 2021-11-11 10:51:14,101 basehttp 154 "POST /login/ HTTP/1.1" 500 83937
+INFO 2021-11-11 10:51:56,708 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 10:52:01,475 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 10:52:02,907 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 10:52:07,925 basehttp 154 "GET /login/ HTTP/1.1" 200 3286
+ERROR 2021-11-11 10:52:14,576 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.LoginView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 10:52:14,577 basehttp 154 "POST /login/ HTTP/1.1" 500 64531
+INFO 2021-11-11 10:54:01,440 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 10:54:04,601 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 10:54:09,218 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-11 10:54:09,777 log 228 Not Found: /favicon.ico
+WARNING 2021-11-11 10:54:09,778 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3244
+INFO 2021-11-11 10:54:23,563 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 10:54:24,899 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 10:54:30,357 basehttp 154 "GET /login/ HTTP/1.1" 200 3286
+ERROR 2021-11-11 10:54:37,951 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.LoginView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 10:54:37,953 basehttp 154 "POST /login/ HTTP/1.1" 500 64531
+INFO 2021-11-11 10:57:49,921 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 10:57:53,729 basehttp 154 "GET / HTTP/1.1" 200 43346
+WARNING 2021-11-11 10:57:56,519 log 228 Not Found: /favicon.ico
+WARNING 2021-11-11 10:57:56,519 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3244
+WARNING 2021-11-11 10:57:58,285 log 228 Not Found: /favicon.ico
+WARNING 2021-11-11 10:57:58,286 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3244
+INFO 2021-11-11 10:58:04,779 basehttp 154 "GET /login/ HTTP/1.1" 200 3286
+ERROR 2021-11-11 10:58:27,524 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.LoginView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 10:58:27,524 basehttp 154 "POST /login/ HTTP/1.1" 500 64531
+INFO 2021-11-11 11:03:04,889 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 11:03:06,255 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 11:03:09,619 basehttp 154 "GET /login/ HTTP/1.1" 200 3286
+INFO 2021-11-11 11:03:14,616 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-11 11:03:14,622 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 11:04:02,737 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\views.py changed, reloading.
+INFO 2021-11-11 11:04:03,804 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 11:13:02,996 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 11:13:04,563 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 11:13:06,608 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+ERROR 2021-11-11 11:13:13,248 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 86, in post
+    user = User.objects.get(username=username)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+users.models.User.DoesNotExist: User matching query does not exist.
+ERROR 2021-11-11 11:13:13,249 basehttp 154 "POST /login/ HTTP/1.1" 500 92213
+ERROR 2021-11-11 11:13:27,152 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 86, in post
+    user = User.objects.get(username=username)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+users.models.User.DoesNotExist: User matching query does not exist.
+ERROR 2021-11-11 11:13:27,153 basehttp 154 "POST /login/ HTTP/1.1" 500 92227
+INFO 2021-11-11 11:14:30,062 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 11:14:31,255 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 11:14:34,105 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-11 11:14:34,165 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-11 11:14:40,669 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+ERROR 2021-11-11 11:14:48,373 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 86, in post
+    user = User.objects.get(username=username)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+users.models.User.DoesNotExist: User matching query does not exist.
+ERROR 2021-11-11 11:14:48,375 basehttp 154 "POST /login/ HTTP/1.1" 500 92221
+INFO 2021-11-11 11:15:13,766 basehttp 154 "POST /login/ HTTP/1.1" 200 3480
+INFO 2021-11-11 11:15:39,412 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 11:15:40,862 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 11:15:46,064 basehttp 154 "POST /login/ HTTP/1.1" 200 3468
+INFO 2021-11-11 11:15:50,085 basehttp 154 "POST /login/ HTTP/1.1" 200 3468
+INFO 2021-11-11 13:29:31,463 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 13:29:39,537 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 13:29:39,862 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+WARNING 2021-11-11 13:29:41,562 log 228 Not Found: /favicon.ico
+WARNING 2021-11-11 13:29:41,563 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3244
+INFO 2021-11-11 13:29:42,963 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-11 13:29:43,014 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-11 13:29:44,519 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 13:29:51,936 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-11 13:29:51,943 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 13:34:10,562 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 13:34:13,077 basehttp 154 "GET / HTTP/1.1" 200 43346
+WARNING 2021-11-11 13:34:15,794 log 228 Not Found: /favicon.ico
+WARNING 2021-11-11 13:34:15,795 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3244
+INFO 2021-11-11 13:34:17,183 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 13:34:28,426 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-11 13:34:28,435 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 13:34:38,936 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 13:34:42,424 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 13:34:45,713 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 13:36:14,968 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 13:36:16,245 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 13:36:18,646 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+ERROR 2021-11-11 13:36:25,193 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 86, in post
+    user = User.objects.get(username=username)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+users.models.User.DoesNotExist: User matching query does not exist.
+ERROR 2021-11-11 13:36:25,194 basehttp 154 "POST /login/ HTTP/1.1" 500 92213
+INFO 2021-11-11 13:45:07,917 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 13:45:14,925 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 13:45:16,261 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 13:45:30,057 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+ERROR 2021-11-11 13:45:36,453 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 86, in post
+    user = User.objects.get(username=username)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\db\models\query.py", line 408, in get
+    self.model._meta.object_name
+users.models.User.DoesNotExist: User matching query does not exist.
+ERROR 2021-11-11 13:45:36,456 basehttp 154 "POST /login/ HTTP/1.1" 500 92229
+INFO 2021-11-11 13:50:39,041 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 13:50:52,020 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 13:50:53,232 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 13:50:56,392 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 13:51:01,457 basehttp 154 "POST /login/ HTTP/1.1" 200 3477
+INFO 2021-11-11 14:02:31,943 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 14:07:09,191 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 14:07:30,936 basehttp 154 "GET / HTTP/1.1" 200 43346
+WARNING 2021-11-11 14:07:33,018 log 228 Not Found: /favicon.ico
+WARNING 2021-11-11 14:07:33,019 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3244
+INFO 2021-11-11 14:07:34,035 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+ERROR 2021-11-11 14:07:44,705 log 228 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 97, in post
+    user = authenticate(username=username, password=password)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\contrib\auth\__init__.py", line 66, in authenticate
+    for backend, backend_path in _get_backends(return_tuples=True):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\contrib\auth\__init__.py", line 27, in _get_backends
+    backend = load_backend(backend_path)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\contrib\auth\__init__.py", line 21, in load_backend
+    return import_string(path)()
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\utils\module_loading.py", line 17, in import_string
+    module = import_module(module_path)
+  File "d:\python\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "E:\pythonItem\logicShop\logicshop\apps\users\utils.py", line 5, in <module>
+    from .models import User
+  File "E:\pythonItem\logicShop\logicshop\apps\users\models.py", line 7, in <module>
+    class User(AbstractUser):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\db\models\base.py", line 111, in __new__
+    "INSTALLED_APPS." % (module, name)
+RuntimeError: Model class apps.users.models.User doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.
+ERROR 2021-11-11 14:07:44,707 basehttp 154 "POST /login/ HTTP/1.1" 500 150173
+INFO 2021-11-11 14:08:58,640 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 14:09:22,848 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-11 14:09:22,859 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 14:10:02,767 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 14:13:10,155 autoreload 203 E:\pythonItem\logicShop\logicshop\logicshop\dev.py changed, reloading.
+INFO 2021-11-11 14:13:11,194 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 14:14:03,578 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 14:14:04,897 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 14:14:08,312 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 14:14:17,492 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-11 14:14:17,501 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 14:14:18,627 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 14:14:24,806 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-11 14:14:24,813 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 14:41:41,081 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 14:41:44,002 basehttp 154 "GET / HTTP/1.1" 200 43346
+WARNING 2021-11-11 14:41:46,695 log 228 Not Found: /favicon.ico
+WARNING 2021-11-11 14:41:46,695 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3244
+INFO 2021-11-11 14:41:47,881 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-11 14:41:49,391 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 14:41:55,666 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-11 14:41:55,674 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 14:41:57,019 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 14:42:06,286 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-11 14:42:06,294 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-11 14:49:26,270 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 14:49:27,528 basehttp 154 "GET / HTTP/1.1" 200 43172
+WARNING 2021-11-11 14:49:28,105 log 228 Not Found: /favicon.ico
+WARNING 2021-11-11 14:49:28,106 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3244
+INFO 2021-11-11 14:49:40,276 basehttp 154 "GET / HTTP/1.1" 200 43188
+WARNING 2021-11-11 14:49:41,788 log 228 Not Found: /login.html
+WARNING 2021-11-11 14:49:41,789 basehttp 154 "GET /login.html HTTP/1.1" 404 3241
+WARNING 2021-11-11 14:49:44,623 log 228 Not Found: /register.html
+WARNING 2021-11-11 14:49:44,623 basehttp 154 "GET /register.html HTTP/1.1" 404 3250
+INFO 2021-11-11 14:50:58,441 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 14:51:01,082 basehttp 154 "GET / HTTP/1.1" 200 43182
+INFO 2021-11-11 14:51:16,637 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 14:51:19,657 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-11 14:51:20,211 basehttp 154 "GET /image_codes/c323de5d-a69d-4ee5-b37b-7b0400f65f01/ HTTP/1.1" 200 3194
+INFO 2021-11-11 14:51:23,370 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 14:51:26,897 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 14:51:37,925 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-11 14:51:37,938 basehttp 154 "GET / HTTP/1.1" 200 43172
+INFO 2021-11-11 14:51:46,595 basehttp 154 "GET / HTTP/1.1" 200 43173
+INFO 2021-11-11 14:52:06,473 basehttp 154 "GET / HTTP/1.1" 200 43173
+INFO 2021-11-11 14:52:09,638 basehttp 154 "GET / HTTP/1.1" 200 43173
+INFO 2021-11-11 14:52:26,999 basehttp 154 "GET / HTTP/1.1" 200 43172
+INFO 2021-11-11 14:52:37,622 basehttp 154 "GET / HTTP/1.1" 200 43182
+INFO 2021-11-11 14:53:03,429 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 14:53:06,207 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 14:53:06,558 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 14:53:10,025 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 14:53:11,543 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-11 14:53:11,674 basehttp 154 "GET /image_codes/7a9b52cb-5b8c-4b7f-8c82-633bcd2b79fc/ HTTP/1.1" 200 3020
+INFO 2021-11-11 14:56:37,906 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 14:56:54,374 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 14:56:56,577 basehttp 154 "GET / HTTP/1.1" 200 43346
+WARNING 2021-11-11 14:56:59,571 log 228 Not Found: /login.html
+WARNING 2021-11-11 14:56:59,571 basehttp 154 "GET /login.html HTTP/1.1" 404 3241
+WARNING 2021-11-11 14:57:01,503 log 228 Not Found: /register.html
+WARNING 2021-11-11 14:57:01,503 basehttp 154 "GET /register.html HTTP/1.1" 404 3250
+INFO 2021-11-11 15:19:46,086 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 15:19:49,009 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:19:51,165 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 15:19:56,433 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-11 15:19:56,441 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:19:58,130 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:19:58,835 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:19:59,949 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:00,418 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:00,756 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:01,183 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:01,555 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:02,449 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:02,745 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:02,956 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:17,354 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:17,569 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:17,769 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:17,905 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:18,043 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:18,185 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:18,446 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:20,736 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:20,824 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:20:20,882 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:20:20,901 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:20:20,907 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:20:20,916 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:20:20,932 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:20:20,939 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:20:20,955 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:20:20,976 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:20:20,989 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:20:21,000 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:20:21,013 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:20:21,025 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:20:21,079 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:20:21,082 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:20:21,087 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:20:21,095 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:20:21,108 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:20:21,110 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:20:21,122 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:20:21,129 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:20:21,132 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:20:21,155 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:20:21,163 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:20:21,174 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:20:21,329 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:21,373 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:20:21,374 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:20:21,393 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:20:21,396 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:20:21,398 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:20:21,457 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:20:21,459 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:20:21,477 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:20:21,480 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:20:21,480 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:20:21,484 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:20:21,485 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:20:21,486 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:20:21,489 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:20:21,492 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:20:21,499 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:20:21,500 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:20:21,504 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:20:21,505 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:20:21,508 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:20:21,509 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:20:21,515 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:20:21,515 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:20:21,521 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:20:21,523 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:20:21,937 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:21,975 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:20:21,976 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:20:21,990 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:20:21,992 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:20:21,994 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:20:22,051 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:20:22,054 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:20:22,074 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:20:22,074 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:20:22,075 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:20:22,078 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:20:22,086 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:20:22,087 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:20:22,091 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:20:22,091 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:20:22,095 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:20:22,097 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:20:22,098 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:20:22,099 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:20:22,103 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:20:22,106 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:20:22,110 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:20:22,112 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:20:22,113 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:20:22,113 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:20:22,506 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:22,546 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:20:22,548 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:20:22,559 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:20:22,560 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:20:22,562 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:20:22,623 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:20:22,628 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:20:22,642 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:20:22,645 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:20:22,649 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:20:22,651 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:20:22,651 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:20:22,656 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:20:22,659 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:20:22,665 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:20:22,669 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:20:22,671 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:20:22,672 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:20:22,673 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:20:22,675 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:20:22,676 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:20:22,679 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:20:22,683 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:20:22,684 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:20:22,687 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:20:23,046 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:23,086 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:20:23,087 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:20:23,101 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:20:23,103 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:20:23,105 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:20:23,161 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:20:23,171 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:20:23,184 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:20:23,187 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:20:23,188 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:20:23,193 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:20:23,195 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:20:23,199 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:20:23,202 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:20:23,204 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:20:23,206 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:20:23,209 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:20:23,209 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:20:23,213 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:20:23,216 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:20:23,220 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:20:23,221 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:20:23,224 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:20:23,225 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:20:23,227 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:20:23,594 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:23,638 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:20:23,639 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:20:23,656 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:20:23,658 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:20:23,660 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:20:23,731 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:20:23,737 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:20:23,755 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:20:23,759 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:20:23,761 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:20:23,762 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:20:23,766 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:20:23,767 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:20:23,775 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:20:23,782 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:20:23,782 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:20:23,784 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:20:23,785 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:20:23,785 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:20:23,787 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:20:23,793 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:20:23,793 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:20:23,798 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:20:23,798 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:20:23,809 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:20:24,182 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:24,223 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:20:24,224 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:20:24,238 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:20:24,238 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:20:24,240 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:20:24,296 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:20:24,302 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:20:24,320 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:20:24,322 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:20:24,327 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:20:24,327 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:20:24,328 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:20:24,330 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:20:24,333 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:20:24,333 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:20:24,343 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:20:24,343 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:20:24,343 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:20:24,345 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:20:24,349 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:20:24,349 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:20:24,357 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:20:24,358 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:20:24,358 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:20:24,364 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:20:24,726 basehttp 154 "GET / HTTP/1.1" 200 43372
+INFO 2021-11-11 15:20:24,781 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:20:24,782 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:20:24,791 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:20:24,793 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:20:24,795 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:20:24,862 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:20:24,867 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:20:24,889 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:20:24,890 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:20:24,892 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:20:24,892 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:20:24,895 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:20:24,900 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:20:24,909 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:20:24,912 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:20:24,913 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:20:24,915 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:20:24,916 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:20:24,917 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:20:24,922 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:20:24,923 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:20:24,932 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:20:24,932 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:20:24,932 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:20:24,933 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:20:37,518 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 15:20:39,378 basehttp 154 "GET / HTTP/1.1" 200 43379
+INFO 2021-11-11 15:20:40,834 basehttp 154 "GET / HTTP/1.1" 200 43379
+INFO 2021-11-11 15:20:43,820 basehttp 154 "GET / HTTP/1.1" 200 43379
+INFO 2021-11-11 15:20:43,861 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:20:43,862 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:20:43,874 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:20:43,876 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:20:43,878 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:20:43,941 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:20:43,946 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:20:43,962 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:20:43,967 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:20:43,968 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:20:43,970 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:20:43,971 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:20:43,979 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:20:43,982 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:20:43,983 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:20:43,989 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:20:43,992 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:20:43,995 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:20:43,995 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:20:43,997 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:20:43,999 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:20:43,999 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:20:44,004 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:20:44,005 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:20:44,013 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:20:44,285 basehttp 154 "GET / HTTP/1.1" 200 43379
+INFO 2021-11-11 15:20:44,329 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:20:44,330 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:20:44,350 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:20:44,351 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:20:44,354 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:20:44,415 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:20:44,418 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:20:44,441 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:20:44,443 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:20:44,443 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:20:44,443 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:20:44,452 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:20:44,454 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:20:44,463 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:20:44,464 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:20:44,467 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:20:44,468 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:20:44,471 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:20:44,471 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:20:44,478 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:20:44,480 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:20:44,482 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:20:44,487 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:20:44,489 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:20:44,491 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:20:44,952 basehttp 154 "GET / HTTP/1.1" 200 43379
+INFO 2021-11-11 15:20:44,991 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:20:44,992 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:20:45,003 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:20:45,005 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:20:45,007 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:20:45,068 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:20:45,073 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:20:45,088 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:20:45,094 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:20:45,094 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:20:45,094 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:20:45,102 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:20:45,102 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:20:45,106 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:20:45,109 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:20:45,110 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:20:45,111 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:20:45,115 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:20:45,117 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:20:45,118 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:20:45,131 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:20:45,131 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:20:45,132 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:20:45,134 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:20:45,136 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:20:45,609 basehttp 154 "GET / HTTP/1.1" 200 43379
+INFO 2021-11-11 15:20:45,659 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:20:45,664 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:20:45,668 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:20:45,670 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:20:45,673 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:20:45,738 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:20:45,742 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:20:45,760 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:20:45,762 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:20:45,762 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:20:45,764 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:20:45,766 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:20:45,769 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:20:45,777 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:20:45,788 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:20:45,789 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:20:45,789 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:20:45,790 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:20:45,793 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:20:45,796 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:20:45,805 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:20:45,806 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:20:45,808 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:20:45,809 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:20:45,810 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:20:46,232 basehttp 154 "GET / HTTP/1.1" 200 43379
+INFO 2021-11-11 15:20:46,277 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:20:46,278 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:20:46,286 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:20:46,289 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:20:46,290 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:20:46,350 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:20:46,354 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:20:46,372 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:20:46,375 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:20:46,376 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:20:46,377 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:20:46,380 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:20:46,385 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:20:46,396 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:20:46,396 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:20:46,397 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:20:46,397 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:20:46,398 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:20:46,399 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:20:46,404 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:20:46,405 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:20:46,413 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:20:46,414 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:20:46,415 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:20:46,416 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:20:46,825 basehttp 154 "GET / HTTP/1.1" 200 43379
+INFO 2021-11-11 15:20:46,874 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:20:46,875 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:20:46,888 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:20:46,889 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:20:46,891 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:20:46,953 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:20:46,959 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:20:46,979 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:20:46,981 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:20:46,984 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:20:46,986 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:20:46,986 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:20:46,991 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:20:47,001 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:20:47,003 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:20:47,006 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:20:47,006 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:20:47,007 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:20:47,010 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:20:47,015 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:20:47,020 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:20:47,023 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:20:47,025 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:20:47,026 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:20:47,028 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:20:47,483 basehttp 154 "GET / HTTP/1.1" 200 43379
+INFO 2021-11-11 15:20:47,527 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:20:47,528 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:20:47,541 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:20:47,542 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:20:47,544 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:20:47,603 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:20:47,608 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:20:47,626 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:20:47,629 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:20:47,629 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:20:47,634 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:20:47,634 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:20:47,637 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:20:47,641 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:20:47,642 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:20:47,643 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:20:47,649 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:20:47,650 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:20:47,650 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:20:47,661 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:20:47,662 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:20:47,663 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:20:47,666 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:20:47,666 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:20:47,667 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:22:11,311 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 15:22:12,512 basehttp 154 "GET / HTTP/1.1" 200 43379
+INFO 2021-11-11 15:22:15,703 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-11 15:22:15,748 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-11 15:22:16,849 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 15:22:22,518 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-11 15:22:22,524 basehttp 154 "GET / HTTP/1.1" 200 43379
+INFO 2021-11-11 15:23:03,186 basehttp 154 "GET / HTTP/1.1" 200 43379
+INFO 2021-11-11 15:23:03,235 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:23:03,236 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:23:03,261 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:23:03,261 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:23:03,264 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:23:03,398 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:23:03,416 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:23:03,420 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:23:03,420 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:23:03,428 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:23:03,430 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:23:03,438 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:23:03,442 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:23:03,445 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:23:03,446 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:23:03,462 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:23:03,469 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:23:03,471 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:23:03,478 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:23:03,484 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:23:03,485 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:23:03,521 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:23:03,522 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:23:03,524 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:23:03,525 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:34:38,674 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 15:34:41,011 basehttp 154 "GET / HTTP/1.1" 200 43386
+INFO 2021-11-11 15:34:58,173 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-11 15:34:58,181 basehttp 154 "GET / HTTP/1.1" 200 43386
+INFO 2021-11-11 15:35:47,976 basehttp 154 "GET / HTTP/1.1" 200 43386
+INFO 2021-11-11 15:35:59,682 basehttp 154 "GET / HTTP/1.1" 200 43386
+INFO 2021-11-11 15:35:59,781 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:35:59,791 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:35:59,797 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:35:59,799 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:35:59,801 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:35:59,886 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:35:59,907 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:35:59,944 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:35:59,947 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:35:59,948 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:35:59,948 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:35:59,952 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:35:59,956 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:35:59,956 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:35:59,967 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:35:59,968 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:35:59,974 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:35:59,975 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:35:59,979 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:35:59,980 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:35:59,988 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:35:59,990 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:35:59,999 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:35:59,999 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:36:00,009 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:36:09,435 basehttp 154 "GET / HTTP/1.1" 200 43386
+INFO 2021-11-11 15:36:09,493 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:36:09,495 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:36:09,510 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:36:09,511 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:36:09,513 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:36:09,638 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:36:09,638 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:36:09,660 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:36:09,661 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:36:09,661 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:36:09,669 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:36:09,677 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:36:09,679 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:36:09,692 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:36:09,692 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:36:09,694 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:36:09,696 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:36:09,714 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:36:09,714 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:36:09,733 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:36:09,746 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:36:09,747 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:36:09,749 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:36:09,752 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:36:09,953 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:36:09,954 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:36:18,120 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 15:36:18,173 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:36:18,173 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:36:18,185 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:36:18,187 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:36:18,247 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:36:18,264 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:36:18,267 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:36:18,267 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:36:18,270 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:36:18,271 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:36:18,276 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:36:18,283 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:36:18,284 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1394
+INFO 2021-11-11 15:36:18,284 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:36:18,285 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:36:18,288 basehttp 154 "GET /static/images/2.png HTTP/1.1" 200 6015
+INFO 2021-11-11 15:36:18,314 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2021-11-11 15:36:18,316 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-11 15:36:18,328 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2021-11-11 15:36:25,525 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-11 15:36:25,535 basehttp 154 "GET / HTTP/1.1" 200 43386
+INFO 2021-11-11 15:36:25,589 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:36:25,590 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:36:25,610 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:36:25,612 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:36:25,614 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:36:25,698 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:36:25,717 basehttp 154 "GET /static/images/2.png HTTP/1.1" 200 6015
+INFO 2021-11-11 15:36:25,718 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-11 15:36:25,721 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2021-11-11 15:36:25,722 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:36:25,726 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2021-11-11 15:36:25,775 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:36:25,778 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:36:25,781 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:36:25,790 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:36:25,798 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:36:25,804 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:36:25,805 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:36:25,806 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:36:25,808 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:36:25,813 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:36:25,824 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:36:25,826 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:36:25,856 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:36:25,858 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:36:25,859 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:36:25,860 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:36:25,861 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:36:25,894 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:36:27,514 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:36:27,520 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:36:27,588 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:36:27,595 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:36:27,605 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:36:27,606 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:36:27,607 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:36:30,755 basehttp 154 "GET / HTTP/1.1" 200 43386
+INFO 2021-11-11 15:36:30,831 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:36:30,831 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:36:30,832 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:36:30,835 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:36:30,839 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:36:30,937 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:36:30,948 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:36:30,984 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:36:30,987 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:36:30,994 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:36:31,001 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:36:31,004 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:36:31,005 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:36:31,011 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:36:31,014 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:36:31,016 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:36:31,037 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:36:31,037 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:36:31,037 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:36:31,038 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:36:31,046 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:36:31,052 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:36:31,069 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:36:31,071 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:36:31,076 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:36:53,510 basehttp 154 "GET / HTTP/1.1" 200 43386
+INFO 2021-11-11 15:36:53,564 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:36:53,565 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:36:53,575 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:36:53,577 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:36:53,579 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:36:53,686 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:36:53,687 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:36:53,707 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:36:53,714 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:36:53,727 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:36:53,731 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:36:53,731 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:36:53,734 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:36:53,736 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:36:53,743 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:36:53,762 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:36:53,763 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:36:53,764 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:36:53,784 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:36:53,785 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:36:53,803 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:36:53,821 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:36:53,821 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:36:53,821 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:36:53,852 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:37:14,405 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-11 15:37:14,416 basehttp 154 "GET / HTTP/1.1" 200 43386
+INFO 2021-11-11 15:37:14,471 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:37:14,472 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:37:14,483 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:37:14,487 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:37:14,488 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:37:14,625 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:37:14,626 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:37:14,676 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:37:14,684 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:37:14,689 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:37:14,690 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:37:14,693 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:37:14,694 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:37:14,703 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:37:14,705 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:37:14,718 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:37:14,719 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:37:14,727 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:37:14,729 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:37:14,752 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:37:14,760 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:37:14,762 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:37:14,763 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:37:14,766 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:37:14,767 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:57:25,234 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 15:57:26,867 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-11 15:57:27,012 basehttp 154 "GET /image_codes/b2f8f481-531f-45b1-91f2-1b8288aaa5d9/ HTTP/1.1" 200 3392
+INFO 2021-11-11 15:57:28,478 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 15:57:29,823 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-11 15:57:29,923 basehttp 154 "GET /image_codes/519df11b-1b52-4f5b-8eca-092a549ce82d/ HTTP/1.1" 200 2867
+INFO 2021-11-11 15:57:47,304 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-11 15:57:47,443 basehttp 154 "GET /image_codes/b97cd90a-0ead-43d3-8de1-aee8b132c290/ HTTP/1.1" 200 3119
+INFO 2021-11-11 15:57:51,897 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-11 15:58:02,848 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-11 15:58:11,501 basehttp 154 "GET /sms_codes/17764713162/?uuid=b97cd90a-0ead-43d3-8de1-aee8b132c290&image_code=yvqd HTTP/1.1" 200 81
+INFO 2021-11-11 15:58:24,172 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-11-11 15:58:24,180 basehttp 154 "GET / HTTP/1.1" 200 43386
+INFO 2021-11-11 15:58:24,236 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 15:58:24,237 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 15:58:24,257 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-11 15:58:24,260 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 15:58:24,262 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 15:58:24,341 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 15:58:24,361 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-11 15:58:24,388 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-11 15:58:24,389 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 15:58:24,390 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-11 15:58:24,405 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-11 15:58:24,421 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-11 15:58:24,421 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-11 15:58:24,427 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-11 15:58:24,428 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-11 15:58:24,428 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-11 15:58:24,431 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-11 15:58:24,439 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-11 15:58:24,439 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-11 15:58:24,452 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-11 15:58:24,454 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-11 15:58:24,457 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-11 15:58:24,461 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-11 15:58:24,462 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-11 15:58:24,472 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 15:58:42,750 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 15:58:53,053 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-11 15:58:53,061 basehttp 154 "GET / HTTP/1.1" 200 43386
+INFO 2021-11-11 15:58:55,316 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-11 15:58:55,323 basehttp 154 "GET / HTTP/1.1" 200 43386
+INFO 2021-11-11 16:04:41,037 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 16:05:20,533 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 16:05:29,779 basehttp 154 "GET / HTTP/1.1" 200 43383
+WARNING 2021-11-11 16:05:33,490 log 228 Not Found: /favicon.ico
+WARNING 2021-11-11 16:05:33,491 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3578
+WARNING 2021-11-11 16:05:35,186 log 228 Not Found: /{url 'users:info'}
+WARNING 2021-11-11 16:05:35,187 basehttp 154 "GET /%7Burl%20'users:info'%7D HTTP/1.1" 404 3629
+INFO 2021-11-11 16:06:35,306 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 16:06:41,312 basehttp 154 "GET / HTTP/1.1" 200 43383
+WARNING 2021-11-11 16:06:42,526 log 228 Not Found: /{url 'users:info'}
+WARNING 2021-11-11 16:06:42,526 basehttp 154 "GET /%7Burl%20'users:info'%7D HTTP/1.1" 404 3629
+WARNING 2021-11-11 16:07:10,490 log 228 Not Found: /{url 'users:info'}
+WARNING 2021-11-11 16:07:10,490 basehttp 154 "GET /%7Burl%20'users:info'%7D HTTP/1.1" 404 3629
+WARNING 2021-11-11 16:07:11,506 log 228 Not Found: /{url 'users:info'}
+WARNING 2021-11-11 16:07:11,506 basehttp 154 "GET /%7Burl%20'users:info'%7D HTTP/1.1" 404 3629
+WARNING 2021-11-11 16:07:13,857 log 228 Not Found: /{url 'users:info'}
+WARNING 2021-11-11 16:07:13,858 basehttp 154 "GET /%7Burl%20'users:info'%7D HTTP/1.1" 404 3629
+INFO 2021-11-11 16:07:30,821 basehttp 154 "GET /info HTTP/1.1" 301 0
+INFO 2021-11-11 16:07:30,859 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:07:31,030 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2891
+INFO 2021-11-11 16:07:31,032 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-11 16:07:34,032 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+WARNING 2021-11-11 16:07:35,466 log 228 Not Found: /info/user_center_order.html
+WARNING 2021-11-11 16:07:35,467 basehttp 154 "GET /info/user_center_order.html HTTP/1.1" 404 3626
+INFO 2021-11-11 16:07:38,525 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 16:07:38,596 basehttp 154 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2021-11-11 16:07:41,226 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-11 16:07:41,957 basehttp 154 "GET /image_codes/4b1894f1-7154-498d-ba76-209bf296e186/ HTTP/1.1" 200 3155
+INFO 2021-11-11 16:07:43,470 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:07:45,006 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:07:45,251 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:07:47,108 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+WARNING 2021-11-11 16:07:49,941 log 228 Not Found: /{url 'users:info'}
+WARNING 2021-11-11 16:07:49,942 basehttp 154 "GET /%7Burl%20'users:info'%7D HTTP/1.1" 404 3629
+INFO 2021-11-11 16:08:13,876 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-11 16:08:18,746 log 228 Not Found: /{url 'users:info'}
+WARNING 2021-11-11 16:08:18,746 basehttp 154 "GET /%7Burl%20'users:info'%7D HTTP/1.1" 404 3629
+WARNING 2021-11-11 16:08:20,689 log 228 Not Found: /{url 'users:info'}
+WARNING 2021-11-11 16:08:20,690 basehttp 154 "GET /%7Burl%20'users:info'%7D HTTP/1.1" 404 3629
+WARNING 2021-11-11 16:08:22,576 log 228 Not Found: /{url 'users:info'}
+WARNING 2021-11-11 16:08:22,576 basehttp 154 "GET /%7Burl%20'users:info'%7D HTTP/1.1" 404 3629
+INFO 2021-11-11 16:08:36,471 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 16:08:40,249 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-11 16:08:44,135 log 228 Not Found: /favicon.ico
+WARNING 2021-11-11 16:08:44,136 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3578
+INFO 2021-11-11 16:08:46,047 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:11:53,620 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 16:11:57,616 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-11 16:12:00,495 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+INFO 2021-11-11 16:12:00,620 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 16:12:03,650 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 16:12:05,042 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+INFO 2021-11-11 16:12:05,049 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 16:12:14,156 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-11 16:12:15,637 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+INFO 2021-11-11 16:12:15,644 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-11 16:12:21,929 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-11 16:12:21,938 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-11 16:12:22,927 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:13:25,095 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:13:25,717 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:14:49,347 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 16:14:52,374 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:14:53,508 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:14:56,174 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-11 16:14:59,947 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:15:28,303 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:15:28,747 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:15:28,962 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:15:29,186 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:15:29,333 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:15:29,476 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:15:29,621 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:15:30,569 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:15:30,732 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:15:30,903 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:15:35,585 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:15:35,701 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 16:15:35,714 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 16:15:35,777 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 16:15:35,785 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 16:15:35,794 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 16:15:35,798 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2919
+INFO 2021-11-11 16:15:35,820 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 16:15:35,857 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 16:15:35,858 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-11 16:15:41,804 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:15:41,850 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-11 16:15:41,852 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-11 16:15:41,856 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-11 16:15:41,859 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-11 16:15:41,947 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2919
+INFO 2021-11-11 16:15:41,947 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-11 16:15:41,948 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-11 16:15:41,969 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-11 16:15:41,970 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-11 16:23:32,022 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 16:23:33,421 basehttp 154 "GET / HTTP/1.1" 200 43371
+ERROR 2021-11-11 16:23:35,170 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 16:23:35,171 basehttp 154 "GET /info/ HTTP/1.1" 500 63667
+INFO 2021-11-11 16:23:49,479 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-11 16:23:49,824 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-11 16:23:50,059 basehttp 154 "GET / HTTP/1.1" 200 43371
+ERROR 2021-11-11 16:23:51,246 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 16:23:51,247 basehttp 154 "GET /info/ HTTP/1.1" 500 63667
+ERROR 2021-11-11 16:23:55,538 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 16:23:55,539 basehttp 154 "GET /info/ HTTP/1.1" 500 63802
+ERROR 2021-11-11 16:23:55,795 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 16:23:55,796 basehttp 154 "GET /info/ HTTP/1.1" 500 63802
+ERROR 2021-11-11 16:23:56,003 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 16:23:56,003 basehttp 154 "GET /info/ HTTP/1.1" 500 63802
+INFO 2021-11-11 16:24:23,830 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\views.py changed, reloading.
+INFO 2021-11-11 16:24:26,703 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 16:24:32,439 basehttp 154 "GET / HTTP/1.1" 200 43371
+ERROR 2021-11-11 16:24:34,161 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 16:24:34,162 basehttp 154 "GET /info/ HTTP/1.1" 500 63667
+ERROR 2021-11-11 16:24:37,116 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 16:24:37,117 basehttp 154 "GET /info/ HTTP/1.1" 500 63928
+INFO 2021-11-11 16:24:37,306 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+ERROR 2021-11-11 16:24:41,077 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 16:24:41,078 basehttp 154 "GET /info/ HTTP/1.1" 500 63928
+ERROR 2021-11-11 16:24:41,380 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 16:24:41,381 basehttp 154 "GET /info/ HTTP/1.1" 500 63928
+ERROR 2021-11-11 16:24:41,593 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 16:24:41,594 basehttp 154 "GET /info/ HTTP/1.1" 500 63928
+ERROR 2021-11-11 16:24:41,791 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 16:24:41,792 basehttp 154 "GET /info/ HTTP/1.1" 500 63928
+ERROR 2021-11-11 16:24:42,033 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 16:24:42,034 basehttp 154 "GET /info/ HTTP/1.1" 500 63928
+ERROR 2021-11-11 16:24:43,820 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 16:24:43,821 basehttp 154 "GET /info/ HTTP/1.1" 500 63928
+INFO 2021-11-11 16:24:45,903 basehttp 154 "GET / HTTP/1.1" 200 43371
+ERROR 2021-11-11 16:24:47,462 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 16:24:47,463 basehttp 154 "GET /info/ HTTP/1.1" 500 63667
+INFO 2021-11-11 16:25:24,637 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 16:25:25,995 basehttp 154 "GET / HTTP/1.1" 200 43371
+ERROR 2021-11-11 16:25:29,290 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 16:25:29,291 basehttp 154 "GET /info/ HTTP/1.1" 500 63667
+INFO 2021-11-11 16:26:18,549 autoreload 578 Watching for file changes with StatReloader
+ERROR 2021-11-11 16:26:22,409 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\contents\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\urls\resolvers.py", line 660, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'info' not found. 'info' is not a valid view function or pattern name.
+ERROR 2021-11-11 16:26:22,414 basehttp 154 "GET / HTTP/1.1" 500 134899
+ERROR 2021-11-11 16:26:25,316 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\contents\views.py", line 10, in get
+    return render(request, 'index.html')
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\urls\resolvers.py", line 660, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'info' not found. 'info' is not a valid view function or pattern name.
+ERROR 2021-11-11 16:26:25,317 basehttp 154 "GET / HTTP/1.1" 500 134899
+INFO 2021-11-11 16:26:34,681 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 16:26:35,354 basehttp 154 "GET / HTTP/1.1" 200 43371
+ERROR 2021-11-11 16:26:38,152 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 16:26:38,153 basehttp 154 "GET /info/ HTTP/1.1" 500 63667
+INFO 2021-11-11 16:26:41,642 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-11 16:26:41,650 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-11 16:26:43,172 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-11 16:26:44,217 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-11 16:26:44,472 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-11 16:26:45,646 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+WARNING 2021-11-11 16:26:45,764 log 228 Not Found: /accounts/login/
+WARNING 2021-11-11 16:26:45,764 basehttp 154 "GET /accounts/login/?next=/info/ HTTP/1.1" 404 3602
+INFO 2021-11-11 16:27:01,211 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\views.py changed, reloading.
+INFO 2021-11-11 16:27:02,197 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 16:33:05,627 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 16:33:08,156 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-11 16:33:10,970 log 228 Not Found: /favicon.ico
+WARNING 2021-11-11 16:33:10,971 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3578
+INFO 2021-11-11 16:33:11,502 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+WARNING 2021-11-11 16:33:11,512 log 228 Not Found: /accounts/login/
+WARNING 2021-11-11 16:33:11,512 basehttp 154 "GET /accounts/login/?next=/info/ HTTP/1.1" 404 3602
+INFO 2021-11-11 16:33:39,185 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 16:33:55,403 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 16:33:59,816 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-11 16:34:00,075 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-11 16:34:00,270 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-11 16:34:02,284 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+WARNING 2021-11-11 16:34:02,291 log 228 Not Found: /accounts/login/
+WARNING 2021-11-11 16:34:02,291 basehttp 154 "GET /accounts/login/?next=/info/ HTTP/1.1" 404 3602
+INFO 2021-11-11 16:36:34,582 autoreload 203 E:\pythonItem\logicShop\logicshop\logicshop\dev.py changed, reloading.
+INFO 2021-11-11 16:36:35,548 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 16:37:47,929 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 16:38:08,035 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-11 16:38:11,511 log 228 Not Found: /accounts/login/
+WARNING 2021-11-11 16:38:11,511 basehttp 154 "GET /accounts/login/?next=/info/ HTTP/1.1" 404 3602
+INFO 2021-11-11 16:38:13,035 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-11 16:38:14,030 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-11 16:38:15,396 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+INFO 2021-11-11 16:38:15,403 basehttp 154 "GET /login/?next=/info/ HTTP/1.1" 200 3394
+INFO 2021-11-11 16:39:13,711 basehttp 154 "POST /login/?next=/info/ HTTP/1.1" 200 3477
+INFO 2021-11-11 16:39:18,603 basehttp 154 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2021-11-11 16:39:18,610 basehttp 154 "GET / HTTP/1.1" 200 43371
+ERROR 2021-11-11 16:39:20,569 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-11 16:39:20,570 basehttp 154 "GET /info/ HTTP/1.1" 500 63658
+INFO 2021-11-11 16:45:31,343 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-11 16:45:33,006 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-11 16:45:35,979 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-11 16:45:35,987 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-11 16:45:37,066 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+INFO 2021-11-11 16:45:37,074 basehttp 154 "GET /login/?next=/info/ HTTP/1.1" 200 3394
+INFO 2021-11-11 16:45:37,120 basehttp 154 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2021-11-11 16:45:42,258 basehttp 154 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2021-11-11 16:45:42,269 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-11 16:45:42,311 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0

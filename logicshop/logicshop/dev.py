@@ -210,3 +210,9 @@ LOGGING = {
 
 # 　指定自定义的用户模型，将自定义的用户模型类映射到数据库，而不是django自带的模型 app.模型
 AUTH_USER_MODEL = 'users.User'
+
+# 指定自定义的用户验证方法的位置（手机号与用户名验证）
+AUTHENTICATION_BACKENDS = ['users.utils.UsernameMobileBackend']
+
+# 判断用户是否登录，指定未登录用户的重定向地址
+LOGIN_URL = '/login/'

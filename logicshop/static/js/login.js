@@ -12,35 +12,27 @@ let vm = new Vue({
     },
     methods: {
         // 检查账号
-        check_username(){
-        	let re = /^[a-zA-Z0-9_-]{5,20}$/;
-			if (re.test(this.username)) {
-                this.error_username = false;
-            } else {
-                this.error_username = true;
-            }
+        check_username() {
+            let re = /^[a-zA-Z0-9_-]{5,20}$/;
+            this.error_username = !re.test(this.username);
         },
-		// 检查密码
-        check_password(){
-        	let re = /^[0-9A-Za-z]{8,20}$/;
-			if (re.test(this.password)) {
-                this.error_password = false;
-            } else {
-                this.error_password = true;
-            }
+        // 检查密码
+        check_password() {
+            let re = /^[0-9A-Za-z]{8,20}$/;
+            this.error_password = !re.test(this.password);
         },
         // 表单提交
-        on_submit(){
+        on_submit() {
             this.check_username();
             this.check_password();
 
-            if (this.error_username == true || this.error_password == true) {
+            if (this.error_username === true || this.error_password === true) {
                 // 不满足登录条件：禁用表单
-				window.event.returnValue = false
+                window.event.returnValue = false
             }
         },
         // qq登录
-        qq_login(){
+        qq_login() {
             let next = get_query_string('next') || '/';
             let url = '/qq/login/?next=' + next;
             axios.get(url, {

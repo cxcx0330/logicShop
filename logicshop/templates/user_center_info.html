@@ -1,4 +1,4 @@
-{% load static %}
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
@@ -37,7 +37,7 @@
         </div>
 	</div>
 	<div class="search_bar clearfix">
-		<a href="{% url 'content:index' %}" class="logo fl"><img src="{% static 'images/1.png' %}"></a>
+		<a href="{% url 'contents:index' %}" class="logo fl"><img src="{% static 'images/1.png' %}"></a>
 		<div class="search_wrap fl">
 			<form method="get" action="/search/" class="search_con">
                 <input type="text" class="input_text fl" name="q" placeholder="搜索商品">

@@ -1,6 +1,7 @@
 from django import forms
 
 
+# 注册
 class RegisterForm(forms.Form):
     username = forms.CharField(max_length=20, min_length=5, required=True, error_messages={
         'max_length': '用户名最长为20',
@@ -20,3 +21,10 @@ class RegisterForm(forms.Form):
         if password2 != password:
             raise forms.ValidationError('两次密码不一致！！')
         return cleaned_data
+
+
+# 登录
+class LoginForm(forms.Form):
+    username = forms.CharField(max_length=20, min_length=5)
+    password = forms.CharField(max_length=20, min_length=8)
+    remembered = forms.BooleanField(required=False)
