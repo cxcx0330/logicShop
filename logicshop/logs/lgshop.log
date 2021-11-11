@@ -1,0 +1,1631 @@
+INFO 2021-11-09 17:13:52,220 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 17:13:55,069 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2021-11-09 17:13:55,199 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-11-09 17:13:55,345 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-11-09 17:13:55,345 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-11-09 17:13:55,345 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+WARNING 2021-11-09 17:13:55,403 log 228 Not Found: /favicon.ico
+WARNING 2021-11-09 17:13:55,403 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1975
+INFO 2021-11-09 17:27:42,950 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 17:27:44,108 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2021-11-09 17:27:44,213 basehttp 154 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2021-11-09 17:27:44,389 basehttp 154 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2021-11-09 17:27:44,389 basehttp 154 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO 2021-11-09 17:27:44,397 basehttp 154 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2021-11-09 17:28:08,822 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-09 18:01:54,657 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-09 18:01:56,353 log 228 Not Found: /
+WARNING 2021-11-09 18:01:56,353 basehttp 154 "GET / HTTP/1.1" 404 2097
+INFO 2021-11-09 18:02:01,008 basehttp 154 "GET /register HTTP/1.1" 301 0
+INFO 2021-11-09 18:02:01,067 basehttp 154 "GET /register/ HTTP/1.1" 200 2969
+INFO 2021-11-09 18:02:01,103 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-09 18:02:01,120 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2021-11-09 18:02:01,149 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-09 18:02:01,188 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-09 18:02:01,196 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-09 18:02:01,211 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-09 18:08:12,162 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-09 18:08:16,041 log 228 Not Found: /
+WARNING 2021-11-09 18:08:16,042 basehttp 154 "GET / HTTP/1.1" 404 2097
+INFO 2021-11-09 18:08:18,555 basehttp 154 "GET /register/ HTTP/1.1" 200 2969
+INFO 2021-11-09 18:13:12,485 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-09 18:13:14,721 log 228 Not Found: /
+WARNING 2021-11-09 18:13:14,722 basehttp 154 "GET / HTTP/1.1" 404 2097
+INFO 2021-11-09 18:13:21,715 basehttp 154 "GET /register/ HTTP/1.1" 200 2961
+WARNING 2021-11-09 18:13:23,479 log 228 Not Found: /register/login.html
+WARNING 2021-11-09 18:13:23,480 basehttp 154 "GET /register/login.html HTTP/1.1" 404 2172
+INFO 2021-11-09 18:59:52,173 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 19:04:41,092 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 19:14:58,595 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-09 19:15:01,454 log 228 Not Found: /
+WARNING 2021-11-09 19:15:01,455 basehttp 154 "GET / HTTP/1.1" 404 2097
+WARNING 2021-11-09 19:15:02,052 log 228 Not Found: /favicon.ico
+WARNING 2021-11-09 19:15:02,053 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2148
+INFO 2021-11-09 19:15:05,233 basehttp 154 "GET /register/ HTTP/1.1" 200 2961
+WARNING 2021-11-09 19:17:58,533 log 228 Not Found: /register/index.html
+WARNING 2021-11-09 19:17:58,533 basehttp 154 "GET /register/index.html HTTP/1.1" 404 2172
+WARNING 2021-11-09 19:18:01,170 log 228 Not Found: /register/index.html
+WARNING 2021-11-09 19:18:01,170 basehttp 154 "GET /register/index.html HTTP/1.1" 404 2172
+INFO 2021-11-09 19:46:50,752 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-09 19:47:00,828 log 228 Not Found: /
+WARNING 2021-11-09 19:47:00,829 basehttp 154 "GET / HTTP/1.1" 404 2097
+WARNING 2021-11-09 19:47:01,452 log 228 Not Found: /favicon.ico
+WARNING 2021-11-09 19:47:01,453 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2148
+INFO 2021-11-09 19:47:03,838 basehttp 154 "GET /register/ HTTP/1.1" 200 2961
+INFO 2021-11-09 19:56:21,404 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-09 19:56:23,576 log 228 Not Found: /
+WARNING 2021-11-09 19:56:23,577 basehttp 154 "GET / HTTP/1.1" 404 2097
+WARNING 2021-11-09 19:56:24,590 log 228 Not Found: /favicon.ico
+WARNING 2021-11-09 19:56:24,591 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2148
+INFO 2021-11-09 19:56:26,410 basehttp 154 "GET /register/ HTTP/1.1" 200 2961
+WARNING 2021-11-09 19:59:09,144 log 228 Forbidden (CSRF cookie not set.): /register/
+WARNING 2021-11-09 19:59:09,145 basehttp 154 "POST /register/ HTTP/1.1" 403 2868
+INFO 2021-11-09 20:00:15,018 autoreload 578 Watching for file changes with StatReloader
+ERROR 2021-11-09 20:00:26,109 basehttp 154 "POST /register/ HTTP/1.1" 500 59
+INFO 2021-11-09 20:07:09,879 autoreload 578 Watching for file changes with StatReloader
+ERROR 2021-11-09 20:07:12,567 basehttp 154 "POST /register/ HTTP/1.1" 500 59
+INFO 2021-11-09 20:07:41,191 autoreload 578 Watching for file changes with StatReloader
+ERROR 2021-11-09 20:07:45,835 basehttp 154 "POST /register/ HTTP/1.1" 500 59
+INFO 2021-11-09 20:08:18,493 autoreload 578 Watching for file changes with StatReloader
+ERROR 2021-11-09 20:08:25,405 basehttp 154 "POST /register/ HTTP/1.1" 500 59
+INFO 2021-11-09 20:08:45,432 autoreload 578 Watching for file changes with StatReloader
+ERROR 2021-11-09 20:08:47,255 basehttp 154 "POST /register/ HTTP/1.1" 500 59
+INFO 2021-11-09 20:09:13,026 autoreload 203 E:\virtualenv\logicShop-0HQnapyp\Lib\site-packages\django\views\debug.py changed, reloading.
+INFO 2021-11-09 20:09:14,927 autoreload 578 Watching for file changes with StatReloader
+ERROR 2021-11-09 20:09:16,602 log 228 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 20, in post
+    register_form = RegisterForm(request.PSOT)
+AttributeError: 'WSGIRequest' object has no attribute 'PSOT'
+ERROR 2021-11-09 20:09:16,603 basehttp 154 "POST /register/ HTTP/1.1" 500 79219
+INFO 2021-11-09 20:09:55,509 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 20:09:57,489 basehttp 154 "POST /register/ HTTP/1.1" 200 39
+INFO 2021-11-09 20:19:07,172 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 20:19:32,607 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 20:40:25,637 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-09 20:40:30,809 log 228 Not Found: /
+WARNING 2021-11-09 20:40:30,810 basehttp 154 "GET / HTTP/1.1" 404 2097
+WARNING 2021-11-09 20:40:31,474 log 228 Not Found: /favicon.ico
+WARNING 2021-11-09 20:40:31,475 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2148
+INFO 2021-11-09 20:40:33,908 basehttp 154 "GET /register/ HTTP/1.1" 200 4461
+INFO 2021-11-09 20:40:33,991 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 424
+INFO 2021-11-09 20:40:34,002 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-09 20:40:35,662 basehttp 154 "GET /register/ HTTP/1.1" 200 4461
+INFO 2021-11-09 20:40:35,703 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-09 20:44:39,222 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-09 20:44:41,648 log 228 Not Found: /
+WARNING 2021-11-09 20:44:41,649 basehttp 154 "GET / HTTP/1.1" 404 2097
+WARNING 2021-11-09 20:44:42,654 log 228 Not Found: /favicon.ico
+WARNING 2021-11-09 20:44:42,655 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2148
+INFO 2021-11-09 20:44:44,721 basehttp 154 "GET /register/ HTTP/1.1" 200 4603
+INFO 2021-11-09 20:44:44,782 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 682
+WARNING 2021-11-09 20:45:05,649 log 228 Not Found: /
+WARNING 2021-11-09 20:45:05,649 basehttp 154 "GET / HTTP/1.1" 404 2097
+INFO 2021-11-09 20:45:08,096 basehttp 154 "GET /register/ HTTP/1.1" 200 4603
+INFO 2021-11-09 20:45:08,165 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-09 20:45:40,750 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 20:45:49,965 basehttp 154 "GET /register/ HTTP/1.1" 200 4603
+INFO 2021-11-09 20:45:50,022 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 678
+ERROR 2021-11-09 20:46:15,257 log 228 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-09 20:46:15,258 basehttp 154 "POST /register/ HTTP/1.1" 500 64285
+INFO 2021-11-09 20:48:12,033 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-09 20:48:14,014 log 228 Not Found: /
+WARNING 2021-11-09 20:48:14,015 basehttp 154 "GET / HTTP/1.1" 404 2097
+INFO 2021-11-09 20:48:15,324 basehttp 154 "GET /register/ HTTP/1.1" 200 4623
+INFO 2021-11-09 20:48:15,394 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 714
+ERROR 2021-11-09 20:48:16,333 log 228 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-09 20:48:16,334 basehttp 154 "POST /register/ HTTP/1.1" 500 64285
+INFO 2021-11-09 20:49:41,227 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 20:49:43,639 basehttp 154 "GET /register/ HTTP/1.1" 200 4623
+INFO 2021-11-09 20:49:43,693 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 805
+INFO 2021-11-09 21:02:25,168 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-09 21:02:27,593 log 228 Not Found: /
+WARNING 2021-11-09 21:02:27,598 basehttp 154 "GET / HTTP/1.1" 404 2097
+WARNING 2021-11-09 21:02:28,525 log 228 Not Found: /favicon.ico
+WARNING 2021-11-09 21:02:28,526 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2148
+INFO 2021-11-09 21:02:30,070 basehttp 154 "GET /register/ HTTP/1.1" 200 4623
+INFO 2021-11-09 21:02:30,138 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 1380
+INFO 2021-11-09 21:06:04,605 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-09 21:06:07,859 log 228 Not Found: /
+WARNING 2021-11-09 21:06:07,860 basehttp 154 "GET / HTTP/1.1" 404 2097
+INFO 2021-11-09 21:06:11,330 basehttp 154 "GET /register/ HTTP/1.1" 200 4645
+INFO 2021-11-09 21:06:11,436 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 1460
+INFO 2021-11-09 21:07:10,328 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 21:07:11,974 basehttp 154 "GET /register/ HTTP/1.1" 200 4645
+INFO 2021-11-09 21:07:12,022 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-09 21:09:30,420 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 21:09:33,693 basehttp 154 "GET /register/ HTTP/1.1" 200 4645
+INFO 2021-11-09 21:09:33,777 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 1494
+INFO 2021-11-09 21:09:36,795 basehttp 154 "GET /register/ HTTP/1.1" 200 4645
+INFO 2021-11-09 21:09:36,897 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-09 21:09:37,216 basehttp 154 "GET /register/ HTTP/1.1" 200 4645
+INFO 2021-11-09 21:11:34,269 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 21:11:36,462 basehttp 154 "GET /register/ HTTP/1.1" 200 4653
+INFO 2021-11-09 21:11:36,512 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-09 21:11:36,801 basehttp 154 "GET /register/ HTTP/1.1" 200 4653
+INFO 2021-11-09 21:11:39,286 basehttp 154 "GET /register/ HTTP/1.1" 200 4653
+INFO 2021-11-09 21:11:39,638 basehttp 154 "GET /register/ HTTP/1.1" 200 4653
+INFO 2021-11-09 21:11:39,988 basehttp 154 "GET /register/ HTTP/1.1" 200 4653
+INFO 2021-11-09 21:11:40,312 basehttp 154 "GET /register/ HTTP/1.1" 200 4653
+INFO 2021-11-09 21:11:40,652 basehttp 154 "GET /register/ HTTP/1.1" 200 4653
+INFO 2021-11-09 21:11:40,988 basehttp 154 "GET /register/ HTTP/1.1" 200 4653
+INFO 2021-11-09 21:11:41,321 basehttp 154 "GET /register/ HTTP/1.1" 200 4653
+INFO 2021-11-09 21:11:41,672 basehttp 154 "GET /register/ HTTP/1.1" 200 4653
+INFO 2021-11-09 21:28:11,101 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 21:28:13,805 basehttp 154 "GET /register/ HTTP/1.1" 200 4826
+INFO 2021-11-09 21:28:13,967 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 1683
+INFO 2021-11-09 21:35:51,823 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 21:35:55,391 basehttp 154 "GET /register/ HTTP/1.1" 200 4826
+INFO 2021-11-09 21:35:55,540 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 1733
+ERROR 2021-11-09 21:36:02,820 log 228 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.RegisterView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-09 21:36:02,821 basehttp 154 "POST /register/ HTTP/1.1" 500 64434
+INFO 2021-11-09 21:39:26,975 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\views.py changed, reloading.
+INFO 2021-11-09 21:39:27,642 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 21:39:34,339 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\views.py changed, reloading.
+INFO 2021-11-09 21:39:34,965 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 21:39:36,227 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\views.py changed, reloading.
+INFO 2021-11-09 21:39:36,949 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 21:43:17,834 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 21:43:34,533 basehttp 154 "POST /register/ HTTP/1.1" 200 4826
+INFO 2021-11-09 21:43:34,598 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-09 21:43:55,037 basehttp 154 "POST /register/ HTTP/1.1" 200 4826
+INFO 2021-11-09 21:44:40,722 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 21:44:47,001 basehttp 154 "POST /register/ HTTP/1.1" 200 4826
+INFO 2021-11-09 21:44:47,092 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-09 21:45:00,748 basehttp 154 "POST /register/ HTTP/1.1" 200 4826
+INFO 2021-11-09 21:47:43,837 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 21:47:47,013 basehttp 154 "POST /register/ HTTP/1.1" 200 4826
+INFO 2021-11-09 21:47:47,070 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-09 21:48:01,655 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 21:48:13,257 basehttp 154 "POST /register/ HTTP/1.1" 200 39
+INFO 2021-11-09 21:56:48,676 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 21:56:50,132 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-09 21:56:50,220 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-11-09 21:56:52,238 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-09 21:56:52,299 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-09 21:56:52,303 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-09 21:56:52,331 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-09 21:56:52,332 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-09 21:56:52,333 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-09 21:56:52,334 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-09 21:56:52,354 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-09 21:56:52,360 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-09 21:56:52,360 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-09 21:56:52,361 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-09 21:56:52,361 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-09 21:56:52,363 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-09 21:56:52,370 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-09 21:56:52,371 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-09 21:56:52,371 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-09 21:56:52,377 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-09 21:56:52,378 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-09 21:56:52,391 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-09 21:56:52,454 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-09 21:59:30,861 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 21:59:32,973 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-09 21:59:41,696 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-09 21:59:58,794 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-11-09 21:59:58,801 basehttp 154 "GET / HTTP/1.1" 200 43346
+WARNING 2021-11-09 22:03:21,845 log 228 Not Found: /register.html
+WARNING 2021-11-09 22:03:21,845 basehttp 154 "GET /register.html HTTP/1.1" 404 2315
+INFO 2021-11-09 22:19:07,296 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 22:19:09,167 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-09 22:19:13,245 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-09 22:19:13,298 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 2148
+INFO 2021-11-09 22:19:28,386 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-09 22:19:28,435 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-09 22:19:28,574 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-09 22:19:28,717 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-09 22:19:28,836 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-09 22:19:28,977 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-09 22:19:29,118 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-09 22:19:29,366 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-09 22:19:29,498 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-09 22:19:29,604 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-09 22:19:29,751 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-09 22:19:29,881 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-09 22:19:30,019 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-09 22:19:30,141 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-09 22:19:30,275 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-09 22:19:30,321 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-09 22:19:30,424 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-09 22:25:21,072 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 22:25:30,422 basehttp 154 "GET /register/ HTTP/1.1" 200 4825
+INFO 2021-11-09 22:25:30,469 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 2326
+INFO 2021-11-09 22:27:52,434 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 22:27:54,826 basehttp 154 "GET /register/ HTTP/1.1" 200 4825
+INFO 2021-11-09 22:27:54,886 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 2367
+INFO 2021-11-09 22:30:23,739 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-09 22:30:27,002 log 228 Not Found: /login.html
+WARNING 2021-11-09 22:30:27,003 basehttp 154 "GET /login.html HTTP/1.1" 404 2306
+INFO 2021-11-09 22:30:31,854 basehttp 154 "GET /register/ HTTP/1.1" 200 4825
+INFO 2021-11-09 22:30:31,895 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-09 22:31:32,945 basehttp 154 "GET /register/ HTTP/1.1" 200 4825
+INFO 2021-11-09 22:31:33,019 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-09 22:32:25,802 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 22:32:30,436 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-09 22:32:30,503 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 2184
+INFO 2021-11-09 22:34:25,574 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-09 22:34:57,890 basehttp 154 "POST /register/ HTTP/1.1" 200 4822
+INFO 2021-11-09 22:34:57,947 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-09 22:35:32,908 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-11-09 22:35:32,915 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 10:24:00,395 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 10:24:04,095 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 10:24:05,200 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 10:24:05,203 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 10:24:05,269 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-11-10 10:24:05,273 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-10 10:24:05,274 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 10:24:05,317 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 10:24:05,341 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-10 10:24:05,344 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 10:24:05,368 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-10 10:24:05,369 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-10 10:24:05,371 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-10 10:24:05,380 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-10 10:24:05,380 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-10 10:24:05,382 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-10 10:24:05,394 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-10 10:24:05,395 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-10 10:24:05,410 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-10 10:24:05,419 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-10 10:24:05,420 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-10 10:24:05,422 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-10 10:24:05,424 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-10 10:24:05,426 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-10 10:24:05,427 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-10 10:24:05,433 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-10 10:24:05,436 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2021-11-10 10:24:05,737 log 228 Not Found: /favicon.ico
+WARNING 2021-11-10 10:24:05,738 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2309
+INFO 2021-11-10 10:24:09,929 basehttp 154 "GET /register HTTP/1.1" 301 0
+INFO 2021-11-10 10:24:09,939 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-10 10:24:10,008 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2021-11-10 10:24:10,016 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 2184
+INFO 2021-11-10 10:24:10,055 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 10:24:10,067 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 10:24:10,068 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 10:24:54,327 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-11-10 10:24:54,341 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 10:35:59,431 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 10:36:59,965 basehttp 154 "GET / HTTP/1.1" 200 43346
+WARNING 2021-11-10 10:37:01,203 log 228 Not Found: /favicon.ico
+WARNING 2021-11-10 10:37:01,204 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2309
+INFO 2021-11-10 10:37:04,279 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-10 10:37:14,633 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-11-10 10:37:14,643 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 10:38:53,335 basehttp 154 "GET /register/ HTTP/1.1" 200 4822
+INFO 2021-11-10 10:57:04,085 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 10:58:17,216 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\views.py changed, reloading.
+INFO 2021-11-10 10:58:19,607 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 10:59:40,733 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:05:47,589 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 11:05:49,420 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 11:05:52,435 basehttp 154 "GET /register/ HTTP/1.1" 200 4877
+WARNING 2021-11-10 11:05:57,044 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-11-10 11:06:04,546 basehttp 154 "GET /register/ HTTP/1.1" 200 4877
+WARNING 2021-11-10 11:06:04,745 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-11-10 11:06:57,395 basehttp 154 "GET /register/ HTTP/1.1" 200 4877
+WARNING 2021-11-10 11:06:57,584 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-11-10 11:07:00,253 basehttp 154 "GET /register/ HTTP/1.1" 200 4877
+WARNING 2021-11-10 11:07:00,508 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-11-10 11:08:09,529 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 11:08:14,498 basehttp 154 "GET /register/ HTTP/1.1" 200 4877
+INFO 2021-11-10 11:08:14,668 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 11:08:14,668 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 2441
+INFO 2021-11-10 11:08:14,669 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 11:08:14,678 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-11-10 11:08:14,700 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2021-11-10 11:08:14,718 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 11:08:14,733 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 11:08:14,804 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 11:08:14,813 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 11:08:14,827 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2021-11-10 11:08:14,883 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-11-10 11:08:21,046 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:08:46,954 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 11:08:53,113 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 11:08:57,663 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:09:05,521 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:09:07,855 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:09:27,851 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:09:29,068 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:13:59,055 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 11:14:12,762 basehttp 154 "GET /register/ HTTP/1.1" 200 4877
+INFO 2021-11-10 11:14:12,807 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 11:14:12,808 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 11:14:12,847 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 2728
+INFO 2021-11-10 11:14:12,847 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 11:14:12,848 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-11-10 11:14:12,849 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2021-11-10 11:14:12,852 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 11:14:12,896 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 11:14:12,897 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 11:14:12,898 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2021-11-10 11:14:12,972 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-11-10 11:14:16,770 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 11:14:16,783 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:14:19,646 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 11:14:19,659 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:14:20,866 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 11:14:20,877 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:22:10,362 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 11:22:15,756 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 11:22:15,779 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:22:18,261 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 11:22:18,267 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:22:30,532 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 11:22:30,542 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:22:38,428 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 11:22:38,439 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:23:08,998 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 11:23:12,619 basehttp 154 "GET /register/ HTTP/1.1" 200 4877
+INFO 2021-11-10 11:23:12,671 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 11:23:12,672 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 11:23:12,731 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-11-10 11:23:12,732 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 3092
+INFO 2021-11-10 11:23:12,732 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 11:23:12,741 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2021-11-10 11:23:12,742 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 11:23:12,744 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 11:23:12,745 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 11:23:12,746 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2021-11-10 11:23:12,861 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-11-10 11:23:14,347 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 11:23:14,358 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:23:16,016 basehttp 154 "GET /usernames/ycxycx1/count HTTP/1.1" 301 0
+INFO 2021-11-10 11:23:16,025 basehttp 154 "GET /usernames/ycxycx1/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:23:23,053 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:23:26,024 basehttp 154 "GET /register/ HTTP/1.1" 200 4877
+INFO 2021-11-10 11:23:26,071 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 11:23:26,072 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 11:23:26,114 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 3092
+INFO 2021-11-10 11:23:26,115 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2021-11-10 11:23:26,115 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 11:23:26,116 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-11-10 11:23:26,119 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 11:23:26,168 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 11:23:26,168 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 11:23:26,169 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2021-11-10 11:23:26,352 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-11-10 11:23:31,453 basehttp 154 "GET /usernames/ycxycx1/count HTTP/1.1" 301 0
+INFO 2021-11-10 11:23:31,463 basehttp 154 "GET /usernames/ycxycx1/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:23:34,940 basehttp 154 "GET /usernames/ycxycx11/count HTTP/1.1" 301 0
+INFO 2021-11-10 11:23:34,951 basehttp 154 "GET /usernames/ycxycx11/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:23:53,690 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 11:23:57,796 basehttp 154 "GET /register/ HTTP/1.1" 200 4877
+INFO 2021-11-10 11:23:57,845 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 11:23:57,846 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 11:23:57,910 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-11-10 11:23:57,910 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2021-11-10 11:23:57,911 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 11:23:57,918 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 11:23:57,919 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 3094
+INFO 2021-11-10 11:23:57,924 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 11:23:57,925 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 11:23:57,926 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+WARNING 2021-11-10 11:23:58,116 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-11-10 11:24:01,455 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 11:24:01,465 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 11:24:03,793 basehttp 154 "GET /usernames/ycxycx11/count HTTP/1.1" 301 0
+INFO 2021-11-10 11:24:03,805 basehttp 154 "GET /usernames/ycxycx11/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 13:42:48,012 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 13:42:50,960 basehttp 154 "GET /usernames/ycxycx11/count HTTP/1.1" 301 0
+INFO 2021-11-10 13:42:51,013 basehttp 154 "GET /usernames/ycxycx11/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 13:42:53,366 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 13:42:53,376 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 13:42:56,268 basehttp 154 "GET /register/ HTTP/1.1" 200 4877
+INFO 2021-11-10 13:42:56,356 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 13:42:56,364 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 13:42:56,404 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2021-11-10 13:42:56,405 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 13:42:56,443 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 3252
+INFO 2021-11-10 13:42:56,465 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-11-10 13:42:56,468 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 13:42:56,475 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 13:42:56,482 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 13:42:56,487 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+WARNING 2021-11-10 13:42:56,571 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-11-10 13:42:59,079 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 13:42:59,087 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 13:43:01,271 basehttp 154 "GET /usernames/ycxycx1/count HTTP/1.1" 301 0
+INFO 2021-11-10 13:43:01,279 basehttp 154 "GET /usernames/ycxycx1/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 13:43:34,727 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-10 13:43:38,563 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-11-10 13:43:40,544 basehttp 154 "GET /register/ HTTP/1.1" 200 4877
+INFO 2021-11-10 13:43:40,585 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 13:43:40,586 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 13:43:40,630 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-11-10 13:43:40,634 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 3136
+INFO 2021-11-10 13:43:40,635 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 13:43:40,637 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2021-11-10 13:43:40,638 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 13:43:40,667 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 13:43:40,668 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 13:43:40,669 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2021-11-10 13:43:40,719 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+WARNING 2021-11-10 13:43:48,670 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-11-10 13:43:55,085 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 13:43:55,092 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 13:44:02,877 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 13:44:02,884 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 13:45:47,602 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 13:46:19,313 basehttp 154 "GET /register/ HTTP/1.1" 200 4877
+INFO 2021-11-10 13:46:19,358 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 13:46:19,359 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 13:46:19,403 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 3252
+INFO 2021-11-10 13:46:19,407 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-11-10 13:46:19,409 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 13:46:19,414 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2021-11-10 13:46:19,416 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 13:46:19,464 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 13:46:19,465 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 13:46:19,466 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+WARNING 2021-11-10 13:46:19,618 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-11-10 13:46:23,566 basehttp 154 "GET /usernames/15114933489/count HTTP/1.1" 301 0
+INFO 2021-11-10 13:46:23,579 basehttp 154 "GET /usernames/15114933489/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 13:46:26,480 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 13:46:26,490 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 13:46:28,789 basehttp 154 "GET /usernames/ycxycx1/count HTTP/1.1" 301 0
+INFO 2021-11-10 13:46:28,797 basehttp 154 "GET /usernames/ycxycx1/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 13:48:12,772 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 13:48:15,609 basehttp 154 "GET /register/ HTTP/1.1" 200 4877
+INFO 2021-11-10 13:48:15,651 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 13:48:15,652 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 13:48:15,707 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 13:48:15,710 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 13:48:15,710 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 3252
+INFO 2021-11-10 13:48:15,711 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2021-11-10 13:48:15,714 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 13:48:15,754 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 13:48:15,754 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 13:48:15,756 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 13:48:30,740 basehttp 154 "GET /register/ HTTP/1.1" 200 4877
+INFO 2021-11-10 13:48:30,780 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 13:48:30,781 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 13:48:30,832 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 13:48:30,841 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 13:48:30,845 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 3252
+INFO 2021-11-10 13:48:30,847 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2021-11-10 13:48:30,851 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 13:48:30,852 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 13:48:30,855 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 13:48:30,856 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 13:56:15,502 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 13:56:26,167 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 13:56:29,009 basehttp 154 "GET /mobile/17764713162/count HTTP/1.1" 301 0
+INFO 2021-11-10 13:56:29,024 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 13:56:34,370 basehttp 154 "GET /mobile/17764712162/count HTTP/1.1" 301 0
+INFO 2021-11-10 13:56:34,375 basehttp 154 "GET /mobile/17764712162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 14:03:25,181 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 14:03:27,813 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 14:03:28,581 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+WARNING 2021-11-10 14:03:29,798 log 228 Not Found: /favicon.ico
+WARNING 2021-11-10 14:03:29,799 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2706
+INFO 2021-11-10 14:03:30,929 basehttp 154 "GET /register/ HTTP/1.1" 200 4877
+INFO 2021-11-10 14:03:31,041 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 4139
+INFO 2021-11-10 14:03:33,421 basehttp 154 "GET /mobile/17764713162/count HTTP/1.1" 301 0
+INFO 2021-11-10 14:03:33,428 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 14:03:43,492 basehttp 154 "GET /mobile/17764713162/count HTTP/1.1" 301 0
+INFO 2021-11-10 14:03:43,503 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 14:04:07,905 basehttp 154 "GET /mobile/17764713162/count HTTP/1.1" 301 0
+INFO 2021-11-10 14:04:07,915 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 14:04:09,990 basehttp 154 "GET /mobile/17764713162/count HTTP/1.1" 301 0
+INFO 2021-11-10 14:04:10,000 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 14:07:10,160 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 14:07:14,094 basehttp 154 "GET /register/ HTTP/1.1" 200 4877
+INFO 2021-11-10 14:07:14,166 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 14:07:14,167 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 14:07:14,226 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 14:07:14,233 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 14:07:14,238 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 14:07:14,239 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 4145
+INFO 2021-11-10 14:07:14,241 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2021-11-10 14:07:14,294 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 14:07:14,295 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 14:07:14,296 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 14:07:16,999 basehttp 154 "GET /mobile/17764713162/count HTTP/1.1" 301 0
+INFO 2021-11-10 14:07:17,012 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 14:07:20,147 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 14:07:20,159 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 14:07:24,512 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 14:07:24,523 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 14:08:54,208 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 14:08:57,189 basehttp 154 "GET /register/ HTTP/1.1" 200 4877
+INFO 2021-11-10 14:08:57,265 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 14:08:57,266 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 14:08:57,341 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 14:08:57,345 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 14:08:57,346 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 4143
+INFO 2021-11-10 14:08:57,367 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 14:08:57,368 basehttp 154 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2021-11-10 14:08:57,369 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 14:08:57,370 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 14:08:57,372 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 14:08:58,939 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 14:08:58,952 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 14:09:00,535 basehttp 154 "GET /mobile/17764713162/count HTTP/1.1" 301 0
+INFO 2021-11-10 14:09:00,546 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 14:09:05,228 basehttp 154 "GET /mobile/17764713162/count HTTP/1.1" 301 0
+INFO 2021-11-10 14:09:05,238 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 14:09:07,478 basehttp 154 "GET /mobile/17764713163/count HTTP/1.1" 301 0
+INFO 2021-11-10 14:09:07,489 basehttp 154 "GET /mobile/17764713163/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 14:15:45,826 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 14:52:42,506 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:00:11,421 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:03:26,406 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:06:00,973 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:06:03,756 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2 HTTP/1.1" 301 0
+ERROR 2021-11-10 15:06:04,038 log 228 Internal Server Error: /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view verifications.views.ImageCodeView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-10 15:06:04,039 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2/ HTTP/1.1" 500 61839
+INFO 2021-11-10 15:15:54,855 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:16:02,966 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\verifications\views.py changed, reloading.
+INFO 2021-11-10 15:16:03,916 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:16:12,062 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2 HTTP/1.1" 301 0
+INFO 2021-11-10 15:16:12,129 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2/ HTTP/1.1" 200 2996
+INFO 2021-11-10 15:16:14,789 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2 HTTP/1.1" 301 0
+INFO 2021-11-10 15:16:14,800 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2/ HTTP/1.1" 200 3210
+INFO 2021-11-10 15:16:15,435 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2 HTTP/1.1" 301 0
+INFO 2021-11-10 15:16:15,448 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2/ HTTP/1.1" 200 3238
+INFO 2021-11-10 15:16:16,251 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2 HTTP/1.1" 301 0
+INFO 2021-11-10 15:16:16,261 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2/ HTTP/1.1" 200 3569
+INFO 2021-11-10 15:16:17,014 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2 HTTP/1.1" 301 0
+INFO 2021-11-10 15:16:17,026 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2/ HTTP/1.1" 200 3433
+INFO 2021-11-10 15:16:17,650 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2 HTTP/1.1" 301 0
+INFO 2021-11-10 15:16:17,666 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2/ HTTP/1.1" 200 3326
+INFO 2021-11-10 15:16:18,449 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2 HTTP/1.1" 301 0
+INFO 2021-11-10 15:16:18,461 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2/ HTTP/1.1" 200 3292
+INFO 2021-11-10 15:16:19,449 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2 HTTP/1.1" 301 0
+INFO 2021-11-10 15:16:19,460 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2/ HTTP/1.1" 200 2960
+INFO 2021-11-10 15:18:10,645 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:18:13,215 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2 HTTP/1.1" 200 3559
+INFO 2021-11-10 15:18:14,274 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2 HTTP/1.1" 200 2971
+INFO 2021-11-10 15:18:15,008 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2 HTTP/1.1" 200 2780
+INFO 2021-11-10 15:18:15,763 basehttp 154 "GET /image_codes/3ec384a2-9ca9-43d0-95e4-67b0d95d46b2 HTTP/1.1" 200 2477
+INFO 2021-11-10 15:29:42,983 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:29:45,470 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 15:29:46,311 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+WARNING 2021-11-10 15:29:47,423 log 228 Not Found: /favicon.ico
+WARNING 2021-11-10 15:29:47,424 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2888
+INFO 2021-11-10 15:29:47,875 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:29:47,923 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 4561
+WARNING 2021-11-10 15:29:48,704 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/
+WARNING 2021-11-10 15:29:48,704 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/ HTTP/1.1" 404 3002
+INFO 2021-11-10 15:29:51,578 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:29:51,615 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-11-10 15:29:51,660 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/
+WARNING 2021-11-10 15:29:51,661 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/ HTTP/1.1" 404 3002
+INFO 2021-11-10 15:30:29,038 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:30:50,977 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:30:52,662 basehttp 154 "GET /register/ HTTP/1.1" 200 4900
+INFO 2021-11-10 15:30:52,736 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 4560
+INFO 2021-11-10 15:30:52,821 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3041
+INFO 2021-11-10 15:30:53,371 basehttp 154 "GET /register/ HTTP/1.1" 200 4900
+INFO 2021-11-10 15:30:53,418 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-10 15:30:53,496 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3260
+INFO 2021-11-10 15:30:53,919 basehttp 154 "GET /register/ HTTP/1.1" 200 4900
+INFO 2021-11-10 15:30:53,958 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-10 15:30:54,018 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3288
+INFO 2021-11-10 15:31:01,145 basehttp 154 "GET /register/ HTTP/1.1" 200 4900
+INFO 2021-11-10 15:31:01,195 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-10 15:31:01,259 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3138
+INFO 2021-11-10 15:31:01,497 basehttp 154 "GET /register/ HTTP/1.1" 200 4900
+INFO 2021-11-10 15:31:01,573 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3079
+INFO 2021-11-10 15:31:01,710 basehttp 154 "GET /register/ HTTP/1.1" 200 4900
+INFO 2021-11-10 15:31:01,788 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3082
+INFO 2021-11-10 15:31:01,898 basehttp 154 "GET /register/ HTTP/1.1" 200 4900
+INFO 2021-11-10 15:31:01,981 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3302
+INFO 2021-11-10 15:31:10,714 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:31:12,691 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:12,736 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-10 15:31:12,797 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 2672
+INFO 2021-11-10 15:31:13,192 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:13,269 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 2938
+INFO 2021-11-10 15:31:13,673 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:13,751 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3112
+INFO 2021-11-10 15:31:14,155 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:14,244 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3150
+INFO 2021-11-10 15:31:14,687 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:14,729 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-10 15:31:14,785 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 2964
+INFO 2021-11-10 15:31:15,266 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:15,359 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3238
+INFO 2021-11-10 15:31:16,001 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:16,077 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3082
+INFO 2021-11-10 15:31:16,533 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:16,572 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-10 15:31:16,729 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3031
+INFO 2021-11-10 15:31:17,125 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:17,206 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3354
+INFO 2021-11-10 15:31:17,632 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:17,711 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3118
+INFO 2021-11-10 15:31:18,039 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:18,116 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3557
+INFO 2021-11-10 15:31:18,236 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:18,297 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 2839
+INFO 2021-11-10 15:31:18,399 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:18,493 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3354
+INFO 2021-11-10 15:31:18,541 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:18,649 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3265
+INFO 2021-11-10 15:31:43,474 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:31:45,261 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:45,300 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 4561
+WARNING 2021-11-10 15:31:45,357 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/
+WARNING 2021-11-10 15:31:45,357 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/ HTTP/1.1" 404 3003
+INFO 2021-11-10 15:31:45,916 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:45,956 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-11-10 15:31:46,012 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/
+WARNING 2021-11-10 15:31:46,012 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/ HTTP/1.1" 404 3003
+INFO 2021-11-10 15:31:46,239 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:46,278 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-11-10 15:31:46,347 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/
+WARNING 2021-11-10 15:31:46,348 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/ HTTP/1.1" 404 3003
+INFO 2021-11-10 15:31:46,401 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:46,440 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-11-10 15:31:46,502 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/
+WARNING 2021-11-10 15:31:46,503 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/ HTTP/1.1" 404 3003
+INFO 2021-11-10 15:31:46,584 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:46,625 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-11-10 15:31:46,677 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/
+WARNING 2021-11-10 15:31:46,677 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/ HTTP/1.1" 404 3003
+INFO 2021-11-10 15:31:53,011 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:31:54,847 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:54,905 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 4560
+WARNING 2021-11-10 15:31:54,975 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7
+WARNING 2021-11-10 15:31:54,976 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 404 3000
+INFO 2021-11-10 15:31:55,385 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:55,431 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-11-10 15:31:55,495 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7
+WARNING 2021-11-10 15:31:55,496 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 404 3000
+INFO 2021-11-10 15:31:55,896 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:55,936 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-11-10 15:31:55,987 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7
+WARNING 2021-11-10 15:31:55,988 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 404 3000
+INFO 2021-11-10 15:31:56,407 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:31:56,448 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-11-10 15:31:56,501 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7
+WARNING 2021-11-10 15:31:56,501 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 404 3000
+INFO 2021-11-10 15:32:03,922 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:32:05,765 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:32:05,812 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-10 15:32:05,878 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3146
+INFO 2021-11-10 15:32:06,261 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:32:06,355 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3114
+INFO 2021-11-10 15:32:06,491 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:32:06,536 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-10 15:32:06,593 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 2837
+INFO 2021-11-10 15:32:06,653 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:32:06,765 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3034
+INFO 2021-11-10 15:34:34,115 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:34:38,375 basehttp 154 "GET / HTTP/1.1" 200 43346
+WARNING 2021-11-10 15:34:40,534 log 228 Not Found: /favicon.ico
+WARNING 2021-11-10 15:34:40,534 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2889
+INFO 2021-11-10 15:34:40,931 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:34:40,984 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 4561
+WARNING 2021-11-10 15:34:41,528 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/
+WARNING 2021-11-10 15:34:41,529 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/ HTTP/1.1" 404 3003
+INFO 2021-11-10 15:34:43,018 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:34:43,057 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-11-10 15:34:43,107 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/
+WARNING 2021-11-10 15:34:43,108 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/ HTTP/1.1" 404 3003
+INFO 2021-11-10 15:35:01,480 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:35:03,763 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:35:03,803 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+WARNING 2021-11-10 15:35:03,859 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/
+WARNING 2021-11-10 15:35:03,859 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/ HTTP/1.1" 404 3002
+INFO 2021-11-10 15:35:04,345 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+WARNING 2021-11-10 15:35:04,422 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/
+WARNING 2021-11-10 15:35:04,423 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/ HTTP/1.1" 404 3002
+INFO 2021-11-10 15:35:04,542 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+WARNING 2021-11-10 15:35:04,615 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/
+WARNING 2021-11-10 15:35:04,616 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/ HTTP/1.1" 404 3002
+INFO 2021-11-10 15:35:04,701 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+WARNING 2021-11-10 15:35:04,794 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/
+WARNING 2021-11-10 15:35:04,795 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/ HTTP/1.1" 404 3002
+INFO 2021-11-10 15:35:04,866 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+WARNING 2021-11-10 15:35:04,954 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/
+WARNING 2021-11-10 15:35:04,954 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/ HTTP/1.1" 404 3002
+INFO 2021-11-10 15:35:05,013 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+WARNING 2021-11-10 15:35:05,117 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/
+WARNING 2021-11-10 15:35:05,118 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/ HTTP/1.1" 404 3002
+INFO 2021-11-10 15:35:05,165 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+WARNING 2021-11-10 15:35:05,275 log 228 Not Found: /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/
+WARNING 2021-11-10 15:35:05,275 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7/ HTTP/1.1" 404 3002
+INFO 2021-11-10 15:35:10,075 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:35:11,490 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:35:11,533 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 4560
+INFO 2021-11-10 15:35:11,599 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3108
+INFO 2021-11-10 15:35:11,963 basehttp 154 "GET /register/ HTTP/1.1" 200 4894
+INFO 2021-11-10 15:35:12,007 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-10 15:35:12,066 basehttp 154 "GET /image_codes/1e001b3f-1182-4a61-a362-6a80906f16c7 HTTP/1.1" 200 3526
+INFO 2021-11-10 15:38:47,849 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:38:56,682 basehttp 154 "GET / HTTP/1.1" 200 43346
+WARNING 2021-11-10 15:38:58,771 log 228 Not Found: /favicon.ico
+WARNING 2021-11-10 15:38:58,771 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2888
+INFO 2021-11-10 15:38:59,140 basehttp 154 "GET /register/ HTTP/1.1" 200 4939
+INFO 2021-11-10 15:38:59,199 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 4606
+INFO 2021-11-10 15:38:59,847 basehttp 154 "GET /image_codes/d4305f0f-7ef2-4cc7-9b27-28ecdcf62439 HTTP/1.1" 200 3262
+INFO 2021-11-10 15:39:01,010 basehttp 154 "GET /image_codes/4233730f-7f2a-4039-83c9-d1a0fd6023fd HTTP/1.1" 200 3085
+INFO 2021-11-10 15:39:01,180 basehttp 154 "GET /image_codes/8a22f284-6e8f-4d7d-b643-c131a8d0d637 HTTP/1.1" 200 3419
+INFO 2021-11-10 15:39:01,342 basehttp 154 "GET /image_codes/8015a5dc-b8b9-41e7-971a-07f948278134 HTTP/1.1" 200 3134
+INFO 2021-11-10 15:39:01,530 basehttp 154 "GET /image_codes/823dfa35-b3be-4fb9-b8c2-a93e4d2c2cdb HTTP/1.1" 200 3073
+INFO 2021-11-10 15:39:01,976 basehttp 154 "GET /image_codes/37569458-75f2-4a71-bd94-382f031aebdd HTTP/1.1" 200 3413
+INFO 2021-11-10 15:39:02,854 basehttp 154 "GET /register/ HTTP/1.1" 200 4939
+INFO 2021-11-10 15:39:02,897 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-10 15:39:02,964 basehttp 154 "GET /image_codes/e67b1c8b-1a87-4600-a948-2e4b6bc85128 HTTP/1.1" 200 3494
+INFO 2021-11-10 15:39:04,263 basehttp 154 "GET /register/ HTTP/1.1" 200 4939
+INFO 2021-11-10 15:39:04,362 basehttp 154 "GET /image_codes/7187c799-5424-4e92-a975-aff546a5cafc HTTP/1.1" 200 3376
+INFO 2021-11-10 15:39:04,904 basehttp 154 "GET /image_codes/f111b6b1-71b2-44d4-84eb-542ced06c3a2 HTTP/1.1" 200 3312
+INFO 2021-11-10 15:39:05,408 basehttp 154 "GET /image_codes/09ae2710-659d-4b29-bb52-911d142aeba3 HTTP/1.1" 200 3497
+INFO 2021-11-10 15:39:05,852 basehttp 154 "GET /image_codes/3e4f0834-38ba-4716-b729-f3fc436ca1cb HTTP/1.1" 200 3246
+INFO 2021-11-10 15:39:06,232 basehttp 154 "GET /image_codes/2a44c7c7-b811-440d-bba6-6217f463aae1 HTTP/1.1" 200 3144
+INFO 2021-11-10 15:39:06,735 basehttp 154 "GET /image_codes/e38933aa-4b05-4e84-9ddd-442036b2506a HTTP/1.1" 200 3425
+INFO 2021-11-10 15:47:35,484 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:47:37,002 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 15:47:37,089 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-11-10 15:49:25,298 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:49:36,813 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 15:49:37,948 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 15:49:37,991 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 15:49:38,034 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 15:49:38,036 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5008
+INFO 2021-11-10 15:49:38,040 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 15:49:38,054 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 15:49:38,121 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 15:49:38,125 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 15:49:38,137 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 15:49:38,171 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 15:49:38,205 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 15:49:38,228 basehttp 154 "GET /image_codes/75c11427-ded6-44bf-a7d6-76947bcd7aab HTTP/1.1" 200 3127
+INFO 2021-11-10 15:52:50,425 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:52:51,461 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 15:52:54,865 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 15:52:54,906 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 15:52:54,907 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 15:52:54,944 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 15:52:54,953 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 15:52:54,956 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 15:52:54,958 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 15:52:54,967 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 15:52:54,968 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 15:52:54,970 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5008
+INFO 2021-11-10 15:52:54,972 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 15:52:55,118 basehttp 154 "GET /image_codes/564972f2-734a-4393-8217-6bad88ab6002 HTTP/1.1" 200 3206
+INFO 2021-11-10 15:57:43,406 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 15:57:47,711 basehttp 154 "GET / HTTP/1.1" 200 43346
+WARNING 2021-11-10 15:57:48,196 log 228 Not Found: /favicon.ico
+WARNING 2021-11-10 15:57:48,197 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2888
+INFO 2021-11-10 15:57:50,313 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 15:57:50,370 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-10 15:57:50,875 basehttp 154 "GET /image_codes/de281132-0762-489b-b279-1d4a7db3d424 HTTP/1.1" 200 3136
+INFO 2021-11-10 16:37:48,476 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 16:37:53,080 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 16:37:53,140 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-11-10 16:37:53,181 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-10 16:37:53,232 basehttp 154 "GET /image_codes/6b9678a0-5c22-4888-a628-1481563a00af HTTP/1.1" 200 3346
+INFO 2021-11-10 16:37:58,318 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 16:37:58,330 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 16:38:03,383 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 16:38:03,395 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 16:39:01,151 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 16:39:02,765 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 16:39:02,826 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 16:39:02,873 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 16:39:02,890 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5008
+INFO 2021-11-10 16:39:02,891 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 16:39:02,891 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 16:39:02,914 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 16:39:02,916 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 16:39:02,996 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 16:39:02,999 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 16:39:03,000 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 16:39:03,040 basehttp 154 "GET /image_codes/f7cb8790-165a-4be9-b106-43b962d16c06 HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:03,139 basehttp 154 "GET /image_codes/f7cb8790-165a-4be9-b106-43b962d16c06 HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:03,146 basehttp 154 "GET /image_codes/f7cb8790-165a-4be9-b106-43b962d16c06/ HTTP/1.1" 200 3296
+INFO 2021-11-10 16:39:03,201 basehttp 154 "GET /image_codes/f7cb8790-165a-4be9-b106-43b962d16c06/ HTTP/1.1" 200 2971
+INFO 2021-11-10 16:39:03,577 basehttp 154 "GET /image_codes/9da74937-45a7-47d4-8d25-cb2c7a9c2027 HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:03,593 basehttp 154 "GET /image_codes/9da74937-45a7-47d4-8d25-cb2c7a9c2027 HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:03,607 basehttp 154 "GET /image_codes/9da74937-45a7-47d4-8d25-cb2c7a9c2027/ HTTP/1.1" 200 3254
+INFO 2021-11-10 16:39:03,635 basehttp 154 "GET /image_codes/9da74937-45a7-47d4-8d25-cb2c7a9c2027/ HTTP/1.1" 200 3174
+INFO 2021-11-10 16:39:04,052 basehttp 154 "GET /image_codes/dcfd13ef-ab12-4793-9e99-843596724372 HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:04,067 basehttp 154 "GET /image_codes/dcfd13ef-ab12-4793-9e99-843596724372 HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:04,072 basehttp 154 "GET /image_codes/dcfd13ef-ab12-4793-9e99-843596724372/ HTTP/1.1" 200 2892
+INFO 2021-11-10 16:39:04,088 basehttp 154 "GET /image_codes/dcfd13ef-ab12-4793-9e99-843596724372/ HTTP/1.1" 200 3122
+INFO 2021-11-10 16:39:04,213 basehttp 154 "GET /image_codes/6f840f99-5a3a-480f-b155-d9f3b3b24c2e HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:04,227 basehttp 154 "GET /image_codes/6f840f99-5a3a-480f-b155-d9f3b3b24c2e/ HTTP/1.1" 200 3477
+INFO 2021-11-10 16:39:04,228 basehttp 154 "GET /image_codes/6f840f99-5a3a-480f-b155-d9f3b3b24c2e HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:04,252 basehttp 154 "GET /image_codes/6f840f99-5a3a-480f-b155-d9f3b3b24c2e/ HTTP/1.1" 200 3386
+INFO 2021-11-10 16:39:04,379 basehttp 154 "GET /image_codes/822ebfe3-0526-4331-8d47-996d445cc754 HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:04,398 basehttp 154 "GET /image_codes/822ebfe3-0526-4331-8d47-996d445cc754/ HTTP/1.1" 200 3069
+INFO 2021-11-10 16:39:04,400 basehttp 154 "GET /image_codes/822ebfe3-0526-4331-8d47-996d445cc754 HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:04,421 basehttp 154 "GET /image_codes/822ebfe3-0526-4331-8d47-996d445cc754/ HTTP/1.1" 200 2928
+INFO 2021-11-10 16:39:04,612 basehttp 154 "GET /image_codes/4919911b-b8c0-4be6-a8ea-7429a4d2daec HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:04,628 basehttp 154 "GET /image_codes/4919911b-b8c0-4be6-a8ea-7429a4d2daec HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:04,631 basehttp 154 "GET /image_codes/4919911b-b8c0-4be6-a8ea-7429a4d2daec/ HTTP/1.1" 200 2946
+INFO 2021-11-10 16:39:04,655 basehttp 154 "GET /image_codes/4919911b-b8c0-4be6-a8ea-7429a4d2daec/ HTTP/1.1" 200 3519
+INFO 2021-11-10 16:39:04,788 basehttp 154 "GET /image_codes/3291336b-f832-4411-8da4-bde3462dd6ac HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:04,810 basehttp 154 "GET /image_codes/3291336b-f832-4411-8da4-bde3462dd6ac/ HTTP/1.1" 200 3137
+INFO 2021-11-10 16:39:04,971 basehttp 154 "GET /image_codes/cc15cae5-b5fc-4cf1-974b-5ae5db7d3dba HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:04,986 basehttp 154 "GET /image_codes/cc15cae5-b5fc-4cf1-974b-5ae5db7d3dba/ HTTP/1.1" 200 2794
+INFO 2021-11-10 16:39:05,119 basehttp 154 "GET /image_codes/b929948e-0717-412e-b7d7-caf1b75ed211 HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:05,132 basehttp 154 "GET /image_codes/b929948e-0717-412e-b7d7-caf1b75ed211/ HTTP/1.1" 200 3255
+INFO 2021-11-10 16:39:07,295 basehttp 154 "GET /image_codes/73ea6148-cf9b-4203-a16f-5ef86be804c9 HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:07,305 basehttp 154 "GET /image_codes/73ea6148-cf9b-4203-a16f-5ef86be804c9 HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:07,317 basehttp 154 "GET /image_codes/73ea6148-cf9b-4203-a16f-5ef86be804c9/ HTTP/1.1" 200 3367
+INFO 2021-11-10 16:39:07,327 basehttp 154 "GET /image_codes/73ea6148-cf9b-4203-a16f-5ef86be804c9/ HTTP/1.1" 200 3083
+INFO 2021-11-10 16:39:07,747 basehttp 154 "GET /image_codes/c1f1a123-573e-439c-9e2c-6da18657f673 HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:07,756 basehttp 154 "GET /image_codes/c1f1a123-573e-439c-9e2c-6da18657f673 HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:07,767 basehttp 154 "GET /image_codes/c1f1a123-573e-439c-9e2c-6da18657f673/ HTTP/1.1" 200 3289
+INFO 2021-11-10 16:39:07,779 basehttp 154 "GET /image_codes/c1f1a123-573e-439c-9e2c-6da18657f673/ HTTP/1.1" 200 3348
+INFO 2021-11-10 16:39:08,359 basehttp 154 "GET /image_codes/66bf381d-2cf8-44f8-87e6-25198877c879 HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:08,379 basehttp 154 "GET /image_codes/66bf381d-2cf8-44f8-87e6-25198877c879 HTTP/1.1" 301 0
+INFO 2021-11-10 16:39:08,381 basehttp 154 "GET /image_codes/66bf381d-2cf8-44f8-87e6-25198877c879/ HTTP/1.1" 200 3146
+INFO 2021-11-10 16:39:08,403 basehttp 154 "GET /image_codes/66bf381d-2cf8-44f8-87e6-25198877c879/ HTTP/1.1" 200 3217
+INFO 2021-11-10 16:39:50,315 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 16:39:53,424 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 16:39:53,472 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 16:39:53,472 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 16:39:53,515 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 16:39:53,516 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 16:39:53,521 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 16:39:53,521 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5009
+INFO 2021-11-10 16:39:53,521 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 16:39:53,558 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 16:39:53,560 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 16:39:53,561 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 16:39:53,663 basehttp 154 "GET /image_codes/d66c8401-4dd3-47d4-b77c-c5e8fe62bfe2/ HTTP/1.1" 200 3070
+INFO 2021-11-10 16:39:55,935 basehttp 154 "GET /image_codes/b543f9db-44c4-484b-a5da-2c3981d66c90/ HTTP/1.1" 200 3606
+INFO 2021-11-10 16:39:56,631 basehttp 154 "GET /image_codes/ff589ca9-e854-4d96-8d03-eae50ef86f4c/ HTTP/1.1" 200 3035
+INFO 2021-11-10 16:39:57,186 basehttp 154 "GET /image_codes/aba534be-a2b6-4c67-8b3b-3acc6ce3b195/ HTTP/1.1" 200 2970
+INFO 2021-11-10 16:39:57,668 basehttp 154 "GET /image_codes/3ac0bc53-e248-45f4-88b1-5bda914b4202/ HTTP/1.1" 200 3340
+INFO 2021-11-10 16:39:59,583 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 16:39:59,636 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 16:39:59,637 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 16:39:59,699 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5009
+INFO 2021-11-10 16:39:59,700 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 16:39:59,702 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 16:39:59,703 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 16:39:59,706 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 16:39:59,745 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 16:39:59,745 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 16:39:59,746 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 16:39:59,833 basehttp 154 "GET /image_codes/5dfc4720-ab02-4820-81f1-7094af648b5a/ HTTP/1.1" 200 3396
+INFO 2021-11-10 16:40:01,330 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 16:40:01,341 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 16:40:03,705 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 16:40:03,715 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 16:40:16,652 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 16:40:18,872 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 16:40:18,891 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 16:40:24,107 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 16:40:25,538 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 16:40:25,605 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 16:40:25,606 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 16:40:25,666 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 16:40:25,668 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 16:40:25,670 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5010
+INFO 2021-11-10 16:40:25,673 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 16:40:25,674 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 16:40:25,712 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 16:40:25,712 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 16:40:25,713 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 16:40:25,831 basehttp 154 "GET /image_codes/8d0a6294-4934-4603-8027-1844f52467dd/ HTTP/1.1" 200 3431
+INFO 2021-11-10 16:40:27,202 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 16:40:27,211 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 16:40:29,493 basehttp 154 "GET /usernames/ycxycx/count HTTP/1.1" 301 0
+INFO 2021-11-10 16:40:29,602 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 16:41:52,897 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 16:41:54,555 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 16:41:54,629 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 16:41:54,637 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 16:41:54,721 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 16:41:54,732 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 16:41:54,735 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 16:41:54,736 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 16:41:54,737 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5011
+INFO 2021-11-10 16:41:54,797 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 16:41:54,800 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 16:41:54,801 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 16:41:54,954 basehttp 154 "GET /image_codes/8885f43e-df84-4371-9997-96f5ffe7c5d2/ HTTP/1.1" 200 3092
+INFO 2021-11-10 16:41:59,597 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 16:42:01,495 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 16:42:01,543 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 16:42:01,544 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 16:42:01,607 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 16:42:01,614 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 16:42:01,622 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 16:42:01,623 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5011
+INFO 2021-11-10 16:42:01,625 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 16:42:01,670 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 16:42:01,671 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 16:42:01,672 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 16:42:01,824 basehttp 154 "GET /image_codes/5146f748-fef0-4a47-a294-44c8055441f8/ HTTP/1.1" 200 3422
+INFO 2021-11-10 16:42:04,758 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 16:44:12,551 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 16:44:15,022 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 16:44:15,109 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 16:44:15,112 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 16:44:15,178 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 16:44:15,185 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5011
+INFO 2021-11-10 16:44:15,187 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 16:44:15,188 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 16:44:15,195 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 16:44:15,267 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 16:44:15,268 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 16:44:15,270 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 16:44:15,454 basehttp 154 "GET /image_codes/d7fccdea-541c-47f6-be31-e871e7b39a27/ HTTP/1.1" 200 3222
+INFO 2021-11-10 16:44:16,014 basehttp 154 "GET /image_codes/8b3daf53-c3ab-4ba0-8417-5b37a29fbc7e/ HTTP/1.1" 200 3516
+INFO 2021-11-10 16:44:16,373 basehttp 154 "GET /image_codes/4026696e-02d9-4f20-84be-833d4721db18/ HTTP/1.1" 200 3435
+INFO 2021-11-10 16:44:16,562 basehttp 154 "GET /image_codes/a34c2326-833c-4f4a-87dc-2833f708641d/ HTTP/1.1" 200 3157
+INFO 2021-11-10 16:44:16,734 basehttp 154 "GET /image_codes/ea17e9e3-4c0e-4610-9fe1-2052e2460c31/ HTTP/1.1" 200 2817
+INFO 2021-11-10 16:44:16,905 basehttp 154 "GET /image_codes/d1ff4775-80d4-460e-b735-c56a0eec522c/ HTTP/1.1" 200 3255
+INFO 2021-11-10 16:44:17,068 basehttp 154 "GET /image_codes/1e1265e2-1e7c-4d28-9916-2588ef663192/ HTTP/1.1" 200 3346
+INFO 2021-11-10 16:44:17,269 basehttp 154 "GET /image_codes/79085eda-465f-48f8-9a68-7458cc72d2df/ HTTP/1.1" 200 3633
+INFO 2021-11-10 16:44:19,007 basehttp 154 "GET /image_codes/6bb17bc0-e92e-40f7-8819-1a2dd03d8599/ HTTP/1.1" 200 3643
+INFO 2021-11-10 16:44:19,536 basehttp 154 "GET /image_codes/1d66e23b-e774-489f-b396-002cfd1e0ab1/ HTTP/1.1" 200 3481
+INFO 2021-11-10 16:44:19,802 basehttp 154 "GET /image_codes/484fa94e-0ffc-4114-93d6-5e74be3c9a67/ HTTP/1.1" 200 3202
+INFO 2021-11-10 16:44:20,866 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 16:44:20,910 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 16:44:20,911 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 16:44:20,976 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 16:44:20,980 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 16:44:20,984 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 16:44:20,985 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5011
+INFO 2021-11-10 16:44:20,991 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 16:44:20,992 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 16:44:20,994 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 16:44:21,001 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 16:44:21,126 basehttp 154 "GET /image_codes/8855adf9-c996-494e-9daa-cd4407610814/ HTTP/1.1" 200 3288
+INFO 2021-11-10 16:44:23,476 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 16:44:23,521 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 16:44:23,522 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 16:44:23,566 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 16:44:23,566 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 16:44:23,567 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 16:44:23,567 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5011
+INFO 2021-11-10 16:44:23,570 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 16:44:23,608 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 16:44:23,608 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 16:44:23,609 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 16:44:23,681 basehttp 154 "GET /image_codes/74564dbe-d02f-47f5-bbbb-5580ae31798e/ HTTP/1.1" 200 3138
+INFO 2021-11-10 16:44:24,113 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 16:44:24,164 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 16:44:24,165 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 16:44:24,210 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5011
+INFO 2021-11-10 16:44:24,212 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 16:44:24,212 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 16:44:24,214 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 16:44:24,219 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 16:44:24,257 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 16:44:24,261 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 16:44:24,261 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 16:44:24,288 basehttp 154 "GET /image_codes/74564dbe-d02f-47f5-bbbb-5580ae31798e/ HTTP/1.1" 200 2576
+INFO 2021-11-10 16:44:24,332 basehttp 154 "GET /image_codes/77de85f5-8b6b-44f8-a2fe-695e557faeac/ HTTP/1.1" 200 3443
+INFO 2021-11-10 16:44:24,940 basehttp 154 "GET /image_codes/42afa3b4-855d-4808-bec4-96cc439f26ac/ HTTP/1.1" 200 2926
+INFO 2021-11-10 16:44:25,249 basehttp 154 "GET /image_codes/773a2817-4675-475b-b1e7-510f654957a5/ HTTP/1.1" 200 2972
+INFO 2021-11-10 18:31:48,096 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 18:31:56,698 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 18:31:58,849 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+WARNING 2021-11-10 18:31:59,131 log 228 Not Found: /favicon.ico
+WARNING 2021-11-10 18:31:59,132 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2889
+INFO 2021-11-10 18:32:00,725 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 18:32:00,788 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-10 18:32:01,754 basehttp 154 "GET /image_codes/b3305a01-649b-48a3-8c12-a4022f17db06/ HTTP/1.1" 200 3050
+INFO 2021-11-10 18:32:03,178 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 18:32:11,219 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 18:32:16,255 basehttp 154 "GET /image_codes/1fb541b6-4b13-4679-897f-8656baf9c349/ HTTP/1.1" 200 3101
+INFO 2021-11-10 18:32:16,644 basehttp 154 "GET /image_codes/62ca2a90-6057-4933-a1bb-ce5da4aabecb/ HTTP/1.1" 200 2919
+INFO 2021-11-10 18:32:16,813 basehttp 154 "GET /image_codes/ad476c22-5f61-419c-8d4b-9902d386050f/ HTTP/1.1" 200 3252
+INFO 2021-11-10 18:32:16,976 basehttp 154 "GET /image_codes/b3647c1d-7e8a-46a0-b49b-118f0ade85a6/ HTTP/1.1" 200 2949
+INFO 2021-11-10 20:29:56,458 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 20:30:40,833 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 20:34:16,312 autoreload 578 Watching for file changes with StatReloader
+ERROR 2021-11-10 20:34:21,004 log 228 Internal Server Error: /sms_codes/17764713162/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+ERROR 2021-11-10 20:34:21,005 basehttp 154 "GET /sms_codes/17764713162/?uuid=eb357150-c9d9-441c-95bd-25cc0d4fe851&image_code=ycxn HTTP/1.1" 500 67595
+INFO 2021-11-10 20:35:54,413 autoreload 578 Watching for file changes with StatReloader
+ERROR 2021-11-10 20:35:55,125 log 228 Internal Server Error: /sms_codes/17764713162/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: as_view() takes 1 positional argument but 2 were given
+ERROR 2021-11-10 20:35:55,128 basehttp 154 "GET /sms_codes/17764713162/?uuid=eb357150-c9d9-441c-95bd-25cc0d4fe851&image_code=ycxn HTTP/1.1" 500 67595
+INFO 2021-11-10 20:36:30,713 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 20:36:32,928 basehttp 154 "GET /sms_codes/17764713162/?uuid=eb357150-c9d9-441c-95bd-25cc0d4fe851&image_code=ycxn HTTP/1.1" 200 84
+INFO 2021-11-10 20:36:41,148 basehttp 154 "GET /sms_codes/17764713162/?uuid=eb357150-c9d9-441c-95bd-25cc0d4fe851&image_code=ycxn HTTP/1.1" 200 84
+INFO 2021-11-10 20:37:12,869 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 20:37:15,598 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 20:37:16,802 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+WARNING 2021-11-10 20:37:17,838 log 228 Not Found: /favicon.ico
+WARNING 2021-11-10 20:37:17,839 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3077
+INFO 2021-11-10 20:37:18,225 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 20:37:18,270 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-10 20:37:20,338 basehttp 154 "GET /image_codes/92fa617c-9967-45bb-9891-1bb8aba85831/ HTTP/1.1" 200 3194
+INFO 2021-11-10 20:37:21,204 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 20:37:21,316 basehttp 154 "GET /image_codes/152e3c8a-5b31-4cbc-a556-6767eedea978/ HTTP/1.1" 200 3284
+INFO 2021-11-10 20:38:29,801 basehttp 154 "GET /sms_codes/17764713162/?uuid=92fa617c-9967-45bb-9891-1bb8aba85831&image_code=ZXUS HTTP/1.1" 200 84
+INFO 2021-11-10 20:46:56,280 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 20:47:01,735 basehttp 154 "GET / HTTP/1.1" 200 43346
+WARNING 2021-11-10 20:47:05,026 log 228 Not Found: /favicon.ico
+WARNING 2021-11-10 20:47:05,027 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3077
+INFO 2021-11-10 20:47:11,098 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 20:47:13,783 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 20:47:14,431 basehttp 154 "GET /image_codes/af6e8f6f-bac1-4eed-a0e0-1f0440e764eb/ HTTP/1.1" 200 3317
+INFO 2021-11-10 20:47:15,409 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 20:47:15,510 basehttp 154 "GET /image_codes/fbfaa86a-30e8-4346-a41f-70cac08efdae/ HTTP/1.1" 200 2836
+ERROR 2021-11-10 20:47:38,221 log 228 Internal Server Error: /sms_codes/17764713162/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\verifications\views.py", line 60, in get
+    if image_code_server.lower() != image_code_client.lower():
+AttributeError: 'builtin_function_or_method' object has no attribute 'lower'
+ERROR 2021-11-10 20:47:38,222 basehttp 154 "GET /sms_codes/17764713162/?uuid=fbfaa86a-30e8-4346-a41f-70cac08efdae&image_code=EQPM HTTP/1.1" 500 82231
+INFO 2021-11-10 20:48:59,965 autoreload 578 Watching for file changes with StatReloader
+ERROR 2021-11-10 20:49:03,733 log 228 Internal Server Error: /sms_codes/17764713162/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\verifications\views.py", line 59, in get
+    image_code_server = image_code_server.decode()
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2021-11-10 20:49:03,735 basehttp 154 "GET /sms_codes/17764713162/?uuid=fbfaa86a-30e8-4346-a41f-70cac08efdae&image_code=EQPM HTTP/1.1" 500 82056
+INFO 2021-11-10 20:49:19,850 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 20:49:20,000 basehttp 154 "GET /image_codes/a4fc172f-066f-4543-8eb2-c48fb7ae249c/ HTTP/1.1" 200 3277
+INFO 2021-11-10 20:49:46,618 basehttp 154 "GET /sms_codes/17764713162/?uuid=af6e8f6f-bac1-4eed-a0e0-1f0440e764eb&image_code=FVDK HTTP/1.1" 200 81
+INFO 2021-11-10 20:52:28,165 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 20:52:41,121 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 20:52:41,363 basehttp 154 "GET /image_codes/9af8396a-caaf-4bfe-8046-95d9f4e4f0da/ HTTP/1.1" 200 2848
+INFO 2021-11-10 20:52:59,673 basehttp 154 "GET /sms_codes/17764713162/?uuid=9af8396a-caaf-4bfe-8046-95d9f4e4f0da&image_code=3HZO HTTP/1.1" 200 81
+INFO 2021-11-10 21:08:01,256 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 21:08:04,282 basehttp 154 "GET / HTTP/1.1" 200 43346
+WARNING 2021-11-10 21:08:06,463 log 228 Not Found: /favicon.ico
+WARNING 2021-11-10 21:08:06,464 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3077
+INFO 2021-11-10 21:08:06,815 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 21:08:06,907 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-10 21:08:07,518 basehttp 154 "GET /image_codes/a06f3ef4-1dd2-4f86-ab07-bfe5920dd5c1/ HTTP/1.1" 200 3365
+INFO 2021-11-10 21:08:10,374 basehttp 154 "GET /register/ HTTP/1.1" 200 5038
+INFO 2021-11-10 21:08:10,453 basehttp 154 "GET /image_codes/6ea34bb6-4f33-4e57-becd-589284654447/ HTTP/1.1" 200 3413
+INFO 2021-11-10 21:08:41,635 basehttp 154 "GET /sms_codes/17764713162/?uuid=a06f3ef4-1dd2-4f86-ab07-bfe5920dd5c1&image_code=KZ9C HTTP/1.1" 200 81
+INFO 2021-11-10 21:16:59,075 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 21:17:30,354 basehttp 154 "GET / HTTP/1.1" 200 43346
+WARNING 2021-11-10 21:17:30,885 log 228 Not Found: /favicon.ico
+WARNING 2021-11-10 21:17:30,885 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3077
+INFO 2021-11-10 21:17:32,248 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 21:17:32,864 basehttp 154 "GET /image_codes/49033e90-73f0-4295-9581-cbd41219f187/ HTTP/1.1" 200 3419
+INFO 2021-11-10 21:17:37,597 basehttp 154 "GET /usernames/15114933489/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 21:17:41,443 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 21:18:01,265 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 21:18:01,308 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 21:18:01,358 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5266
+INFO 2021-11-10 21:18:01,437 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 21:18:01,454 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 21:18:01,455 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 21:18:01,467 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 21:18:01,481 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 21:18:01,498 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 21:18:01,502 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 21:18:01,507 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 21:18:01,541 basehttp 154 "GET /image_codes/32f50d96-480a-4150-9e07-95a6590aaba0/ HTTP/1.1" 200 3140
+INFO 2021-11-10 21:18:03,592 basehttp 154 "GET /usernames/15114933489/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 21:18:51,209 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 21:18:56,434 basehttp 154 "GET / HTTP/1.1" 200 43346
+WARNING 2021-11-10 21:18:58,445 log 228 Not Found: /favicon.ico
+WARNING 2021-11-10 21:18:58,447 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3077
+INFO 2021-11-10 21:18:58,624 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 21:18:58,707 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-10 21:18:59,164 basehttp 154 "GET /image_codes/e6ea6a6a-cc4b-4e66-becc-d180acb6f1f2/ HTTP/1.1" 200 3257
+INFO 2021-11-10 21:21:22,353 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 21:21:25,879 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 21:21:25,926 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 21:21:25,927 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 21:21:25,978 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 21:21:25,981 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5306
+INFO 2021-11-10 21:21:25,982 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 21:21:25,985 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 21:21:25,987 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 21:21:26,025 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 21:21:26,025 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 21:21:26,026 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 21:21:26,147 basehttp 154 "GET /image_codes/7cb161fc-31af-447d-a845-50487cb0924f/ HTTP/1.1" 200 3203
+INFO 2021-11-10 21:21:28,591 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 21:24:49,381 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 21:24:50,656 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 21:24:50,702 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 21:24:50,702 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 21:24:50,738 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 21:24:50,744 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 21:24:50,758 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 21:24:50,760 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 21:24:50,762 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 21:24:50,763 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 21:24:50,770 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5556
+INFO 2021-11-10 21:24:50,771 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 21:24:50,913 basehttp 154 "GET /image_codes/f9fdaf06-9ce3-4173-b1fd-79f9367207b3/ HTTP/1.1" 200 2924
+INFO 2021-11-10 21:24:51,528 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 21:24:51,572 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 21:24:51,572 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 21:24:51,610 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 21:24:51,618 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 21:24:51,618 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5556
+INFO 2021-11-10 21:24:51,619 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 21:24:51,622 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 21:24:51,663 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 21:24:51,664 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 21:24:51,665 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 21:24:51,748 basehttp 154 "GET /image_codes/fad12d8e-ac17-4268-bd66-551c68d1fbea/ HTTP/1.1" 200 3403
+INFO 2021-11-10 21:33:45,211 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 21:33:48,271 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 21:33:48,367 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 21:33:48,373 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 21:33:48,422 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 21:33:48,424 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 21:33:48,426 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5914
+INFO 2021-11-10 21:33:48,428 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 21:33:48,430 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 21:33:48,471 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 21:33:48,474 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 21:33:48,475 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 21:33:48,565 basehttp 154 "GET /image_codes/49c99ad6-0fcc-4717-a294-4f2f732d4b5c/ HTTP/1.1" 200 3133
+INFO 2021-11-10 21:33:52,205 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 21:33:56,075 basehttp 154 "GET /mobile/17764713163/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 21:34:01,866 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 21:34:01,866 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 21:34:01,867 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 21:34:01,869 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 21:34:01,879 basehttp 154 "GET /image_codes/fad12d8e-ac17-4268-bd66-551c68d1fbea/ HTTP/1.1" 200 3347
+INFO 2021-11-10 21:34:05,505 basehttp 154 "POST /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 21:34:05,563 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 21:34:05,564 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 21:34:05,609 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 21:34:05,609 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 21:34:05,610 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5914
+INFO 2021-11-10 21:34:05,611 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 21:34:05,614 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 21:34:05,653 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 21:34:05,654 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 21:34:05,655 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 21:34:05,719 basehttp 154 "GET /image_codes/7c1e290d-8266-4682-9a39-8d0b73ca2f52/ HTTP/1.1" 200 2987
+INFO 2021-11-10 21:34:28,369 basehttp 154 "GET /mobile/17764713163/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 21:34:32,700 basehttp 154 "GET /sms_codes/17764713163/?uuid=7c1e290d-8266-4682-9a39-8d0b73ca2f52&image_code=dasd/ HTTP/1.1" 200 84
+INFO 2021-11-10 21:36:38,274 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 21:36:38,355 basehttp 154 "GET /image_codes/3394c334-aeda-48f5-aad0-6f6511655874/ HTTP/1.1" 200 3510
+INFO 2021-11-10 21:36:39,254 basehttp 154 "GET /image_codes/64c603ae-8055-4fd2-be8e-63f3840ccb17/ HTTP/1.1" 200 3352
+INFO 2021-11-10 21:36:39,901 basehttp 154 "GET /image_codes/7a98f791-909c-43f0-a843-281aff57f034/ HTTP/1.1" 200 3050
+INFO 2021-11-10 21:36:51,266 basehttp 154 "GET /sms_codes/17764713162/?uuid=7a98f791-909c-43f0-a843-281aff57f034&image_code=vsuu/ HTTP/1.1" 200 84
+INFO 2021-11-10 21:38:07,762 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\verifications\urls.py changed, reloading.
+INFO 2021-11-10 21:38:09,554 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 21:38:18,848 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 21:38:24,155 basehttp 154 "POST /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 21:38:24,205 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 21:38:24,206 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 21:38:24,261 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 21:38:24,263 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 5909
+INFO 2021-11-10 21:38:24,265 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 21:38:24,265 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 21:38:24,267 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 21:38:24,321 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 21:38:24,322 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 21:38:24,323 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 21:38:24,509 basehttp 154 "GET /image_codes/5cbcee69-df7e-42b6-a724-057931ab453b/ HTTP/1.1" 200 3194
+INFO 2021-11-10 21:38:28,930 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 21:38:30,067 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 21:38:30,180 basehttp 154 "GET /image_codes/08ae3286-192f-4db3-9407-f1ed8845d66e/ HTTP/1.1" 200 3103
+INFO 2021-11-10 21:38:30,800 basehttp 154 "GET /image_codes/79378743-88aa-456e-b475-fb8572089750/ HTTP/1.1" 200 3313
+INFO 2021-11-10 21:38:31,719 basehttp 154 "GET /image_codes/bca7ac69-4012-47dd-a79c-4f0424c7f259/ HTTP/1.1" 200 3180
+INFO 2021-11-10 21:38:32,873 basehttp 154 "GET /image_codes/385bdd82-efd9-4c19-b24f-b9e6e6a0f609/ HTTP/1.1" 200 3088
+INFO 2021-11-10 21:38:34,162 basehttp 154 "GET /image_codes/7ee15f68-292d-40d9-ac9b-672de9a9cd48/ HTTP/1.1" 200 3370
+WARNING 2021-11-10 21:38:40,867 log 228 Not Found: /sms_codes/17764713162/
+WARNING 2021-11-10 21:38:40,867 basehttp 154 "GET /sms_codes/17764713162/?uuid=7ee15f68-292d-40d9-ac9b-672de9a9cd48&image_code=yzxs HTTP/1.1" 404 3171
+INFO 2021-11-10 21:39:02,972 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 21:39:09,991 basehttp 154 "GET /sms_codes/17764713162/?uuid=7ee15f68-292d-40d9-ac9b-672de9a9cd48&image_code=yzxs HTTP/1.1" 200 81
+INFO 2021-11-10 21:49:25,468 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 21:49:58,182 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 21:50:06,336 basehttp 154 "GET /image_codes/605abe8f-b6c8-4618-9924-d4faceeb1f91/ HTTP/1.1" 200 3142
+INFO 2021-11-10 21:50:12,937 basehttp 154 "GET /sms_codes/17764713162/?uuid=605abe8f-b6c8-4618-9924-d4faceeb1f91&image_code=pfke HTTP/1.1" 200 81
+INFO 2021-11-10 21:50:31,155 basehttp 154 "POST /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 21:50:31,201 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 21:50:31,201 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 21:50:31,254 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 21:50:31,260 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 21:50:31,260 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 21:50:31,263 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6793
+INFO 2021-11-10 21:50:31,265 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 21:50:31,298 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 21:50:31,299 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 21:50:31,300 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 21:50:31,377 basehttp 154 "GET /image_codes/c3cfdc5d-613d-42d6-a9e1-a729f061db5a/ HTTP/1.1" 200 3409
+INFO 2021-11-10 21:50:34,713 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 21:50:48,632 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 21:51:00,074 basehttp 154 "GET /sms_codes/17764713162/?uuid=7ee15f68-292d-40d9-ac9b-672de9a9cd48&image_code=yzxs HTTP/1.1" 200 72
+INFO 2021-11-10 21:51:04,372 basehttp 154 "POST /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 21:51:04,428 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 21:51:04,430 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 21:51:04,470 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 21:51:04,471 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 21:51:04,474 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6793
+INFO 2021-11-10 21:51:04,474 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 21:51:04,477 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 21:51:04,480 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 21:51:04,482 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 21:51:04,483 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 21:51:04,613 basehttp 154 "GET /image_codes/cc8aacca-a40d-467e-91c3-d42764146fba/ HTTP/1.1" 200 3098
+INFO 2021-11-10 21:51:28,264 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 21:51:28,323 basehttp 154 "GET /image_codes/08faf418-43a8-40eb-93a0-f9afdb3d2e34/ HTTP/1.1" 200 3461
+INFO 2021-11-10 21:51:34,043 basehttp 154 "GET /sms_codes/17764713162/?uuid=08faf418-43a8-40eb-93a0-f9afdb3d2e34&image_code=qelx HTTP/1.1" 200 81
+INFO 2021-11-10 21:51:41,067 basehttp 154 "POST /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 21:51:41,122 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 21:51:41,123 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 21:51:41,180 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 21:51:41,182 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 21:51:41,182 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6793
+INFO 2021-11-10 21:51:41,185 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 21:51:41,186 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 21:51:41,238 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 21:51:41,238 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 21:51:41,240 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 21:51:41,347 basehttp 154 "GET /image_codes/beaf7b4e-7c84-4f06-86f9-5474e4ec94f4/ HTTP/1.1" 200 3323
+INFO 2021-11-10 21:51:43,113 basehttp 154 "POST /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 21:51:43,158 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 21:51:43,159 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 21:51:43,204 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 21:51:43,205 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 21:51:43,206 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 21:51:43,207 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6793
+INFO 2021-11-10 21:51:43,213 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 21:51:43,214 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 21:51:43,215 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 21:51:43,216 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 21:51:43,334 basehttp 154 "GET /image_codes/6db6d691-fd42-4cc8-ad39-a2d48a3f0e4b/ HTTP/1.1" 200 3182
+INFO 2021-11-10 21:51:46,203 basehttp 154 "POST /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 21:51:46,247 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 21:51:46,247 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 21:51:46,291 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 21:51:46,292 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 21:51:46,293 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 21:51:46,294 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6793
+INFO 2021-11-10 21:51:46,296 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 21:51:46,335 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 21:51:46,336 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 21:51:46,337 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 21:51:46,406 basehttp 154 "GET /image_codes/4cd75a61-2a97-426b-aa6e-fdb4b3e26bf8/ HTTP/1.1" 200 3167
+INFO 2021-11-10 21:57:59,283 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 21:58:02,450 basehttp 154 "POST /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 21:58:02,506 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 21:58:02,518 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 21:58:02,600 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 21:58:02,603 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6946
+INFO 2021-11-10 21:58:02,604 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 21:58:02,607 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 21:58:02,608 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 21:58:02,664 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 21:58:02,667 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 21:58:02,668 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 21:58:02,855 basehttp 154 "GET /image_codes/251b5793-a7f3-4421-9831-2bff8adfa040/ HTTP/1.1" 200 3065
+INFO 2021-11-10 21:58:07,137 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 21:58:15,099 basehttp 154 "GET /sms_codes/17764713162/?uuid=251b5793-a7f3-4421-9831-2bff8adfa040&image_code=brgq HTTP/1.1" 200 81
+INFO 2021-11-10 21:59:15,231 basehttp 154 "GET /image_codes/c780edff-f5df-453b-b96f-f2297a7663f1/ HTTP/1.1" 200 3160
+INFO 2021-11-10 22:08:36,214 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 22:09:37,546 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 22:09:40,012 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+WARNING 2021-11-10 22:09:40,015 log 228 Not Found: /favicon.ico
+WARNING 2021-11-10 22:09:40,016 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3077
+INFO 2021-11-10 22:09:40,096 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-10 22:09:40,488 basehttp 154 "GET /image_codes/305d261d-0c00-4620-ae8b-507864b13abe/ HTTP/1.1" 200 3053
+INFO 2021-11-10 22:09:42,270 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 22:09:51,517 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 22:09:51,589 basehttp 154 "GET /image_codes/b90076b7-d6d7-4204-a378-5912a37b5d78/ HTTP/1.1" 200 3260
+INFO 2021-11-10 22:09:58,162 basehttp 154 "GET /sms_codes/17764713162/?uuid=b90076b7-d6d7-4204-a378-5912a37b5d78&image_code=8bne HTTP/1.1" 200 81
+INFO 2021-11-10 22:10:12,215 basehttp 154 "POST /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 22:10:12,298 basehttp 154 "GET /image_codes/8ab38a5b-6074-46cb-be4d-10c7bc8ce188/ HTTP/1.1" 200 3201
+INFO 2021-11-10 22:16:58,015 autoreload 578 Watching for file changes with StatReloader
+ERROR 2021-11-10 22:17:06,843 log 228 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 35, in post
+    if sms_code_server.decode() is None:
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2021-11-10 22:17:06,844 basehttp 154 "POST /register/ HTTP/1.1" 500 85364
+ERROR 2021-11-10 22:17:09,616 log 228 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 35, in post
+    if sms_code_server.decode() is None:
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2021-11-10 22:17:09,617 basehttp 154 "POST /register/ HTTP/1.1" 500 85147
+INFO 2021-11-10 22:17:44,212 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 22:17:45,159 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 22:17:46,644 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 22:17:50,515 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 22:17:50,567 basehttp 154 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2021-11-10 22:17:51,589 basehttp 154 "GET /image_codes/64a3d9b6-fc67-4589-b0ef-215c035bd811/ HTTP/1.1" 200 3021
+INFO 2021-11-10 22:17:55,679 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 22:17:55,724 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 22:17:55,725 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 22:17:55,771 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 22:17:55,775 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6946
+INFO 2021-11-10 22:17:55,776 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 22:17:55,779 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 22:17:55,779 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 22:17:55,810 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 22:17:55,810 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 22:17:55,811 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 22:17:55,886 basehttp 154 "GET /image_codes/e7e61b27-19e2-451b-9e15-fb21948cc637/ HTTP/1.1" 200 3177
+INFO 2021-11-10 22:18:00,077 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 22:18:00,126 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 22:18:00,127 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 22:18:00,175 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 22:18:00,176 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6946
+INFO 2021-11-10 22:18:00,176 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 22:18:00,179 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 22:18:00,180 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 22:18:00,184 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 22:18:00,187 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 22:18:00,188 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 22:18:00,290 basehttp 154 "GET /image_codes/c4d8382c-e7a6-4070-a5d6-355fb38c22ca/ HTTP/1.1" 200 3260
+INFO 2021-11-10 22:18:00,477 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 22:18:00,525 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 22:18:00,526 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 22:18:00,578 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 22:18:00,579 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 22:18:00,580 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6946
+INFO 2021-11-10 22:18:00,581 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 22:18:00,582 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 22:18:00,587 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 22:18:00,588 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 22:18:00,589 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 22:18:00,703 basehttp 154 "GET /image_codes/559cc9cc-0f26-4334-bbba-bac5399fa094/ HTTP/1.1" 200 3501
+INFO 2021-11-10 22:18:01,033 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 22:18:01,080 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 22:18:01,081 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 22:18:01,123 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 22:18:01,125 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6946
+INFO 2021-11-10 22:18:01,125 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 22:18:01,126 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 22:18:01,129 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 22:18:01,169 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 22:18:01,169 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 22:18:01,170 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 22:18:01,199 basehttp 154 "GET /image_codes/559cc9cc-0f26-4334-bbba-bac5399fa094/ HTTP/1.1" 200 3104
+INFO 2021-11-10 22:18:01,292 basehttp 154 "GET /image_codes/2572b189-026a-458c-a208-1f982d1728e5/ HTTP/1.1" 200 2612
+INFO 2021-11-10 22:18:05,485 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 22:18:13,481 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 22:18:13,568 basehttp 154 "GET /image_codes/0dbd5d37-d2cb-4835-8798-7219bc0027c9/ HTTP/1.1" 200 3320
+INFO 2021-11-10 22:18:21,961 basehttp 154 "GET /sms_codes/17764713162/?uuid=0dbd5d37-d2cb-4835-8798-7219bc0027c9&image_code=xzyq HTTP/1.1" 200 81
+INFO 2021-11-10 22:18:33,271 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-11-10 22:18:33,278 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 22:18:33,325 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 22:18:33,326 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 22:18:33,339 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 22:18:33,341 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 22:18:33,385 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-10 22:18:33,407 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 22:18:33,432 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-10 22:18:33,448 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-10 22:18:33,452 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 22:18:33,460 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-10 22:18:33,461 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-10 22:18:33,541 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-10 22:18:33,546 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-10 22:18:33,547 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-10 22:18:33,550 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-10 22:18:33,552 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-10 22:18:33,554 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-10 22:18:33,555 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-10 22:18:33,572 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-10 22:18:33,581 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-10 22:18:33,582 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-10 22:18:33,588 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-10 22:18:33,602 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-10 22:18:33,656 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-10 22:18:33,657 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-10 22:20:34,802 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 22:20:51,512 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 22:20:55,805 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 22:20:55,873 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6944
+INFO 2021-11-10 22:20:55,949 basehttp 154 "GET /image_codes/d01f5a81-0649-4d88-b7fa-0753bb55fc8e/ HTTP/1.1" 200 3295
+INFO 2021-11-10 22:20:57,979 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 22:21:09,770 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 22:21:11,600 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 22:21:14,351 basehttp 154 "GET /mobile/17764713163/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 22:21:17,152 basehttp 154 "GET /sms_codes/17764713163/?uuid=d01f5a81-0649-4d88-b7fa-0753bb55fc8e&image_code=aaaa HTTP/1.1" 200 84
+INFO 2021-11-10 22:21:19,680 basehttp 154 "GET /sms_codes/17764713163/?uuid=d01f5a81-0649-4d88-b7fa-0753bb55fc8e&image_code=aaaa HTTP/1.1" 200 72
+INFO 2021-11-10 22:21:22,344 basehttp 154 "GET /sms_codes/17764713163/?uuid=d01f5a81-0649-4d88-b7fa-0753bb55fc8e&image_code=aaaa HTTP/1.1" 200 72
+INFO 2021-11-10 22:21:27,617 basehttp 154 "GET /image_codes/164f268d-fe68-45b3-ad57-628868c16269/ HTTP/1.1" 200 3422
+INFO 2021-11-10 22:21:29,462 basehttp 154 "GET /sms_codes/17764713163/?uuid=164f268d-fe68-45b3-ad57-628868c16269&image_code=aaaa HTTP/1.1" 200 84
+INFO 2021-11-10 22:22:07,785 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 22:22:10,650 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 22:22:10,691 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 22:22:10,691 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 22:22:10,742 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 22:22:10,742 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6994
+INFO 2021-11-10 22:22:10,747 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 22:22:10,749 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 22:22:10,750 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 22:22:10,754 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 22:22:10,755 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 22:22:10,756 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 22:22:10,868 basehttp 154 "GET /image_codes/c4a99e4c-8b06-43a2-b5f6-5b4aff885ab6/ HTTP/1.1" 200 3251
+INFO 2021-11-10 22:22:13,649 basehttp 154 "GET /mobile/17764713163/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 22:22:15,857 basehttp 154 "GET /sms_codes/17764713163/?uuid=c4a99e4c-8b06-43a2-b5f6-5b4aff885ab6&image_code=dsadas HTTP/1.1" 200 84
+INFO 2021-11-10 22:22:20,021 basehttp 154 "GET /sms_codes/17764713163/?uuid=c4a99e4c-8b06-43a2-b5f6-5b4aff885ab6&image_code=dsad HTTP/1.1" 200 72
+INFO 2021-11-10 22:22:21,064 basehttp 154 "GET /sms_codes/17764713163/?uuid=c4a99e4c-8b06-43a2-b5f6-5b4aff885ab6&image_code=dsad HTTP/1.1" 200 72
+INFO 2021-11-10 22:22:27,343 basehttp 154 "GET /sms_codes/17764713163/?uuid=c4a99e4c-8b06-43a2-b5f6-5b4aff885ab6&image_code=ljklj HTTP/1.1" 200 72
+INFO 2021-11-10 22:22:29,022 basehttp 154 "GET /sms_codes/17764713163/?uuid=c4a99e4c-8b06-43a2-b5f6-5b4aff885ab6&image_code=ljkl HTTP/1.1" 200 72
+INFO 2021-11-10 22:22:29,652 basehttp 154 "GET /sms_codes/17764713163/?uuid=c4a99e4c-8b06-43a2-b5f6-5b4aff885ab6&image_code=ljkl HTTP/1.1" 200 72
+INFO 2021-11-10 22:22:30,207 basehttp 154 "GET /image_codes/ef4ba692-370c-4366-b298-4672859af376/ HTTP/1.1" 200 2841
+INFO 2021-11-10 22:22:30,739 basehttp 154 "GET /sms_codes/17764713163/?uuid=ef4ba692-370c-4366-b298-4672859af376&image_code=ljkl HTTP/1.1" 200 84
+INFO 2021-11-10 22:24:59,438 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 22:25:02,259 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 22:25:02,300 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 22:25:02,301 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 22:25:02,349 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 22:25:02,351 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6994
+INFO 2021-11-10 22:25:02,354 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 22:25:02,355 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 22:25:02,359 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 22:25:02,363 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 22:25:02,365 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 22:25:02,366 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 22:25:02,488 basehttp 154 "GET /image_codes/251ece31-7f8c-4a3a-b2ff-2929775c5c35/ HTTP/1.1" 200 3160
+INFO 2021-11-10 22:25:04,707 basehttp 154 "GET /mobile/17764713163/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 22:25:05,933 basehttp 154 "GET /sms_codes/17764713163/?uuid=251ece31-7f8c-4a3a-b2ff-2929775c5c35&image_code=dasda HTTP/1.1" 200 84
+INFO 2021-11-10 22:25:06,637 basehttp 154 "GET /sms_codes/17764713163/?uuid=251ece31-7f8c-4a3a-b2ff-2929775c5c35&image_code=dasda HTTP/1.1" 200 72
+INFO 2021-11-10 22:25:08,351 basehttp 154 "GET /image_codes/c4a99e4c-8b06-43a2-b5f6-5b4aff885ab6/ HTTP/1.1" 200 3385
+INFO 2021-11-10 22:25:08,364 basehttp 154 "GET /image_codes/ef4ba692-370c-4366-b298-4672859af376/ HTTP/1.1" 200 3110
+INFO 2021-11-10 22:25:09,911 basehttp 154 "GET /sms_codes/17764713163/?uuid=251ece31-7f8c-4a3a-b2ff-2929775c5c35&image_code=dasda HTTP/1.1" 200 72
+INFO 2021-11-10 22:25:10,321 basehttp 154 "GET /sms_codes/17764713163/?uuid=251ece31-7f8c-4a3a-b2ff-2929775c5c35&image_code=dasda HTTP/1.1" 200 72
+INFO 2021-11-10 22:25:10,501 basehttp 154 "GET /sms_codes/17764713163/?uuid=251ece31-7f8c-4a3a-b2ff-2929775c5c35&image_code=dasda HTTP/1.1" 200 72
+INFO 2021-11-10 22:25:10,690 basehttp 154 "GET /sms_codes/17764713163/?uuid=251ece31-7f8c-4a3a-b2ff-2929775c5c35&image_code=dasda HTTP/1.1" 200 72
+INFO 2021-11-10 22:25:10,854 basehttp 154 "GET /sms_codes/17764713163/?uuid=251ece31-7f8c-4a3a-b2ff-2929775c5c35&image_code=dasda HTTP/1.1" 200 72
+INFO 2021-11-10 22:25:11,018 basehttp 154 "GET /sms_codes/17764713163/?uuid=251ece31-7f8c-4a3a-b2ff-2929775c5c35&image_code=dasda HTTP/1.1" 200 72
+INFO 2021-11-10 22:38:06,510 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 22:38:31,079 basehttp 154 "GET / HTTP/1.1" 200 43346
+INFO 2021-11-10 22:38:33,454 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 22:38:33,503 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 22:38:33,504 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 22:38:33,549 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 22:38:33,550 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 22:38:33,551 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 7374
+INFO 2021-11-10 22:38:33,552 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 22:38:33,554 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 22:38:33,606 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 22:38:33,607 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 22:38:33,608 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 22:38:33,847 basehttp 154 "GET /image_codes/fdba1b06-0a2c-4d06-82fd-97931a2a5f8b/ HTTP/1.1" 200 3055
+INFO 2021-11-10 22:38:37,103 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 22:38:43,993 basehttp 154 "GET /mobile/17764713163/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 22:38:51,275 basehttp 154 "GET /sms_codes/17764713163/?uuid=fdba1b06-0a2c-4d06-82fd-97931a2a5f8b&image_code=efla HTTP/1.1" 200 84
+INFO 2021-11-10 22:38:53,853 basehttp 154 "GET /image_codes/99b539a2-fc2b-4d20-8d28-75e62c3c5307/ HTTP/1.1" 200 2861
+INFO 2021-11-10 22:39:05,609 basehttp 154 "GET /sms_codes/17764713163/?uuid=99b539a2-fc2b-4d20-8d28-75e62c3c5307&image_code=j5tr HTTP/1.1" 200 81
+INFO 2021-11-10 22:39:08,803 basehttp 154 "GET /sms_codes/17764713163/?uuid=99b539a2-fc2b-4d20-8d28-75e62c3c5307&image_code=j5tr HTTP/1.1" 200 78
+INFO 2021-11-10 22:39:09,692 basehttp 154 "GET /sms_codes/17764713163/?uuid=99b539a2-fc2b-4d20-8d28-75e62c3c5307&image_code=j5tr HTTP/1.1" 200 78
+INFO 2021-11-10 22:39:10,616 basehttp 154 "GET /sms_codes/17764713163/?uuid=99b539a2-fc2b-4d20-8d28-75e62c3c5307&image_code=j5tr HTTP/1.1" 200 78
+INFO 2021-11-10 22:39:11,435 basehttp 154 "GET /sms_codes/17764713163/?uuid=99b539a2-fc2b-4d20-8d28-75e62c3c5307&image_code=j5tr HTTP/1.1" 200 78
+INFO 2021-11-10 22:39:11,730 basehttp 154 "GET /sms_codes/17764713163/?uuid=99b539a2-fc2b-4d20-8d28-75e62c3c5307&image_code=j5tr HTTP/1.1" 200 78
+INFO 2021-11-10 22:39:11,909 basehttp 154 "GET /sms_codes/17764713163/?uuid=99b539a2-fc2b-4d20-8d28-75e62c3c5307&image_code=j5tr HTTP/1.1" 200 78
+INFO 2021-11-10 22:39:22,095 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 22:39:22,143 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 22:39:22,143 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 22:39:22,198 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 7374
+INFO 2021-11-10 22:39:22,200 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 22:39:22,202 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 22:39:22,204 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 22:39:22,211 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 22:39:22,212 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 22:39:22,214 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 22:39:22,216 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 22:39:22,419 basehttp 154 "GET /image_codes/820657ab-676d-4e2f-a627-1ce2a355b1f9/ HTTP/1.1" 200 2970
+INFO 2021-11-10 22:39:25,184 basehttp 154 "GET /mobile/17764713163/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 22:39:25,280 basehttp 154 "GET /image_codes/79c7e17d-d6ba-487d-afcb-ebb39c884fb9/ HTTP/1.1" 200 3230
+INFO 2021-11-10 22:39:36,727 basehttp 154 "GET /sms_codes/17764713163/?uuid=79c7e17d-d6ba-487d-afcb-ebb39c884fb9&image_code=4tns HTTP/1.1" 200 78
+INFO 2021-11-10 22:39:42,542 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 22:39:42,614 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-10 22:39:42,615 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-10 22:39:42,663 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-10 22:39:42,663 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 7374
+INFO 2021-11-10 22:39:42,665 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-10 22:39:42,666 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-10 22:39:42,668 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-10 22:39:42,720 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-10 22:39:42,721 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-10 22:39:42,722 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-10 22:39:42,820 basehttp 154 "GET /image_codes/1e963def-d9a1-46fe-8dad-bff79a866e75/ HTTP/1.1" 200 3013
+INFO 2021-11-10 22:39:45,254 basehttp 154 "GET /mobile/15229028545/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 22:39:45,349 basehttp 154 "GET /image_codes/00045cc0-24f2-4d76-a098-5956ca704ab9/ HTTP/1.1" 200 3162
+INFO 2021-11-10 22:39:46,831 basehttp 154 "GET /image_codes/3dcba709-d3fa-432d-93da-60f9088668fa/ HTTP/1.1" 200 3232
+INFO 2021-11-10 22:39:48,218 basehttp 154 "GET /image_codes/eaa7c7aa-6e90-4e86-9de0-6a098eb3fc1c/ HTTP/1.1" 200 3233
+INFO 2021-11-10 22:39:57,170 basehttp 154 "GET /sms_codes/15229028545/?uuid=eaa7c7aa-6e90-4e86-9de0-6a098eb3fc1c&image_code=ljny HTTP/1.1" 200 81
+INFO 2021-11-10 22:39:57,784 basehttp 154 "GET /sms_codes/15229028545/?uuid=eaa7c7aa-6e90-4e86-9de0-6a098eb3fc1c&image_code=ljny HTTP/1.1" 200 78
+INFO 2021-11-10 22:40:57,672 basehttp 154 "GET /image_codes/a7a2a2ca-4de6-4967-adb8-821ed59348a9/ HTTP/1.1" 200 3128
+INFO 2021-11-10 22:47:08,125 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-10 22:47:10,594 basehttp 154 "GET / HTTP/1.1" 200 43346
+WARNING 2021-11-10 22:47:13,360 log 228 Not Found: /favicon.ico
+WARNING 2021-11-10 22:47:13,360 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3077
+INFO 2021-11-10 22:47:19,321 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-10 22:47:19,396 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 7733
+INFO 2021-11-10 22:47:20,183 basehttp 154 "GET /image_codes/8348de58-776d-4990-9d9d-e3cb451ca31f/ HTTP/1.1" 200 3223
+INFO 2021-11-10 22:47:26,431 basehttp 154 "GET /mobile/17764713163/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 22:47:29,352 basehttp 154 "GET /mobile/17764713163/count/ HTTP/1.1" 200 41
+INFO 2021-11-10 22:47:38,749 basehttp 154 "GET /sms_codes/17764713163/?uuid=8348de58-776d-4990-9d9d-e3cb451ca31f&image_code=mu6j HTTP/1.1" 200 81
+INFO 2021-11-10 22:48:38,787 basehttp 154 "GET /image_codes/9028c184-cda6-473f-a4e6-beb1c6083251/ HTTP/1.1" 200 3131
