@@ -70,11 +70,24 @@ class SMSCodeView(View):
             return http.JsonResponse({'code': RETCODE.IMAGECODEERR, 'errmsg': '输入图形验证码有误'})
         # 生成短信验证码
         # 生成6位随机数
+
         sms_code = '%06d' % random.randint(0, 999999)
+        # # 保存短信验证码
+        # redis_conn.setex(f'sms_{mobile}', constants.SMS_CODE_REDIS_EXPIRES, sms_code)
+        # # 保存发送短信验证码的标记
+        # redis_conn.setex(f'send_flag_{mobile}', constants.SEND_SMS_CODE_TIMES, 1)
+
+        # 　创建redis管道
+        pl = redis_conn.pipeline()
+        # 　将命令添加到队列中
         # 保存短信验证码
-        redis_conn.setex(f'sms_{mobile}', constants.SMS_CODE_REDIS_EXPIRES, sms_code)
+        pl.setex(f'sms_{mobile}', constants.SMS_CODE_REDIS_EXPIRES, sms_code)
         # 保存发送短信验证码的标记
-        redis_conn.setex(f'send_flag_{mobile}', constants.SEND_SMS_CODE_TIMES, 1)
+        pl.setex(f'send_flag_{mobile}', constants.SEND_SMS_CODE_TIMES, 1)
+        # 执行管道中的命令
+        pl.execute()
+
+
         # 发送短信 实例化调用方法  都是字符串数据类型 300/60 float 300//60 int
         CCP().send_message(str(mobile), (str(sms_code), str(constants.SMS_CODE_REDIS_EXPIRES // 60)),
                            constants.SEND_SMS_TEMPLATE_TD)
