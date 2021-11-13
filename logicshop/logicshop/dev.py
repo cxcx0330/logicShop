@@ -25,7 +25,7 @@ SECRET_KEY = 'z7f4^diit3%a-*dw(t_7iy#f&41bb-lcu9%gxn(53e7$e9=g8a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.meiduo.site', '127.0.0.1']
 
 # 　添加app的注册前缀路径 apps下面的app 添加导包路径
 sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
@@ -42,7 +42,8 @@ INSTALLED_APPS = [
 
     'users',  # 用户模块
     'contents',  # 首页模块
-    'verifications'  # 验证模块
+    'verifications',  # 验证模块
+    'oauth',  # 第三方登录模块
 ]
 
 MIDDLEWARE = [
@@ -216,3 +217,10 @@ AUTHENTICATION_BACKENDS = ['users.utils.UsernameMobileBackend']
 
 # 判断用户是否登录，指定未登录用户的重定向地址
 LOGIN_URL = '/login/'
+
+# qq登录需要的配置文件
+QQ_CLIENT_ID = '101913612'
+QQ_CLIENT_SECRET = '39eb6ac28cb343b3e5562ef1032b7cab'
+QQ_REDIRECT_URI = 'http://www.meiduo.site:8000/oauth_callback'
+
+

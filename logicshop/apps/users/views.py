@@ -149,8 +149,10 @@ class LogoutView(View):
         return response
 
 
+# 继承自LoginRequiredMixin这个类即可自动判断
 class UserInfoView(LoginRequiredMixin, View):
     """用户个人中心"""
+    # login_url = '/login/'
 
     def get(self, request):
         """
