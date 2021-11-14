@@ -1,0 +1,3 @@
+# 邮箱链接的过期时间 单位：秒
+VERIFY_EMAIL_TOKEN_EXPIRES=600
+

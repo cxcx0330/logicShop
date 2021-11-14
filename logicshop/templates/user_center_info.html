@@ -65,8 +65,9 @@
              <div class="info_con clearfix">
                 <h3 class="common_title2">基本信息</h3>
                 <ul class="user_info_list">
-                    <li><span>用户名：</span>居然</li>
-                    <li><span>联系方式：</span>186461111</li>
+<!--                    模板中只使用vue语法-->
+                    <li><span>用户名：</span>[[username]]</li>
+                    <li><span>联系方式：</span>[[mobile]]</li>
                     <li>
                         <span>Email：</span>
                         <div v-if="set_email">

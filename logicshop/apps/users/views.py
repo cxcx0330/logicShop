@@ -1,3 +1,6 @@
+import json
+import re
+
 from django import http
 from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -5,12 +8,74 @@ from django.shortcuts import render, redirect, reverse
 from django.views import View
 from django_redis import get_redis_connection
 
+from celery_tasks.email.tasks import send_verify_email
 from utils.response_code import RETCODE
+from utils.views import LoginRequiredJSONMixin
 from .forms import RegisterForm, LoginForm
 from .models import User
+from .utils import generate_verify_email_url, check_verify_email_token
 
 
+# LAFEKSXRRAIVKTTG
 # Create your views here.
+
+
+class VerifyEmailView(View):
+    """验证邮箱"""
+
+    def get(self, request):
+        # 接收参数
+        token = request.GET.get('token')
+        if not token:
+            return http.HttpResponseForbidden('缺少token')
+        # 解密
+        # 查询用户 email_active 是否已经激活
+        user = check_verify_email_token(token)
+        if user.email_active == 0:
+            # 没有激活 email_active 设置为true
+            user.email_active = True
+            user.save()
+        else:
+            # email_active 是否已经激活
+            return http.HttpResponseForbidden('邮箱已经被激活')
+
+        # 响应结果
+        return redirect(reverse('users:info'))
+
+
+class EmailView(LoginRequiredJSONMixin, View):
+    """添加邮箱"""
+
+    def put(self, request):
+        # put 请求方式，请求数据再body中
+        # 接收email的参数
+        # print(request)  字符串
+        json_str = request.body.decode()
+        # 转换成字典
+        json_dict = json.loads(json_str)
+        email = json_dict.get('email')
+
+        # 校验参数
+        if not re.match(r'^[a-z0-9][\w\.\-]*@[a-z0-9\-]+(\.[a-z]{2,5}){1,2}$', email):
+            return http.HttpResponseForbidden('参数邮箱错误')
+        # 存数据
+        try:
+            request.user.email = email
+            request.user.save()
+        except Exception as e:
+            return http.JsonResponse({'code': RETCODE.DBERR, 'errmsg': '添加邮箱失败'})
+        # 发送邮件
+        # subject = "商城邮箱验证"
+        # html_message = '<p>尊敬的用户您好！</p>' \
+        #                '<p>感谢您使用商城。</p>' \
+        #                '<p>您的邮箱为：%s 。请点击此链接激活您的邮箱：</p>' \
+        #                '<p><a href="%s">%s<a></p>' % (email, 'www.baidu.com', 'www.baidu.com')
+        # send_mail(subject, '', from_email=settings.EMAIL_FROM, recipient_list=[email], html_message=html_message)
+        # 使用celery异步发送邮件
+        verify_url = generate_verify_email_url(request.user)
+        send_verify_email.delay(email, verify_url)
+        # 响应结果
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK'})
 
 
 class RegisterView(View):
@@ -152,6 +217,7 @@ class LogoutView(View):
 # 继承自LoginRequiredMixin这个类即可自动判断
 class UserInfoView(LoginRequiredMixin, View):
     """用户个人中心"""
+
     # login_url = '/login/'
 
     def get(self, request):
@@ -170,7 +236,13 @@ class UserInfoView(LoginRequiredMixin, View):
         # else:
         #     # 未登录
         #     return redirect(reverse('users:login'))
-        return render(request, 'user_center_info.html')
+        context = {
+            'username': request.user.username,
+            'mobile': request.user.mobile,
+            'email': request.user.email,
+            'email_active': request.user.email_active
+        }
+        return render(request, 'user_center_info.html', context=context)
 
 
 class UsernameCountView(View):

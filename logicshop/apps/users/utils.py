@@ -1,7 +1,10 @@
 import re
 
+from django.conf import settings
 from django.contrib.auth.backends import ModelBackend
+from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
 
+from . import constants
 from .models import User
 
 
@@ -45,3 +48,41 @@ class UsernameMobileBackend(ModelBackend):
             return user
         else:
             return None
+
+
+# 　生成邮箱激活链接
+def generate_verify_email_url(user):
+    """
+    生成邮箱激活链接
+    :return: 返回链接
+    """
+    # 　密钥，过期时间
+    s = Serializer(settings.SECRET_KEY, constants.VERIFY_EMAIL_TOKEN_EXPIRES)
+    data = {'user_id': user.id, 'email': user.email}
+    # token为字节需要解码
+    token = s.dumps(data)
+
+    return settings.EMAIL_VERIFY_URL + '?token=' + token.decode()
+
+
+# 反序列化获取token
+def check_verify_email_token(token):
+    """
+    反序列化获取token
+    :param token: 密文token
+    :return: user
+    """
+    s = Serializer(settings.SECRET_KEY, constants.VERIFY_EMAIL_TOKEN_EXPIRES)
+    try:
+        data = s.loads(token)
+    except:
+        return None
+    else:
+        user_id = data.get('user_id')
+        email = data.get('email')
+        try:
+            user = User.objects.get(id=user_id, email=email)
+        except User.DoesNotExist:
+            return None
+        else:
+            return user

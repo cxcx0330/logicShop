@@ -17,4 +17,8 @@ urlpatterns = [
     path('logout/', views.LogoutView.as_view(), name='logout'),
     # 用户个人中心路由
     path('info/', views.UserInfoView.as_view(), name='info'),
+    # 保存邮箱的路由
+    path('email/', views.EmailView.as_view(), name='email'),
+    # 邮箱验证的链接
+    path('emails/verification/',views.VerifyEmailView.as_view())
 ]

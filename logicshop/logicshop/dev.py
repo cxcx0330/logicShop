@@ -223,4 +223,19 @@ QQ_CLIENT_ID = '101913612'
 QQ_CLIENT_SECRET = '39eb6ac28cb343b3e5562ef1032b7cab'
 QQ_REDIRECT_URI = 'http://www.meiduo.site:8000/oauth_callback'
 
+# 发送邮件配置
+# 指定发送邮件的后端
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# 发送邮件的主机
+EMAIL_HOST = 'smtp.163.com'
+# 发送邮件的端口
+EMAIL_PORT = 25
+# 授权的邮箱
+EMAIL_HOST_USER = 'ycx03301122@163.com'
+# 授权码
+EMAIL_HOST_PASSWORD = 'LAFEKSXRRAIVKTTG'
+# 发件人的抬头
+EMAIL_FROM = '管理员大爹<ycx03301122@163.com>'
 
+# 　激活邮箱验证的主链接
+EMAIL_VERIFY_URL = 'http://www.meiduo.site:8000/emails/verification/'

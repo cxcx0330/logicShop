@@ -3754,3 +3754,777 @@ WARNING 2021-11-13 16:55:20,497 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 389
 INFO 2021-11-13 16:55:21,626 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
 INFO 2021-11-13 16:55:29,290 basehttp 154 "POST /login/ HTTP/1.1" 302 0
 INFO 2021-11-13 16:55:29,301 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-13 17:11:34,281 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 17:11:40,840 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-13 17:11:41,960 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+WARNING 2021-11-13 17:11:43,459 log 228 Not Found: /favicon.ico
+WARNING 2021-11-13 17:11:43,459 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3896
+INFO 2021-11-13 17:11:43,612 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-13 17:11:43,622 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-13 17:11:44,930 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-13 17:11:45,941 basehttp 154 "GET /qq/login/?next=/ HTTP/1.1" 200 200
+INFO 2021-11-13 17:11:48,085 basehttp 154 "GET /oauth_callback?code=EF15131DDA01A2FA5B07CABAFE01B86F&state=%2F HTTP/1.1" 301 0
+INFO 2021-11-13 17:11:49,078 basehttp 154 "GET /oauth_callback/?code=EF15131DDA01A2FA5B07CABAFE01B86F&state=%2F HTTP/1.1" 302 0
+INFO 2021-11-13 17:11:49,086 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-13 17:11:49,586 log 228 Not Found: /favicon.ico
+WARNING 2021-11-13 17:11:49,587 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3902
+INFO 2021-11-13 17:12:43,933 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 17:12:50,399 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-13 17:12:54,095 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-13 17:12:54,748 log 228 Not Found: /favicon.ico
+WARNING 2021-11-13 17:12:54,748 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3896
+INFO 2021-11-13 17:12:57,480 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-13 17:12:59,820 basehttp 154 "GET /qq/login/?next=/ HTTP/1.1" 200 200
+INFO 2021-11-13 17:13:02,192 basehttp 154 "GET /oauth_callback?code=43ADF2672687CD880734CF46499F8695&state=%2F HTTP/1.1" 301 0
+INFO 2021-11-13 17:13:03,019 basehttp 154 "GET /oauth_callback/?code=43ADF2672687CD880734CF46499F8695&state=%2F HTTP/1.1" 302 0
+INFO 2021-11-13 17:13:03,028 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-13 17:13:03,607 log 228 Not Found: /favicon.ico
+WARNING 2021-11-13 17:13:03,608 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3902
+INFO 2021-11-13 17:13:05,313 basehttp 154 "GET /info/ HTTP/1.1" 200 5530
+INFO 2021-11-13 17:28:39,862 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 17:28:44,927 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-13 17:28:46,725 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-13 17:28:47,688 log 228 Not Found: /favicon.ico
+WARNING 2021-11-13 17:28:47,688 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3896
+INFO 2021-11-13 17:28:49,782 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-13 17:28:53,197 basehttp 154 "GET /qq/login/?next=/ HTTP/1.1" 200 200
+INFO 2021-11-13 17:29:00,530 basehttp 154 "GET /oauth_callback?code=C59BFBCE3328832ED6BF57974387DB9A&state=%2F HTTP/1.1" 301 0
+INFO 2021-11-13 17:29:01,556 basehttp 154 "GET /oauth_callback/?code=C59BFBCE3328832ED6BF57974387DB9A&state=%2F HTTP/1.1" 302 0
+INFO 2021-11-13 17:29:01,565 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-13 17:29:02,040 log 228 Not Found: /favicon.ico
+WARNING 2021-11-13 17:29:02,041 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3902
+INFO 2021-11-13 17:29:03,114 basehttp 154 "GET /info/ HTTP/1.1" 200 5546
+INFO 2021-11-13 17:39:17,006 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 17:39:19,263 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-13 17:39:21,526 basehttp 154 "GET /info/ HTTP/1.1" 200 5606
+INFO 2021-11-13 17:39:22,431 basehttp 154 "GET /info/ HTTP/1.1" 200 5606
+INFO 2021-11-13 17:39:23,757 basehttp 154 "GET /info/ HTTP/1.1" 200 5606
+INFO 2021-11-13 17:40:12,765 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 17:40:15,040 basehttp 154 "GET /info/ HTTP/1.1" 200 5619
+INFO 2021-11-13 17:47:06,794 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 17:47:09,989 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-13 17:47:10,763 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-13 17:47:12,352 log 228 Not Found: /favicon.ico
+WARNING 2021-11-13 17:47:12,353 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4063
+INFO 2021-11-13 17:47:13,711 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-13 17:47:15,091 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-13 17:47:21,659 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-13 17:47:21,673 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-13 17:47:23,335 basehttp 154 "GET /info/ HTTP/1.1" 200 5619
+INFO 2021-11-13 17:47:23,423 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2776
+INFO 2021-11-13 17:47:23,427 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+ERROR 2021-11-13 17:47:25,854 log 228 Internal Server Error: /email/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.EmailView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-13 17:47:25,854 basehttp 154 "PUT /email/ HTTP/1.1" 500 64274
+INFO 2021-11-13 17:47:34,188 basehttp 154 "GET /info/ HTTP/1.1" 200 5619
+INFO 2021-11-13 17:47:34,240 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-13 17:47:34,353 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-13 17:47:34,354 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-13 17:47:34,365 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-13 17:47:34,373 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2776
+INFO 2021-11-13 17:47:34,407 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-13 17:47:34,420 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-13 17:47:34,457 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-13 17:47:34,466 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-13 17:47:37,210 basehttp 154 "GET /info/ HTTP/1.1" 200 5619
+INFO 2021-11-13 17:47:37,305 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-13 17:47:37,306 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-13 17:47:37,311 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-13 17:47:37,312 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-13 17:47:37,407 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-13 17:47:37,446 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2776
+INFO 2021-11-13 17:47:37,448 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-13 17:47:37,450 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-13 17:47:37,451 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+ERROR 2021-11-13 17:47:43,211 log 228 Internal Server Error: /email/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.EmailView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-13 17:47:43,212 basehttp 154 "PUT /email/ HTTP/1.1" 500 64535
+INFO 2021-11-13 17:49:07,027 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 17:49:09,743 basehttp 154 "GET /info/ HTTP/1.1" 200 5619
+INFO 2021-11-13 17:49:09,794 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-13 17:49:09,795 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-13 17:49:09,810 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-13 17:49:09,813 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-13 17:49:09,912 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-13 17:49:09,912 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2776
+INFO 2021-11-13 17:49:09,919 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-13 17:49:09,962 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-13 17:49:09,963 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+ERROR 2021-11-13 17:49:13,591 log 228 Internal Server Error: /email/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.EmailView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-13 17:49:13,592 basehttp 154 "PUT /email/ HTTP/1.1" 500 64535
+INFO 2021-11-13 17:51:25,221 autoreload 578 Watching for file changes with StatReloader
+ERROR 2021-11-13 17:51:28,109 log 228 Internal Server Error: /email/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 22, in put
+    json_str=request.boay.decode()
+AttributeError: 'WSGIRequest' object has no attribute 'boay'
+ERROR 2021-11-13 17:51:28,110 basehttp 154 "PUT /email/ HTTP/1.1" 500 82656
+INFO 2021-11-13 17:51:35,778 basehttp 154 "GET /info/ HTTP/1.1" 200 5619
+INFO 2021-11-13 17:51:35,832 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-13 17:51:35,834 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-13 17:51:35,841 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-13 17:51:35,859 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-13 17:51:36,030 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-13 17:51:36,046 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2776
+INFO 2021-11-13 17:51:36,052 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-13 17:51:36,057 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-13 17:51:36,062 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+ERROR 2021-11-13 17:51:39,342 log 228 Internal Server Error: /email/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 22, in put
+    json_str=request.boay.decode()
+AttributeError: 'WSGIRequest' object has no attribute 'boay'
+ERROR 2021-11-13 17:51:39,343 basehttp 154 "PUT /email/ HTTP/1.1" 500 82656
+INFO 2021-11-13 17:51:55,184 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 17:51:55,965 basehttp 154 "GET /info/ HTTP/1.1" 200 5619
+INFO 2021-11-13 17:51:56,089 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-13 17:51:56,095 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-13 17:51:56,110 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-13 17:51:56,113 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-13 17:51:56,262 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-13 17:51:56,279 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2776
+INFO 2021-11-13 17:51:56,284 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-13 17:51:56,290 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-13 17:51:56,295 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+ERROR 2021-11-13 17:51:59,675 log 228 Internal Server Error: /email/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 22, in put
+    json_str = request.boay.decode()
+AttributeError: 'WSGIRequest' object has no attribute 'boay'
+ERROR 2021-11-13 17:51:59,677 basehttp 154 "PUT /email/ HTTP/1.1" 500 82605
+ERROR 2021-11-13 17:52:00,629 log 228 Internal Server Error: /email/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 22, in put
+    json_str = request.boay.decode()
+AttributeError: 'WSGIRequest' object has no attribute 'boay'
+ERROR 2021-11-13 17:52:00,631 basehttp 154 "PUT /email/ HTTP/1.1" 500 82605
+INFO 2021-11-13 17:52:14,475 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 17:52:23,384 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-13 17:52:26,601 basehttp 154 "GET /info/ HTTP/1.1" 200 5619
+ERROR 2021-11-13 17:52:28,668 log 228 Internal Server Error: /email/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 22, in put
+    json_str = request.boay.decode()
+AttributeError: 'WSGIRequest' object has no attribute 'boay'
+ERROR 2021-11-13 17:52:28,670 basehttp 154 "PUT /email/ HTTP/1.1" 500 82344
+INFO 2021-11-13 17:52:49,491 autoreload 578 Watching for file changes with StatReloader
+ERROR 2021-11-13 17:52:51,730 log 228 Internal Server Error: /email/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.EmailView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-13 17:52:51,731 basehttp 154 "PUT /email/ HTTP/1.1" 500 64274
+INFO 2021-11-13 17:55:35,375 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\views.py changed, reloading.
+INFO 2021-11-13 17:55:36,383 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 17:56:14,402 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\views.py changed, reloading.
+INFO 2021-11-13 17:56:16,067 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 17:56:18,148 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\views.py changed, reloading.
+INFO 2021-11-13 17:56:19,261 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 17:56:33,558 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\views.py changed, reloading.
+INFO 2021-11-13 17:56:34,733 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 17:56:41,168 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\views.py changed, reloading.
+INFO 2021-11-13 17:56:44,568 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 17:56:45,816 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-13 17:56:47,955 basehttp 154 "GET /info/ HTTP/1.1" 200 5619
+INFO 2021-11-13 17:56:48,032 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+ERROR 2021-11-13 17:56:49,684 log 228 Internal Server Error: /email/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.EmailView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-13 17:56:49,686 basehttp 154 "PUT /email/ HTTP/1.1" 500 64274
+INFO 2021-11-13 18:04:30,654 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 18:04:41,804 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 18:04:44,765 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\views.py changed, reloading.
+INFO 2021-11-13 18:04:45,821 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 18:04:47,697 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-13 18:04:48,589 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-13 18:04:48,597 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-13 18:04:49,395 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+INFO 2021-11-13 18:04:49,401 basehttp 154 "GET /login/?next=/info/ HTTP/1.1" 200 3394
+INFO 2021-11-13 18:05:00,241 basehttp 154 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2021-11-13 18:05:00,253 basehttp 154 "GET /info/ HTTP/1.1" 200 5619
+INFO 2021-11-13 18:05:00,320 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2021-11-13 18:05:02,574 basehttp 154 "GET /info/ HTTP/1.1" 200 5619
+ERROR 2021-11-13 18:05:05,102 log 228 Internal Server Error: /email/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.EmailView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-13 18:05:05,103 basehttp 154 "PUT /email/ HTTP/1.1" 500 64274
+INFO 2021-11-13 18:10:36,802 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 18:10:39,935 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-13 18:10:40,689 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-13 18:10:42,336 log 228 Not Found: /favicon.ico
+WARNING 2021-11-13 18:10:42,337 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4063
+INFO 2021-11-13 18:10:42,603 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-13 18:10:44,937 basehttp 154 "GET /info/ HTTP/1.1" 200 5619
+INFO 2021-11-13 18:10:45,014 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2021-11-13 18:10:46,696 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-13 18:15:33,308 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-13 18:15:34,677 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-13 18:15:36,481 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-13 18:15:36,532 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2021-11-13 18:15:37,982 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-13 18:15:44,265 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-13 18:15:44,275 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-13 18:15:45,687 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-13 18:16:00,095 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-13 18:16:00,104 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-13 18:16:01,997 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+WARNING 2021-11-13 18:16:03,504 log 228 Not Found: /info/cart.html
+WARNING 2021-11-13 18:16:03,504 basehttp 154 "GET /info/cart.html HTTP/1.1" 404 4072
+INFO 2021-11-13 18:16:05,312 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-13 18:16:06,703 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-13 18:16:06,903 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-13 18:16:07,827 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-13 18:33:12,434 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 08:29:18,587 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 08:29:26,328 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 08:29:26,462 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-14 08:29:26,466 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-14 08:29:26,472 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-14 08:29:26,483 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-14 08:29:26,491 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-14 08:29:26,515 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-14 08:29:26,522 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-14 08:29:26,532 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-14 08:29:26,548 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-14 08:29:26,551 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-14 08:29:26,552 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-14 08:29:26,554 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-14 08:29:26,555 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-14 08:29:26,578 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-14 08:29:26,582 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-14 08:29:26,583 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-14 08:29:26,586 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-14 08:29:26,587 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-14 08:29:26,589 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-14 08:29:26,627 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-14 08:29:26,632 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-14 08:29:26,635 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-14 08:29:26,636 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-14 08:29:26,637 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-14 08:29:26,661 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+WARNING 2021-11-14 08:29:27,798 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 08:29:27,798 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4063
+INFO 2021-11-14 08:29:36,068 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-14 08:29:36,080 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 08:29:40,914 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-14 08:29:41,033 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1394
+INFO 2021-11-14 08:29:41,036 basehttp 154 "GET /static/images/2.png HTTP/1.1" 200 6015
+INFO 2021-11-14 08:29:41,355 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2021-11-14 08:29:41,356 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-14 08:29:41,874 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2021-11-14 08:29:46,486 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-14 08:29:48,512 basehttp 154 "GET /qq/login/?next=/ HTTP/1.1" 200 200
+INFO 2021-11-14 08:29:51,421 basehttp 154 "GET /oauth_callback?code=C8F6E4EE59AE60B940859326D906CCB8&state=%2F HTTP/1.1" 301 0
+INFO 2021-11-14 08:29:53,466 basehttp 154 "GET /oauth_callback/?code=C8F6E4EE59AE60B940859326D906CCB8&state=%2F HTTP/1.1" 200 4293
+INFO 2021-11-14 08:29:53,548 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-14 08:29:53,551 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-14 08:29:53,552 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-14 08:29:53,554 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-14 08:29:53,600 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-14 08:29:53,612 basehttp 154 "GET /static/images/2.png HTTP/1.1" 200 6015
+INFO 2021-11-14 08:29:53,639 basehttp 154 "GET /static/js/oauth_callback.js HTTP/1.1" 200 4672
+INFO 2021-11-14 08:29:53,640 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-14 08:29:53,640 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-14 08:29:54,395 basehttp 154 "GET /image_codes/04ea67c9-db7a-497e-a896-58208b721df1/ HTTP/1.1" 200 3328
+WARNING 2021-11-14 08:29:54,415 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 08:29:54,415 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4069
+INFO 2021-11-14 08:29:59,524 basehttp 154 "GET /image_codes/10986654-8691-4562-9402-fce53d964cca/ HTTP/1.1" 200 3454
+INFO 2021-11-14 08:30:34,192 basehttp 154 "GET /sms_codes/17764713162/?image_code=tind&uuid=10986654-8691-4562-9402-fce53d964cca HTTP/1.1" 200 81
+INFO 2021-11-14 08:30:46,223 basehttp 154 "POST /oauth_callback/?code=C8F6E4EE59AE60B940859326D906CCB8&state=%2F HTTP/1.1" 302 0
+INFO 2021-11-14 08:30:46,235 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 08:30:46,293 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-14 08:30:46,342 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-14 08:30:46,358 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-14 08:30:46,360 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-14 08:30:46,361 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-14 08:30:46,362 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-14 08:30:46,366 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-14 08:30:46,367 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-14 08:30:46,373 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-14 08:30:46,374 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-14 08:30:46,382 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-14 08:30:46,382 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-14 08:30:46,384 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-14 08:30:46,386 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-14 08:30:46,390 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-14 08:30:46,391 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-14 08:30:46,395 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-14 08:30:46,398 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-14 08:30:46,398 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-14 08:30:46,399 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-14 08:30:49,746 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 08:30:51,344 basehttp 154 "GET /info/ HTTP/1.1" 200 5619
+INFO 2021-11-14 08:30:51,426 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2776
+INFO 2021-11-14 08:30:51,447 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-14 08:46:28,659 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 08:46:33,969 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-14 08:46:35,383 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 08:46:35,385 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4063
+INFO 2021-11-14 08:46:36,831 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-14 08:46:46,454 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-14 08:46:46,463 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 08:46:52,595 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-14 08:46:54,498 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 08:46:54,499 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4063
+INFO 2021-11-14 08:46:55,433 basehttp 154 "GET /info/ HTTP/1.1" 200 5619
+INFO 2021-11-14 08:46:55,569 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2776
+INFO 2021-11-14 08:46:55,579 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-14 08:47:00,059 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 08:47:51,640 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+INFO 2021-11-14 08:47:51,654 basehttp 154 "GET /login/?next=/info/ HTTP/1.1" 200 3394
+INFO 2021-11-14 08:48:02,595 basehttp 154 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2021-11-14 08:48:02,613 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 09:01:02,411 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\views.py changed, reloading.
+INFO 2021-11-14 09:01:03,577 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 09:18:14,645 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 09:18:30,024 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-14 09:18:31,719 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 09:18:31,720 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4063
+INFO 2021-11-14 09:18:32,674 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 09:18:36,176 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 09:43:41,630 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 09:43:50,662 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-14 09:43:52,038 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 09:43:52,041 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4063
+INFO 2021-11-14 09:43:53,276 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 09:44:02,540 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 09:51:14,070 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 09:52:14,939 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 09:52:17,988 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 09:52:18,075 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-14 09:52:18,116 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-14 09:52:18,119 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-14 09:52:18,126 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-14 09:52:18,172 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-14 09:52:18,183 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2776
+INFO 2021-11-14 09:52:18,203 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-14 09:52:18,240 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-14 09:52:18,240 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-14 09:52:21,625 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 10:27:32,657 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 10:27:39,302 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-14 10:27:40,581 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 10:27:40,582 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4063
+INFO 2021-11-14 10:27:42,770 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 10:27:54,440 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 10:29:42,436 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 10:29:58,429 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 10:29:58,637 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-14 10:29:58,643 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-14 10:29:58,649 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-14 10:29:58,659 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-14 10:29:58,677 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-14 10:29:58,685 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2776
+INFO 2021-11-14 10:29:58,702 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-14 10:29:58,718 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-14 10:29:58,719 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-14 10:30:03,212 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 10:34:45,290 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 10:34:46,622 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 10:34:50,893 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 10:34:52,268 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 10:35:14,461 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+WARNING 2021-11-14 10:35:25,989 log 228 Not Found: /emails/verification/
+WARNING 2021-11-14 10:35:25,990 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg1NzMxNCwiZXhwIjoxNjM2ODU3OTE0fQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.dwootOri8MppfFczRujaRvBedKgWjtOQJSqOf94A4AgDb4tpmkwjvSzP6sHm9gIeo3vHQZ_CAe2B2gkovYvlEQ HTTP/1.1" 404 4313
+WARNING 2021-11-14 10:35:26,315 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 10:35:26,317 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4069
+INFO 2021-11-14 10:51:29,473 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 10:51:39,988 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-14 10:51:42,506 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 10:51:42,508 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4231
+INFO 2021-11-14 10:51:42,536 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 10:51:49,341 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+WARNING 2021-11-14 10:52:01,437 log 228 Not Found: /emails/verification/
+WARNING 2021-11-14 10:52:01,438 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg1ODMwOCwiZXhwIjoxNjM2ODU4OTA4fQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.eC66EzVGGYz199YfHlNnRShxAiZmIcW4CBZGLpDteBKA_hnhV2fJa25e0oG-381GWvwamUmywFNeS3ayF6uN9Q HTTP/1.1" 404 4481
+WARNING 2021-11-14 10:52:01,869 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 10:52:01,870 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4237
+WARNING 2021-11-14 10:52:09,823 log 228 Not Found: /emails/verification/
+WARNING 2021-11-14 10:52:09,823 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg1ODMwOCwiZXhwIjoxNjM2ODU4OTA4fQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.eC66EzVGGYz199YfHlNnRShxAiZmIcW4CBZGLpDteBKA_hnhV2fJa25e0oG-381GWvwamUmywFNeS3ayF6uN9Q HTTP/1.1" 404 4481
+INFO 2021-11-14 10:52:41,639 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\urls.py changed, reloading.
+INFO 2021-11-14 10:52:45,356 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 10:52:49,181 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg1ODMwOCwiZXhwIjoxNjM2ODU4OTA4fQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.eC66EzVGGYz199YfHlNnRShxAiZmIcW4CBZGLpDteBKA_hnhV2fJa25e0oG-381GWvwamUmywFNeS3ayF6uN9Q HTTP/1.1" 302 0
+INFO 2021-11-14 10:52:49,201 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 10:52:49,313 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2021-11-14 10:54:21,287 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 10:54:22,036 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 10:54:22,631 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 10:54:23,074 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 10:56:20,092 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 10:57:09,250 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\views.py changed, reloading.
+INFO 2021-11-14 10:57:10,392 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 10:59:08,471 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 10:59:19,843 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 10:59:21,299 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 10:59:25,192 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 10:59:33,144 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg1ODc2NCwiZXhwIjoxNjM2ODU5MzY0fQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.HN0ObIVjLrNPCzuHzt0BzAAoAQAel6RWDjl5To2PG88TzEr46IZmwF_IiXCdS15F2uz8KXLj2krzNoYhnxG_IA HTTP/1.1" 302 0
+INFO 2021-11-14 10:59:33,183 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 10:59:39,701 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 11:04:54,868 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 11:05:04,181 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-14 11:05:05,642 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 11:05:05,643 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4230
+INFO 2021-11-14 11:05:08,633 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 11:05:52,558 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 11:06:39,459 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 11:06:45,899 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 11:06:48,242 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 11:06:49,330 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 11:06:57,883 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg1OTIwOSwiZXhwIjoxNjM2ODU5ODA5fQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.vc61VKeIsOrBxiLuWcyaGkCsvIQM4grKwLd3Nir0qztigbwXKHynwLtwecdm7ZSJdO8wn55VYEyN2EZCMOm4UQ HTTP/1.1" 302 0
+INFO 2021-11-14 11:06:57,899 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+WARNING 2021-11-14 11:06:58,155 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 11:06:58,156 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4236
+INFO 2021-11-14 12:05:39,492 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 12:05:59,527 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-14 12:06:00,171 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 12:06:00,173 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4230
+INFO 2021-11-14 12:06:01,859 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:06:03,196 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 12:06:16,774 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg2Mjc2MiwiZXhwIjoxNjM2ODYzMzYyfQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.ZWOYQ-_iIkZVQzKFWEOmdamTcg-0BmEUfVE6I6IlNONA_Lp3Hw_asTJ_HRvP3m8ON543K-Je8GW2cSgyPU32pg HTTP/1.1" 302 0
+INFO 2021-11-14 12:06:16,789 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+WARNING 2021-11-14 12:06:17,042 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 12:06:17,043 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4236
+INFO 2021-11-14 12:12:16,651 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 12:12:18,952 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-14 12:12:19,969 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 12:12:19,970 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4230
+INFO 2021-11-14 12:12:21,504 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:12:21,747 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2892
+INFO 2021-11-14 12:12:23,724 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 12:12:31,934 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg2MzE0MywiZXhwIjoxNjM2ODYzNzQzfQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.H2SSmCkx_ksCsBAuJlszfbAl-bkD-VbMN2RO5Z775mNcdzRlG_Lz-EjUKq_KLnZCAT2aLfkEIcShdTHCUTqOrg HTTP/1.1" 302 0
+INFO 2021-11-14 12:12:31,951 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+WARNING 2021-11-14 12:12:32,213 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 12:12:32,214 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4236
+INFO 2021-11-14 12:12:41,894 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:12:47,816 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-14 12:12:47,827 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 12:12:49,196 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-14 12:12:54,449 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-14 12:12:54,457 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 12:12:56,236 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:12:56,305 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2021-11-14 12:19:47,748 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 12:19:49,709 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 12:19:51,493 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:19:51,559 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2021-11-14 12:19:52,859 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 12:20:01,623 basehttp 154 "GET /emails/verification?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg2MzU5MiwiZXhwIjoxNjM2ODY0MTkyfQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.gFfzUFSiWjAePBgrozgwtiGd5sf6Pz_YL22bZ59FtBHM7WuWRKSmk5APg7Jcme15O3wfPh-aZsD3cTgadKSuUA HTTP/1.1" 301 0
+INFO 2021-11-14 12:20:01,693 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg2MzU5MiwiZXhwIjoxNjM2ODY0MTkyfQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.gFfzUFSiWjAePBgrozgwtiGd5sf6Pz_YL22bZ59FtBHM7WuWRKSmk5APg7Jcme15O3wfPh-aZsD3cTgadKSuUA HTTP/1.1" 302 0
+INFO 2021-11-14 12:20:01,707 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:26:30,905 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 12:26:34,355 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-14 12:26:35,208 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 12:26:35,209 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4230
+INFO 2021-11-14 12:26:36,719 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+INFO 2021-11-14 12:26:36,733 basehttp 154 "GET /login/?next=/info/ HTTP/1.1" 200 3394
+INFO 2021-11-14 12:26:42,349 basehttp 154 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2021-11-14 12:26:42,361 basehttp 154 "GET /info/ HTTP/1.1" 200 5635
+INFO 2021-11-14 12:26:42,412 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2021-11-14 12:28:03,270 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 12:28:05,723 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-14 12:28:07,485 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 12:28:07,486 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4230
+INFO 2021-11-14 12:28:07,917 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+INFO 2021-11-14 12:28:07,927 basehttp 154 "GET /login/?next=/info/ HTTP/1.1" 200 3394
+INFO 2021-11-14 12:28:13,673 basehttp 154 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2021-11-14 12:28:13,687 basehttp 154 "GET /info/ HTTP/1.1" 200 5635
+INFO 2021-11-14 12:28:13,742 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2021-11-14 12:28:34,644 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 12:28:36,564 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:28:38,041 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 12:28:48,698 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg2NDExNywiZXhwIjoxNjM2ODY0NzE3fQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.Mwmuj2N5gwXv815SvSVdJ3RxzVvplMKjliN5kjzqxhG1fk-hxUS2un2s34JMYbWDtMV0oM_MFZIL3ZGC0WBsUw HTTP/1.1" 302 0
+INFO 2021-11-14 12:28:48,711 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+WARNING 2021-11-14 12:28:48,962 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 12:28:48,963 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4236
+INFO 2021-11-14 12:29:10,595 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\views.py changed, reloading.
+INFO 2021-11-14 12:29:11,813 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 12:30:10,592 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 12:30:13,165 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 12:30:16,087 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:30:16,160 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2021-11-14 12:30:17,360 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 12:30:25,781 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg2NDIxNywiZXhwIjoxNjM2ODY0ODE3fQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.CLVCqyG8YjdFaV16wqzRamsUfc_I4rzk9dvOwdNzk4JGJ9-i-C-Z2YN_hz0f0ZqWtlSIypTU3XGLcjm6FGNTsA HTTP/1.1" 302 0
+INFO 2021-11-14 12:30:25,796 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:31:38,603 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 12:31:44,101 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 12:31:45,825 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:31:47,046 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 12:31:56,251 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+ERROR 2021-11-14 12:31:59,762 log 228 Internal Server Error: /emails/verification/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 35, in get
+    if user.eemail_active == '0':
+AttributeError: 'User' object has no attribute 'eemail_active'
+ERROR 2021-11-14 12:31:59,764 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg2NDMwNiwiZXhwIjoxNjM2ODY0OTA2fQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.oRvi5TqBlNFvyTdwS_kGykNmF1IDzjEAZfs0ejmbaY7n6In10M-8FKnKHCyKg1_3riaA5n_ea4id3opyFOWUSg HTTP/1.1" 500 85376
+INFO 2021-11-14 12:32:09,247 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-14 12:32:13,083 log 228 Forbidden: /emails/verification/
+WARNING 2021-11-14 12:32:13,084 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg2NDMwNiwiZXhwIjoxNjM2ODY0OTA2fQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.oRvi5TqBlNFvyTdwS_kGykNmF1IDzjEAZfs0ejmbaY7n6In10M-8FKnKHCyKg1_3riaA5n_ea4id3opyFOWUSg HTTP/1.1" 403 18
+INFO 2021-11-14 12:32:19,102 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:32:20,225 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+WARNING 2021-11-14 12:32:28,642 log 228 Forbidden: /emails/verification/
+WARNING 2021-11-14 12:32:28,643 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg2NDM0MCwiZXhwIjoxNjM2ODY0OTQwfQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.86AwtL_aR0JzvLby-eoNJ7ZlxCYfkZcTxa3jNKtpf06pGO0y5cXzCX2KVFVY1EdM7MNWOlkoYOtT-oucZT3l6w HTTP/1.1" 403 18
+INFO 2021-11-14 12:32:46,482 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 12:32:48,946 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-14 12:32:49,848 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 12:32:49,850 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4230
+INFO 2021-11-14 12:32:51,705 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:32:51,874 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2021-11-14 12:32:52,918 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+WARNING 2021-11-14 12:33:04,366 log 228 Forbidden: /emails/verification/
+WARNING 2021-11-14 12:33:04,366 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg2NDM3MiwiZXhwIjoxNjM2ODY0OTcyfQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.0F2P9URAFKmaXi6Qh7Dd7RP2ar84owT1O_yMAxOj0aDA2MDc2aZm8sc9jFdHzrHGNK_BNR-32yJQhulsIDMjQA HTTP/1.1" 403 18
+WARNING 2021-11-14 12:33:04,569 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 12:33:04,570 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4236
+INFO 2021-11-14 12:33:46,633 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 12:33:59,172 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:34:13,505 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 12:34:21,203 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg2NDQ1MywiZXhwIjoxNjM2ODY1MDUzfQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.riaTrJXvvsgdqeyZKj_iPd1mfb2z7q8t5aNEvmfthXgkeJXnRzp_7mXXlsKuOJSU7eJ_4lv3bMsDxxbuupTu7Q HTTP/1.1" 302 0
+INFO 2021-11-14 12:34:21,214 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:34:53,776 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 12:34:57,713 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 12:35:05,297 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg2NDQ5NywiZXhwIjoxNjM2ODY1MDk3fQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.-VwQ8QZRSskAdUsJ0R3AR3ZwEKBZLPrWJ4GOIAXwBsd9tZZWf_J-2XRameN3UfJDMD3vlSjWXMDgEBU01qaZMw HTTP/1.1" 302 0
+INFO 2021-11-14 12:35:05,314 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:35:19,831 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:38:05,198 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 12:38:09,643 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 12:38:12,955 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:38:13,027 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2021-11-14 12:38:14,124 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 12:38:21,534 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg2NDY5NCwiZXhwIjoxNjM2ODY1Mjk0fQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.e4gCeKxkwKnWJ74qtMA15nJxdAngXyrCWiuyiA91zJWbwRuPTMgGI-t9dcsHt0q_8H-BsqkPpM8cofnOB9FxgQ HTTP/1.1" 302 0
+INFO 2021-11-14 12:38:21,547 basehttp 154 "GET /info/ HTTP/1.1" 200 5635
+INFO 2021-11-14 12:38:21,661 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2892
+INFO 2021-11-14 12:39:59,541 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 12:40:01,034 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 12:40:02,468 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:40:03,606 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 12:40:11,261 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg2NDgwMywiZXhwIjoxNjM2ODY1NDAzfQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.rVfE5F9KA5AOESpN_1TwZcBB5URnCEXzq2MQo0DtvcoSTsNgkEKzFhzQMpw9cKMVR8VmTgXxD-OyrXwPDQMaZw HTTP/1.1" 302 0
+INFO 2021-11-14 12:40:11,274 basehttp 154 "GET /info/ HTTP/1.1" 200 5635
+INFO 2021-11-14 12:42:33,228 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 12:42:43,413 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-14 12:42:44,521 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 12:42:44,524 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4230
+INFO 2021-11-14 12:42:45,458 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:42:45,937 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2021-11-14 12:42:47,338 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 12:42:56,406 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg2NDk2NywiZXhwIjoxNjM2ODY1NTY3fQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.gBaGcZ7JkkmEWHxZSZnTpy7IrcdPR7CUNdGo66mRvUGQC_jBdLSEu3kK8EB0dMCxmFlZN2U-ZVu8Bv2GIMtENg HTTP/1.1" 302 0
+INFO 2021-11-14 12:42:56,419 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:42:56,525 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+WARNING 2021-11-14 12:42:56,681 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 12:42:56,682 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4236
+INFO 2021-11-14 12:43:42,417 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 12:43:46,959 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 12:43:48,503 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 12:43:58,687 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg2NTAyOCwiZXhwIjoxNjM2ODY1NjI4fQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.mP2az_wOJbhQeGDJDLWn2xjH7oVCeLNIALUKDdpw1nm0xrXlACAcm_mEt8kf3tE0e9b29hYxkMVNq94lRfhscA HTTP/1.1" 302 0
+INFO 2021-11-14 12:43:58,699 basehttp 154 "GET /info/ HTTP/1.1" 200 5635
+INFO 2021-11-14 14:10:02,856 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 14:10:05,541 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-14 14:10:06,918 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 14:10:06,920 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4230
+INFO 2021-11-14 14:10:07,731 basehttp 154 "GET /info/ HTTP/1.1" 200 5636
+INFO 2021-11-14 14:10:08,229 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2021-11-14 14:10:09,187 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 14:10:19,644 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg3MDIwOSwiZXhwIjoxNjM2ODcwODA5fQ.eyJ1c2VyX2lkIjoxMywiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.LmDLUxQRtTaBO8rBUsNZaFyUWMvPbd6rxwQ7lBH2uvWGkT8JQCakAfxpdgLr76u6hdy416MWBI2-6TnE9RI23w HTTP/1.1" 302 0
+INFO 2021-11-14 14:10:19,659 basehttp 154 "GET /info/ HTTP/1.1" 200 5635
+INFO 2021-11-14 14:10:19,775 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+WARNING 2021-11-14 14:10:19,948 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 14:10:19,949 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4236
+INFO 2021-11-14 15:56:31,931 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 15:56:39,304 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 15:56:40,279 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-14 15:56:40,289 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-14 15:56:40,291 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-14 15:56:40,376 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-14 15:56:40,379 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-14 15:56:40,428 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-14 15:56:40,430 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-14 15:56:40,431 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-14 15:56:40,432 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-14 15:56:40,450 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-14 15:56:40,451 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-14 15:56:40,484 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-14 15:56:40,519 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-14 15:56:40,523 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-14 15:56:40,526 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-14 15:56:40,527 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-14 15:56:40,537 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-14 15:56:40,549 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-14 15:56:40,550 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-14 15:56:40,552 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-14 15:56:40,552 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-14 15:56:40,553 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-14 15:56:40,561 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-14 15:56:40,616 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-14 15:56:40,625 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+WARNING 2021-11-14 15:56:40,809 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 15:56:40,810 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4230
+INFO 2021-11-14 15:57:34,733 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-14 15:57:34,746 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 15:57:36,192 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-14 15:57:36,255 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 7733
+INFO 2021-11-14 15:57:36,298 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-14 15:57:36,324 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-14 15:57:36,375 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-14 15:57:37,028 basehttp 154 "GET /image_codes/cb93597a-c1d3-42e5-9fac-89b8870a2025/ HTTP/1.1" 200 3282
+INFO 2021-11-14 15:57:38,449 basehttp 154 "GET /usernames/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-14 15:57:40,450 basehttp 154 "GET /usernames/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-14 15:57:41,520 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-14 16:01:19,556 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 16:01:31,618 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-14 16:01:31,785 basehttp 154 "GET /image_codes/0b54923a-08a1-4274-a910-680d81de1fd5/ HTTP/1.1" 200 3268
+INFO 2021-11-14 16:01:34,141 basehttp 154 "GET /usernames/ycxycx/count/ HTTP/1.1" 200 41
+INFO 2021-11-14 16:01:48,269 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-14 16:01:53,782 basehttp 154 "GET /sms_codes/17764713162/?uuid=0b54923a-08a1-4274-a910-680d81de1fd5&image_code=pevx HTTP/1.1" 200 81
+INFO 2021-11-14 16:02:09,037 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-11-14 16:02:09,047 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 16:02:11,869 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-14 16:02:11,947 basehttp 154 "GET /static/images/2.png HTTP/1.1" 200 6015
+INFO 2021-11-14 16:02:11,955 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1394
+INFO 2021-11-14 16:02:11,970 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2021-11-14 16:02:11,992 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2021-11-14 16:02:23,683 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-14 16:02:23,692 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 16:02:26,590 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-14 16:02:26,599 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 16:02:28,087 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-14 16:02:29,061 basehttp 154 "GET /qq/login/?next=/ HTTP/1.1" 200 200
+INFO 2021-11-14 16:02:31,522 basehttp 154 "GET /oauth_callback?code=FA026EBCABA5BE3139927898183C0460&state=%2F HTTP/1.1" 301 0
+INFO 2021-11-14 16:02:32,261 basehttp 154 "GET /oauth_callback/?code=FA026EBCABA5BE3139927898183C0460&state=%2F HTTP/1.1" 200 4293
+INFO 2021-11-14 16:02:32,334 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-14 16:02:32,335 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-14 16:02:32,346 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-14 16:02:32,349 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-14 16:02:32,413 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-14 16:02:32,423 basehttp 154 "GET /static/images/2.png HTTP/1.1" 200 6015
+INFO 2021-11-14 16:02:32,445 basehttp 154 "GET /static/js/oauth_callback.js HTTP/1.1" 200 4672
+INFO 2021-11-14 16:02:32,447 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-14 16:02:32,449 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-14 16:02:32,530 basehttp 154 "GET /image_codes/b464e3b1-ea9e-41bf-a0d5-fb2b13bb721f/ HTTP/1.1" 200 2941
+WARNING 2021-11-14 16:02:32,586 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 16:02:32,588 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4236
+INFO 2021-11-14 16:02:41,341 basehttp 154 "GET /sms_codes/17764713162/?image_code=vtjr&uuid=b464e3b1-ea9e-41bf-a0d5-fb2b13bb721f HTTP/1.1" 200 78
+INFO 2021-11-14 16:02:45,158 basehttp 154 "GET /sms_codes/17764713162/?image_code=vtjr&uuid=b464e3b1-ea9e-41bf-a0d5-fb2b13bb721f HTTP/1.1" 200 78
+INFO 2021-11-14 16:02:49,360 basehttp 154 "GET /sms_codes/17764713162/?image_code=vtjr&uuid=b464e3b1-ea9e-41bf-a0d5-fb2b13bb721f HTTP/1.1" 200 78
+INFO 2021-11-14 16:02:49,908 basehttp 154 "GET /sms_codes/17764713162/?image_code=vtjr&uuid=b464e3b1-ea9e-41bf-a0d5-fb2b13bb721f HTTP/1.1" 200 78
+INFO 2021-11-14 16:02:50,097 basehttp 154 "GET /sms_codes/17764713162/?image_code=vtjr&uuid=b464e3b1-ea9e-41bf-a0d5-fb2b13bb721f HTTP/1.1" 200 78
+INFO 2021-11-14 16:03:02,108 basehttp 154 "GET /sms_codes/17764713162/?image_code=vtjr&uuid=b464e3b1-ea9e-41bf-a0d5-fb2b13bb721f HTTP/1.1" 200 81
+INFO 2021-11-14 16:03:17,352 basehttp 154 "POST /oauth_callback/?code=FA026EBCABA5BE3139927898183C0460&state=%2F HTTP/1.1" 302 0
+INFO 2021-11-14 16:03:17,363 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 16:03:17,415 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-14 16:03:17,416 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-14 16:03:17,427 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-14 16:03:17,429 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-14 16:03:17,431 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-14 16:03:17,516 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-14 16:03:17,520 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-14 16:03:17,545 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-14 16:03:17,547 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-14 16:03:17,548 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-14 16:03:17,548 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-14 16:03:17,550 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-14 16:03:17,551 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-14 16:03:17,556 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-14 16:03:17,577 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-14 16:03:17,578 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-14 16:03:17,579 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-14 16:03:17,581 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-14 16:03:17,582 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-14 16:03:17,583 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-14 16:03:17,597 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-14 16:03:17,598 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-14 16:03:17,600 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-14 16:03:17,600 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-14 16:03:17,601 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-14 16:03:22,236 basehttp 154 "GET /info/ HTTP/1.1" 200 5614
+INFO 2021-11-14 16:03:22,318 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2892
+INFO 2021-11-14 16:03:22,425 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-14 16:03:28,139 basehttp 154 "PUT /email/ HTTP/1.1" 200 29
+INFO 2021-11-14 16:03:38,211 basehttp 154 "GET /emails/verification/?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzNjg3NzAwOCwiZXhwIjoxNjM2ODc3NjA4fQ.eyJ1c2VyX2lkIjoxNCwiZW1haWwiOiIxNjIwODI5MTMxQHFxLmNvbSJ9.tsrm1NYNpuqRT2ywtj1Ii1auczcrlb98UlVOkGefFcecS1lx1q8dYLHNzIhfae4IMtJ8Mvx2Ov0ru9idNB0rgg HTTP/1.1" 302 0
+INFO 2021-11-14 16:03:38,224 basehttp 154 "GET /info/ HTTP/1.1" 200 5630
+INFO 2021-11-14 16:03:41,781 basehttp 154 "GET /info/ HTTP/1.1" 200 5630
+INFO 2021-11-14 16:05:38,589 basehttp 154 "GET /info/ HTTP/1.1" 200 5630
+WARNING 2021-11-14 16:05:47,138 log 228 Not Found: /info/cart.html
+WARNING 2021-11-14 16:05:47,138 basehttp 154 "GET /info/cart.html HTTP/1.1" 404 4245
