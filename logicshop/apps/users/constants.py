@@ -1,3 +1,6 @@
 # 邮箱链接的过期时间 单位：秒
 VERIFY_EMAIL_TOKEN_EXPIRES=600
 
+# 用户地址的最大数量 个
+USER_ADDRESS_COUNTS_LIMIT=20
+

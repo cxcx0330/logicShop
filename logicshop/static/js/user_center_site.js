@@ -169,7 +169,7 @@ let vm = new Vue({
                 responseType: 'json'
             })
                 .then(response => {
-                    if (response.data.code == '0') {
+                    if (response.data.code === '0') {
                         this.provinces = response.data.province_list;
                     } else {
                         console.log(response.data);
@@ -260,6 +260,7 @@ let vm = new Vue({
         },
         // 设置默认地址
         set_default(index){
+            // this.addresses[index].id index:即为页面展示的第几个 id:取出第几个在数据库中的id
             let url = '/addresses/' + this.addresses[index].id + '/default/';
             axios.put(url, {}, {
                 headers: {

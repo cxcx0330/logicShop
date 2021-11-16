@@ -4528,3 +4528,1784 @@ INFO 2021-11-14 16:03:41,781 basehttp 154 "GET /info/ HTTP/1.1" 200 5630
 INFO 2021-11-14 16:05:38,589 basehttp 154 "GET /info/ HTTP/1.1" 200 5630
 WARNING 2021-11-14 16:05:47,138 log 228 Not Found: /info/cart.html
 WARNING 2021-11-14 16:05:47,138 basehttp 154 "GET /info/cart.html HTTP/1.1" 404 4245
+INFO 2021-11-14 16:27:25,334 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 16:27:29,697 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-14 16:27:31,198 log 228 Not Found: /favicon.ico
+WARNING 2021-11-14 16:27:31,198 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4403
+INFO 2021-11-14 16:27:32,208 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-14 16:27:38,694 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-14 16:27:38,704 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 16:27:40,162 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-14 16:27:40,328 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2892
+INFO 2021-11-14 16:27:40,341 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+ERROR 2021-11-14 16:27:41,239 log 228 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\urls\base.py", line 75, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'content'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 32, in get
+    return render(request, 'user_center_site.html')
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\urls\base.py", line 86, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'content' is not a registered namespace
+ERROR 2021-11-14 16:27:41,240 basehttp 154 "GET /addresses/ HTTP/1.1" 500 143817
+INFO 2021-11-14 16:28:21,156 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 16:28:21,633 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8256
+INFO 2021-11-14 16:28:21,751 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12044
+WARNING 2021-11-14 16:28:21,752 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2021-11-14 16:28:21,838 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2021-11-14 16:28:21,841 log 228 Not Found: /areas/
+WARNING 2021-11-14 16:28:21,842 basehttp 154 "GET /areas/ HTTP/1.1" 404 4388
+INFO 2021-11-14 16:28:21,851 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-14 16:30:32,710 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-14 16:30:36,209 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-14 16:30:38,052 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-14 16:30:39,152 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8253
+WARNING 2021-11-14 16:30:39,283 log 228 Not Found: /areas/
+WARNING 2021-11-14 16:30:39,284 basehttp 154 "GET /areas/ HTTP/1.1" 404 4388
+WARNING 2021-11-14 16:31:04,976 log 228 Not Found: /areas/
+WARNING 2021-11-14 16:31:04,976 basehttp 154 "GET /areas/ HTTP/1.1" 404 4388
+INFO 2021-11-15 09:03:48,444 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 09:03:56,389 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-15 09:03:57,557 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+INFO 2021-11-15 09:03:58,360 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-15 09:03:59,808 log 228 Not Found: /favicon.ico
+WARNING 2021-11-15 09:03:59,809 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4556
+INFO 2021-11-15 09:04:01,526 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+INFO 2021-11-15 09:04:01,611 basehttp 154 "GET /login/?next=/info/ HTTP/1.1" 200 3394
+INFO 2021-11-15 09:04:01,739 basehttp 154 "GET /static/js/login.js HTTP/1.1" 304 0
+INFO 2021-11-15 09:04:11,298 basehttp 154 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2021-11-15 09:04:11,338 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-15 09:04:11,388 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2021-11-15 09:04:15,706 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8253
+ERROR 2021-11-15 09:04:15,977 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view areas.views.AreasView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-15 09:04:15,978 basehttp 154 "GET /areas/ HTTP/1.1" 500 64556
+INFO 2021-11-15 09:04:24,908 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8253
+INFO 2021-11-15 09:04:24,985 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-15 09:04:25,021 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-15 09:04:25,023 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-15 09:04:25,032 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-15 09:04:25,117 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-15 09:04:25,120 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12044
+INFO 2021-11-15 09:04:25,120 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-15 09:04:25,147 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-15 09:04:25,147 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+ERROR 2021-11-15 09:04:25,289 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view areas.views.AreasView didn't return an HttpResponse object. It returned None instead.
+INFO 2021-11-15 09:04:25,289 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+ERROR 2021-11-15 09:04:25,298 basehttp 154 "GET /areas/ HTTP/1.1" 500 64817
+INFO 2021-11-15 09:10:25,004 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 09:10:34,839 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-15 09:10:38,254 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8253
+INFO 2021-11-15 09:10:38,424 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-15 09:10:38,425 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-15 09:10:38,426 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-15 09:10:38,431 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-15 09:10:38,439 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-15 09:10:38,448 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12044
+INFO 2021-11-15 09:10:38,463 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-15 09:10:38,527 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-15 09:10:38,527 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-15 09:10:38,612 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+ERROR 2021-11-15 09:10:38,850 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view areas.views.AreasView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-15 09:10:38,851 basehttp 154 "GET /areas/ HTTP/1.1" 500 64817
+INFO 2021-11-15 09:18:36,503 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 09:18:41,012 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-15 09:18:41,914 log 228 Not Found: /favicon.ico
+WARNING 2021-11-15 09:18:41,915 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4556
+INFO 2021-11-15 09:18:42,742 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-15 09:18:44,592 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8253
+INFO 2021-11-15 09:18:44,822 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-15 09:19:24,157 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 09:19:27,034 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8253
+INFO 2021-11-15 09:19:27,107 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-15 09:19:27,109 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-15 09:19:27,129 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-15 09:19:27,135 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-15 09:19:27,253 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-15 09:19:27,253 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-15 09:19:27,261 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-15 09:19:27,262 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-15 09:19:27,264 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12044
+INFO 2021-11-15 09:19:27,395 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-15 09:19:27,419 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-15 09:23:10,370 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 09:23:15,353 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-15 09:23:16,305 log 228 Not Found: /favicon.ico
+WARNING 2021-11-15 09:23:16,305 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4556
+INFO 2021-11-15 09:23:20,954 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-15 09:23:23,032 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8715
+INFO 2021-11-15 09:23:23,154 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+ERROR 2021-11-15 09:23:30,383 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view areas.views.AreasView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-15 09:23:30,385 basehttp 154 "GET /areas/?area_id=610000 HTTP/1.1" 500 64922
+INFO 2021-11-15 09:23:36,684 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8715
+INFO 2021-11-15 09:23:36,769 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-15 09:23:36,772 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-15 09:23:36,789 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-15 09:23:36,796 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-15 09:23:36,896 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-15 09:23:36,897 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12044
+INFO 2021-11-15 09:23:36,899 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-15 09:23:36,945 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-15 09:23:36,945 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-15 09:23:37,040 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-15 09:23:37,142 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-15 09:24:05,923 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 09:24:07,233 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8715
+INFO 2021-11-15 09:24:07,372 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+ERROR 2021-11-15 09:24:15,904 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view areas.views.AreasView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-15 09:24:15,905 basehttp 154 "GET /areas/?area_id=220000 HTTP/1.1" 500 65183
+INFO 2021-11-15 09:39:43,978 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 09:39:49,335 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-15 09:39:50,405 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-15 09:39:51,499 log 228 Not Found: /favicon.ico
+WARNING 2021-11-15 09:39:51,502 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4556
+INFO 2021-11-15 09:39:52,809 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-15 09:39:54,390 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8715
+INFO 2021-11-15 09:39:54,542 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+ERROR 2021-11-15 09:39:58,955 log 228 Internal Server Error: /areas/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view areas.views.AreasView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-15 09:39:58,956 basehttp 154 "GET /areas/?area_id=610000 HTTP/1.1" 500 64922
+INFO 2021-11-15 09:49:09,810 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 09:49:15,283 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-15 09:49:17,035 log 228 Not Found: /favicon.ico
+WARNING 2021-11-15 09:49:17,035 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4556
+INFO 2021-11-15 09:49:17,592 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-15 09:49:18,976 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8715
+INFO 2021-11-15 09:49:19,125 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-15 09:49:21,762 basehttp 154 "GET /areas/?area_id=130000 HTTP/1.1" 200 703
+INFO 2021-11-15 09:49:25,303 basehttp 154 "GET /areas/?area_id=630000 HTTP/1.1" 200 627
+INFO 2021-11-15 09:49:26,066 basehttp 154 "GET /areas/?area_id=632300 HTTP/1.1" 200 335
+INFO 2021-11-15 09:49:30,839 basehttp 154 "GET /areas/?area_id=610000 HTTP/1.1" 200 557
+INFO 2021-11-15 09:49:34,693 basehttp 154 "GET /areas/?area_id=610500 HTTP/1.1" 200 603
+INFO 2021-11-15 09:49:39,174 basehttp 154 "GET /areas/?area_id=610200 HTTP/1.1" 200 281
+INFO 2021-11-15 09:49:41,924 basehttp 154 "GET /areas/?area_id=320000 HTTP/1.1" 200 701
+INFO 2021-11-15 09:49:43,103 basehttp 154 "GET /areas/?area_id=230000 HTTP/1.1" 200 761
+INFO 2021-11-15 09:49:44,561 basehttp 154 "GET /areas/?area_id=230800 HTTP/1.1" 200 557
+INFO 2021-11-15 09:49:47,939 basehttp 154 "GET /areas/?area_id=231000 HTTP/1.1" 200 569
+INFO 2021-11-15 09:49:56,818 basehttp 154 "GET /areas/?area_id=640000 HTTP/1.1" 200 357
+INFO 2021-11-15 09:49:59,871 basehttp 154 "GET /areas/?area_id=640200 HTTP/1.1" 200 247
+INFO 2021-11-15 09:56:10,196 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 09:56:11,684 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-15 09:56:13,955 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8715
+INFO 2021-11-15 09:56:14,149 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-15 09:56:46,938 basehttp 154 "GET /areas/?area_id=130000 HTTP/1.1" 200 703
+INFO 2021-11-15 09:56:47,722 basehttp 154 "GET /areas/?area_id=130200 HTTP/1.1" 200 741
+INFO 2021-11-15 09:57:25,345 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\areas\views.py changed, reloading.
+INFO 2021-11-15 09:57:26,289 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 09:57:27,388 basehttp 154 "GET /areas/?area_id=210000 HTTP/1.1" 200 747
+INFO 2021-11-15 09:57:28,516 basehttp 154 "GET /areas/?area_id=210400 HTTP/1.1" 200 467
+INFO 2021-11-15 10:04:10,322 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 10:04:13,603 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-15 10:04:14,725 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-15 10:04:15,986 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+WARNING 2021-11-15 10:04:16,308 log 228 Not Found: /favicon.ico
+WARNING 2021-11-15 10:04:16,308 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4556
+INFO 2021-11-15 10:04:17,281 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8715
+INFO 2021-11-15 10:04:17,451 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-15 10:04:23,493 basehttp 154 "GET /areas/?area_id=120000 HTTP/1.1" 200 143
+INFO 2021-11-15 10:04:25,599 basehttp 154 "GET /areas/?area_id=120100 HTTP/1.1" 200 839
+INFO 2021-11-15 10:12:13,442 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 10:12:21,375 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-15 10:12:23,893 log 228 Not Found: /favicon.ico
+WARNING 2021-11-15 10:12:23,894 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4556
+INFO 2021-11-15 10:12:23,949 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-15 10:12:25,157 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8715
+INFO 2021-11-15 10:12:25,480 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-15 10:12:28,795 basehttp 154 "GET /areas/?area_id=140000 HTTP/1.1" 200 603
+INFO 2021-11-15 10:14:52,167 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 10:14:59,138 basehttp 154 "GET /areas/?area_id=120000 HTTP/1.1" 200 143
+INFO 2021-11-15 10:15:01,159 basehttp 154 "GET /areas/?area_id=120100 HTTP/1.1" 200 839
+INFO 2021-11-15 10:15:36,218 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 10:15:41,006 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2021-11-15 10:15:41,932 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2021-11-15 10:15:52,844 basehttp 154 "GET /areas/?area_id=210000 HTTP/1.1" 200 747
+INFO 2021-11-15 10:15:58,670 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2021-11-15 10:18:05,459 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 10:18:07,515 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-15 10:18:10,671 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-15 10:18:11,670 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8715
+INFO 2021-11-15 10:18:11,799 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-15 10:18:16,136 basehttp 154 "GET /areas/?area_id=610000 HTTP/1.1" 200 557
+INFO 2021-11-15 10:18:17,480 basehttp 154 "GET /areas/?area_id=610100 HTTP/1.1" 200 689
+INFO 2021-11-15 10:20:35,179 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 10:20:36,432 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-15 10:20:39,937 basehttp 154 "GET /areas/?area_id=120000 HTTP/1.1" 200 143
+INFO 2021-11-15 10:20:40,925 basehttp 154 "GET /areas/?area_id=120100 HTTP/1.1" 200 839
+INFO 2021-11-15 10:22:37,814 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 10:22:42,224 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8715
+INFO 2021-11-15 10:22:42,399 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-15 10:22:45,383 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2021-11-15 10:22:46,111 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2021-11-15 10:23:13,033 basehttp 154 "GET /areas/?area_id=120000 HTTP/1.1" 200 143
+INFO 2021-11-15 10:23:14,166 basehttp 154 "GET /areas/?area_id=120100 HTTP/1.1" 200 839
+INFO 2021-11-15 10:24:16,422 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2021-11-15 10:24:17,895 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2021-11-15 10:24:22,571 basehttp 154 "GET /areas/?area_id=120000 HTTP/1.1" 200 143
+INFO 2021-11-15 10:24:25,161 basehttp 154 "GET /areas/?area_id=120100 HTTP/1.1" 200 839
+INFO 2021-11-15 10:24:29,389 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2021-11-15 10:24:35,455 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2021-11-15 10:24:38,755 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2021-11-15 10:48:25,147 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 10:48:33,710 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-15 10:48:36,451 log 228 Not Found: /favicon.ico
+WARNING 2021-11-15 10:48:36,452 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4556
+INFO 2021-11-15 10:48:36,560 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-15 10:48:38,402 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8723
+INFO 2021-11-15 10:48:38,543 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-15 10:48:45,646 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2021-11-15 10:48:46,688 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+WARNING 2021-11-15 10:49:09,006 log 228 Not Found: /addresses/create/
+WARNING 2021-11-15 10:49:09,006 basehttp 154 "POST /addresses/create/ HTTP/1.1" 404 4575
+WARNING 2021-11-15 10:49:10,707 log 228 Not Found: /addresses/create/
+WARNING 2021-11-15 10:49:10,709 basehttp 154 "GET /addresses/create/ HTTP/1.1" 404 4574
+INFO 2021-11-15 11:00:57,269 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 11:01:00,235 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-15 11:01:01,539 log 228 Not Found: /favicon.ico
+WARNING 2021-11-15 11:01:01,541 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4719
+INFO 2021-11-15 11:01:02,645 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-15 11:01:03,971 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8723
+INFO 2021-11-15 11:01:04,260 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-15 11:01:10,440 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2021-11-15 11:01:11,147 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+WARNING 2021-11-15 11:01:31,973 log 228 Not Found: /addresses/create/
+WARNING 2021-11-15 11:01:31,973 basehttp 154 "POST /addresses/create/ HTTP/1.1" 404 4738
+WARNING 2021-11-15 11:01:46,719 log 228 Not Found: /addresses/create/
+WARNING 2021-11-15 11:01:46,719 basehttp 154 "POST /addresses/create/ HTTP/1.1" 404 4738
+INFO 2021-11-15 11:02:41,457 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 11:03:25,526 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8723
+INFO 2021-11-15 11:03:25,699 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-15 11:03:25,703 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-15 11:03:25,723 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-15 11:03:25,731 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-15 11:03:25,784 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-15 11:03:25,843 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-15 11:03:25,849 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-15 11:03:25,849 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-15 11:03:25,878 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12045
+INFO 2021-11-15 11:03:25,934 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-15 11:03:25,962 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-15 11:03:36,100 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2021-11-15 11:03:36,727 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2021-11-15 11:04:45,450 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 11:04:50,268 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-15 11:04:51,776 log 228 Not Found: /favicon.ico
+WARNING 2021-11-15 11:04:51,778 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4720
+INFO 2021-11-15 11:04:52,574 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-15 11:04:55,509 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8723
+INFO 2021-11-15 11:04:55,627 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-15 11:04:59,977 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2021-11-15 11:05:01,020 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+ERROR 2021-11-15 11:05:10,732 log 228 Internal Server Error: /addresses/create/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.AddressCreateView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-15 11:05:10,734 basehttp 154 "POST /addresses/create/ HTTP/1.1" 500 65377
+INFO 2021-11-15 11:14:10,402 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 11:14:21,195 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-15 11:14:21,944 log 228 Not Found: /favicon.ico
+WARNING 2021-11-15 11:14:21,945 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4720
+INFO 2021-11-15 11:14:23,999 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-15 11:14:24,064 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2021-11-15 11:14:38,486 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-15 11:14:38,495 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-15 11:14:39,621 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-15 11:14:41,122 basehttp 154 "GET /qq/login/?next=/ HTTP/1.1" 200 200
+INFO 2021-11-15 11:14:43,759 basehttp 154 "GET /oauth_callback?code=0E80671587E327D811919596C39085B6&state=%2F HTTP/1.1" 301 0
+INFO 2021-11-15 11:14:44,871 basehttp 154 "GET /oauth_callback/?code=0E80671587E327D811919596C39085B6&state=%2F HTTP/1.1" 302 0
+INFO 2021-11-15 11:14:44,880 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-15 11:14:45,081 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 304 0
+WARNING 2021-11-15 11:14:45,553 log 228 Not Found: /favicon.ico
+WARNING 2021-11-15 11:14:45,554 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4726
+INFO 2021-11-15 11:14:54,656 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-15 11:14:54,666 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-15 11:14:56,034 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-15 11:14:56,107 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 7733
+INFO 2021-11-15 11:14:56,143 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-15 11:14:56,775 basehttp 154 "GET /image_codes/0bd5805b-69bf-4ca7-890f-6af5fc5875f3/ HTTP/1.1" 200 2964
+INFO 2021-11-15 11:32:36,602 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-15 11:32:43,266 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-15 11:32:44,404 log 228 Not Found: /favicon.ico
+WARNING 2021-11-15 11:32:44,405 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4720
+INFO 2021-11-15 11:32:46,502 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-15 11:32:51,801 basehttp 154 "POST /login/ HTTP/1.1" 200 3477
+INFO 2021-11-15 11:32:57,429 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-15 11:32:57,441 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-15 11:32:59,474 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-15 11:33:01,106 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8723
+INFO 2021-11-15 11:33:01,189 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2021-11-15 11:33:01,289 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-15 11:33:51,367 basehttp 154 "GET /areas/?area_id=610000 HTTP/1.1" 200 557
+INFO 2021-11-15 11:33:52,968 basehttp 154 "GET /areas/?area_id=610100 HTTP/1.1" 200 689
+INFO 2021-11-15 11:34:09,146 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 297
+INFO 2021-11-16 08:36:14,354 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 08:36:49,109 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 08:36:49,814 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 08:36:49,832 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 08:36:49,885 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 08:36:49,898 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 08:36:49,902 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 08:36:49,916 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-16 08:36:50,172 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 08:36:50,172 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-16 08:36:50,182 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-16 08:36:50,224 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 08:36:50,262 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-16 08:36:50,265 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-16 08:36:50,276 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-16 08:36:50,277 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-16 08:36:50,287 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-16 08:36:50,293 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-16 08:36:50,366 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 08:36:50,394 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-16 08:36:50,395 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-16 08:36:50,396 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-16 08:36:50,409 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-16 08:36:50,411 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-16 08:36:50,421 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-16 08:36:50,441 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-16 08:36:50,442 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-16 08:36:50,451 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+WARNING 2021-11-16 08:36:50,593 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 08:36:50,593 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4720
+INFO 2021-11-16 08:36:53,632 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+INFO 2021-11-16 08:36:53,728 basehttp 154 "GET /login/?next=/info/ HTTP/1.1" 200 3394
+INFO 2021-11-16 08:36:53,814 basehttp 154 "GET /static/images/2.png HTTP/1.1" 200 6015
+INFO 2021-11-16 08:36:53,822 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1394
+INFO 2021-11-16 08:36:53,843 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2021-11-16 08:36:53,844 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-16 08:36:53,846 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2021-11-16 08:37:00,959 basehttp 154 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2021-11-16 08:37:01,003 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 08:37:01,072 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2892
+INFO 2021-11-16 08:37:01,082 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 08:37:02,702 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8723
+INFO 2021-11-16 08:37:02,758 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12045
+INFO 2021-11-16 08:37:02,917 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 08:37:02,956 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 08:37:09,690 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2021-11-16 08:37:10,503 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2021-11-16 08:37:32,242 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 291
+INFO 2021-11-16 08:59:26,545 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 08:59:31,129 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 08:59:32,655 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 08:59:34,432 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8344
+INFO 2021-11-16 08:59:34,586 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 08:59:41,152 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8344
+INFO 2021-11-16 08:59:41,306 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 08:59:44,018 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-16 08:59:44,026 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 08:59:45,970 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-16 08:59:51,643 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-16 08:59:51,651 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 08:59:52,982 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 08:59:54,024 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8344
+INFO 2021-11-16 08:59:54,201 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 09:01:02,360 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 09:01:06,402 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8344
+INFO 2021-11-16 09:01:06,575 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 09:01:39,645 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\views.py changed, reloading.
+INFO 2021-11-16 09:01:41,326 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 09:01:44,728 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 09:01:46,706 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8344
+INFO 2021-11-16 09:01:46,867 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 09:03:47,237 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 09:03:49,280 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8344
+INFO 2021-11-16 09:03:49,454 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 09:03:49,460 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 09:03:49,467 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 09:03:49,476 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 09:03:49,535 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 09:03:49,544 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12045
+INFO 2021-11-16 09:03:49,560 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 09:03:49,587 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 09:03:49,588 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 09:03:49,725 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 09:03:49,745 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 09:04:08,940 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 09:04:14,301 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 09:04:15,616 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 09:04:15,617 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4720
+INFO 2021-11-16 09:04:16,534 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 09:04:17,981 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8344
+INFO 2021-11-16 09:04:18,150 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 09:04:27,506 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8344
+INFO 2021-11-16 09:04:27,675 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 09:04:27,695 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 09:04:27,712 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 09:04:27,715 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 09:04:27,865 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 09:04:27,892 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12045
+INFO 2021-11-16 09:04:27,914 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 09:04:27,917 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 09:04:27,920 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 09:04:28,086 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 09:04:28,100 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 09:04:29,264 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8344
+INFO 2021-11-16 09:04:29,328 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 09:04:29,329 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 09:04:29,352 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 09:04:29,354 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 09:04:29,451 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 09:04:29,452 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12045
+INFO 2021-11-16 09:04:29,464 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 09:04:29,506 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 09:04:29,507 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 09:04:29,668 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 09:04:29,673 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 09:04:29,989 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8344
+INFO 2021-11-16 09:04:30,249 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 09:04:30,250 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 09:04:30,271 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 09:04:30,278 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 09:04:30,368 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 09:04:30,375 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12045
+INFO 2021-11-16 09:04:30,387 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 09:04:30,455 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 09:04:30,455 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 09:04:30,600 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 09:04:30,608 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 09:04:30,929 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8344
+INFO 2021-11-16 09:04:31,180 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 09:04:31,181 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 09:04:31,205 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 09:04:31,207 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 09:04:31,294 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 09:04:31,305 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12045
+INFO 2021-11-16 09:04:31,317 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 09:04:31,377 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 09:04:31,378 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 09:04:31,589 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 09:04:31,597 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 09:11:51,243 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 09:11:54,452 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 09:11:56,556 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+WARNING 2021-11-16 09:11:56,565 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 09:11:56,567 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4720
+INFO 2021-11-16 09:11:56,581 basehttp 154 "GET /login/?next=/info/ HTTP/1.1" 200 3394
+INFO 2021-11-16 09:12:02,114 basehttp 154 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2021-11-16 09:12:02,156 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 09:12:03,509 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 09:12:05,899 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8340
+INFO 2021-11-16 09:12:06,044 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 09:12:31,154 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8340
+INFO 2021-11-16 09:12:31,327 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 09:12:31,333 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 09:12:31,348 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 09:12:31,357 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 09:12:31,475 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 09:12:31,480 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 09:12:31,481 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 09:12:31,483 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 09:12:31,501 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12045
+INFO 2021-11-16 09:12:31,583 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 09:12:31,614 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 09:14:05,289 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 09:14:11,595 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8358
+INFO 2021-11-16 09:14:11,637 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 09:14:11,638 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 09:14:11,659 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 09:14:11,662 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 09:14:11,748 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 09:14:11,790 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12045
+INFO 2021-11-16 09:14:11,810 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 09:14:11,819 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 09:14:11,825 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 09:14:11,883 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 09:14:11,892 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 09:18:52,849 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 09:18:56,569 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 09:18:57,810 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 09:18:57,811 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4720
+INFO 2021-11-16 09:18:59,767 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 09:19:01,733 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7992
+WARNING 2021-11-16 09:19:04,243 log 228 Not Found: /addresses/user_center_order.html
+WARNING 2021-11-16 09:19:04,244 basehttp 154 "GET /addresses/user_center_order.html HTTP/1.1" 404 4783
+INFO 2021-11-16 09:19:07,020 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7992
+INFO 2021-11-16 09:19:08,859 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7992
+INFO 2021-11-16 09:19:09,944 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7992
+INFO 2021-11-16 09:19:10,124 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7992
+INFO 2021-11-16 09:19:36,536 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7992
+INFO 2021-11-16 09:20:06,366 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7992
+INFO 2021-11-16 09:20:06,763 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 09:20:07,542 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7992
+WARNING 2021-11-16 09:20:27,889 base 102 Method Not Allowed (GET): /addresses/create/
+WARNING 2021-11-16 09:20:27,891 log 228 Method Not Allowed: /addresses/create/
+WARNING 2021-11-16 09:20:27,892 basehttp 154 "GET /addresses/create/ HTTP/1.1" 405 0
+WARNING 2021-11-16 09:20:29,652 base 102 Method Not Allowed (GET): /addresses/create/
+WARNING 2021-11-16 09:20:29,653 log 228 Method Not Allowed: /addresses/create/
+WARNING 2021-11-16 09:20:29,654 basehttp 154 "GET /addresses/create/ HTTP/1.1" 405 0
+INFO 2021-11-16 09:20:56,143 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 09:21:01,070 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 09:21:02,236 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 09:21:02,237 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4720
+WARNING 2021-11-16 09:21:11,805 base 102 Method Not Allowed (GET): /addresses/create/
+WARNING 2021-11-16 09:21:11,806 log 228 Method Not Allowed: /addresses/create/
+WARNING 2021-11-16 09:21:11,807 basehttp 154 "GET /addresses/create/ HTTP/1.1" 405 0
+WARNING 2021-11-16 09:21:13,330 base 102 Method Not Allowed (GET): /addresses/create/
+WARNING 2021-11-16 09:21:13,332 log 228 Method Not Allowed: /addresses/create/
+WARNING 2021-11-16 09:21:13,332 basehttp 154 "GET /addresses/create/ HTTP/1.1" 405 0
+INFO 2021-11-16 09:21:27,500 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 09:21:29,612 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 09:21:29,613 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4720
+INFO 2021-11-16 09:21:29,858 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 09:21:31,589 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7992
+INFO 2021-11-16 09:23:35,828 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 09:28:07,861 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 09:28:09,265 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 09:28:10,937 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 09:28:12,073 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8172
+INFO 2021-11-16 09:28:13,655 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8172
+INFO 2021-11-16 09:28:14,075 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8172
+INFO 2021-11-16 09:28:14,241 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8172
+INFO 2021-11-16 09:32:44,104 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 09:32:45,580 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 09:32:47,688 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 09:32:48,597 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8187
+INFO 2021-11-16 09:32:49,955 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8187
+INFO 2021-11-16 09:33:28,545 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 09:33:31,444 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8184
+INFO 2021-11-16 09:33:31,506 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 09:33:31,510 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 09:33:31,518 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 09:33:31,526 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 09:33:31,564 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 09:33:31,584 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12045
+INFO 2021-11-16 09:33:31,600 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 09:33:31,628 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 09:33:31,628 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 09:33:31,725 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 09:33:31,741 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 09:33:50,321 basehttp 154 "GET /areas/?area_id=140000 HTTP/1.1" 200 603
+INFO 2021-11-16 09:33:51,250 basehttp 154 "GET /areas/?area_id=140100 HTTP/1.1" 200 575
+INFO 2021-11-16 09:34:11,481 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 309
+INFO 2021-11-16 09:34:15,953 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8368
+INFO 2021-11-16 09:34:16,131 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 09:36:26,057 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 09:36:28,753 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 09:36:29,950 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 09:36:29,950 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4720
+INFO 2021-11-16 09:36:31,135 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 09:36:33,112 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8368
+INFO 2021-11-16 09:36:33,242 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 09:36:45,018 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8368
+INFO 2021-11-16 09:36:45,153 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 09:36:45,154 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 09:36:45,158 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 09:36:45,160 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 09:36:45,225 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 09:36:45,233 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12045
+INFO 2021-11-16 09:36:45,257 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 09:36:45,283 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 09:36:45,283 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 09:36:45,379 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 09:36:45,405 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 14:39:38,196 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 14:39:47,561 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 14:39:48,028 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 14:39:48,028 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4720
+INFO 2021-11-16 14:39:50,113 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+INFO 2021-11-16 14:39:50,170 basehttp 154 "GET /login/?next=/info/ HTTP/1.1" 200 3394
+INFO 2021-11-16 14:40:13,995 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 14:40:15,062 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-16 14:40:22,624 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-16 14:40:22,630 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 14:40:39,017 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 14:40:39,110 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 304 0
+INFO 2021-11-16 14:40:40,517 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8368
+INFO 2021-11-16 14:40:40,573 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2021-11-16 14:40:40,695 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 14:43:55,358 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 14:43:57,614 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 14:43:59,955 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 14:43:59,956 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4720
+INFO 2021-11-16 14:44:00,324 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-16 14:44:00,334 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 14:44:02,391 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-16 14:44:02,492 basehttp 154 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
+INFO 2021-11-16 14:44:02,498 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 7733
+INFO 2021-11-16 14:44:02,502 basehttp 154 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2021-11-16 14:44:02,950 basehttp 154 "GET /image_codes/60ff1d57-7f54-4c22-9266-ca306bf8d3b6/ HTTP/1.1" 200 3226
+INFO 2021-11-16 14:44:07,721 basehttp 154 "GET /usernames/cbhaichishi/count/ HTTP/1.1" 200 41
+INFO 2021-11-16 14:44:31,866 basehttp 154 "GET /mobile/15229028723/count/ HTTP/1.1" 200 41
+INFO 2021-11-16 14:44:33,236 basehttp 154 "GET /image_codes/08d57774-bda5-489b-82d9-46bada1c4397/ HTTP/1.1" 200 3100
+INFO 2021-11-16 14:45:23,634 basehttp 154 "GET /sms_codes/15229028723/?uuid=08d57774-bda5-489b-82d9-46bada1c4397&image_code=gww3 HTTP/1.1" 200 81
+INFO 2021-11-16 14:45:34,943 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-11-16 14:45:34,976 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 14:45:36,541 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-16 14:45:45,668 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-16 14:45:45,675 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 14:45:47,311 basehttp 154 "GET /info/ HTTP/1.1" 200 5630
+INFO 2021-11-16 14:45:48,693 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7992
+INFO 2021-11-16 14:45:51,332 basehttp 154 "GET /info/ HTTP/1.1" 200 5630
+INFO 2021-11-16 14:45:54,889 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7992
+INFO 2021-11-16 14:46:06,041 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-16 14:46:06,047 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 14:46:07,391 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-16 14:46:14,213 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-16 14:46:14,219 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 14:46:17,184 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-16 14:46:17,190 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 14:46:18,654 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-16 14:46:19,681 basehttp 154 "GET /qq/login/?next=/ HTTP/1.1" 200 200
+INFO 2021-11-16 14:46:21,991 basehttp 154 "GET /oauth_callback?code=4942CC8DF819A988DF0C18BF60C708BC&state=%2F HTTP/1.1" 301 0
+INFO 2021-11-16 14:46:22,995 basehttp 154 "GET /oauth_callback/?code=4942CC8DF819A988DF0C18BF60C708BC&state=%2F HTTP/1.1" 302 0
+INFO 2021-11-16 14:46:23,003 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 14:46:23,120 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 14:46:23,178 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 14:46:23,181 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-16 14:46:23,191 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 14:46:23,200 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 14:46:23,218 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 14:46:23,229 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-16 14:46:23,234 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 14:46:23,246 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-16 14:46:23,246 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-16 14:46:23,251 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-16 14:46:23,258 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-16 14:46:23,294 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-16 14:46:23,296 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-16 14:46:23,301 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 14:46:23,316 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-16 14:46:23,316 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-16 14:46:23,342 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-16 14:46:23,344 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-16 14:46:23,363 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-16 14:46:23,365 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-16 14:46:23,365 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-16 14:46:23,391 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-16 14:46:23,392 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-16 14:46:23,432 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+WARNING 2021-11-16 14:46:23,513 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 14:46:23,514 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4726
+INFO 2021-11-16 14:46:24,912 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 14:46:24,996 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 14:46:25,003 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2892
+INFO 2021-11-16 14:46:26,477 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8368
+INFO 2021-11-16 14:46:26,526 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12045
+INFO 2021-11-16 14:46:26,570 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 14:46:26,639 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 14:55:14,925 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 14:55:20,162 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 14:55:21,539 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 14:55:21,540 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4720
+INFO 2021-11-16 14:55:22,022 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-16 14:55:28,015 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-16 14:55:28,024 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 14:55:29,502 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 14:55:30,601 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8372
+INFO 2021-11-16 14:55:30,706 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 14:57:26,890 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 14:57:29,194 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 14:57:30,662 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 14:57:30,663 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4720
+INFO 2021-11-16 14:57:31,116 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 14:57:32,053 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8372
+INFO 2021-11-16 14:57:32,164 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 14:57:59,638 basehttp 154 "GET /areas/?area_id=130000 HTTP/1.1" 200 703
+INFO 2021-11-16 14:58:00,612 basehttp 154 "GET /areas/?area_id=130200 HTTP/1.1" 200 741
+INFO 2021-11-16 14:59:02,926 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 14:59:29,395 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 14:59:32,087 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 14:59:32,847 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 14:59:32,848 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4720
+INFO 2021-11-16 14:59:34,360 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 14:59:36,337 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8372
+INFO 2021-11-16 14:59:36,454 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 14:59:48,271 basehttp 154 "GET /areas/?area_id=120000 HTTP/1.1" 200 143
+INFO 2021-11-16 14:59:49,334 basehttp 154 "GET /areas/?area_id=120100 HTTP/1.1" 200 839
+INFO 2021-11-16 15:04:15,695 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 15:04:17,849 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 15:04:18,751 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 15:04:18,752 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4720
+INFO 2021-11-16 15:04:21,090 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 15:04:22,794 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8372
+INFO 2021-11-16 15:04:22,900 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 15:04:31,377 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2021-11-16 15:04:32,285 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2021-11-16 15:15:42,586 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 15:17:53,555 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 15:18:29,089 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 15:18:32,807 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 15:18:34,753 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 15:18:34,753 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4905
+INFO 2021-11-16 15:18:34,829 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 15:18:36,093 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8372
+INFO 2021-11-16 15:18:36,251 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 15:18:50,358 basehttp 154 "GET /areas/?area_id=120000 HTTP/1.1" 200 143
+INFO 2021-11-16 15:18:51,201 basehttp 154 "GET /areas/?area_id=120100 HTTP/1.1" 200 839
+INFO 2021-11-16 15:32:27,272 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 15:32:30,913 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 15:32:33,241 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 15:32:34,104 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8410
+INFO 2021-11-16 15:32:34,214 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 15:32:59,963 basehttp 154 "GET /areas/?area_id=120000 HTTP/1.1" 200 143
+INFO 2021-11-16 15:33:00,878 basehttp 154 "GET /areas/?area_id=120100 HTTP/1.1" 200 839
+INFO 2021-11-16 15:34:48,415 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 15:34:49,991 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 15:34:52,182 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 15:34:53,556 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8410
+INFO 2021-11-16 15:34:53,661 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 15:36:15,494 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 15:37:33,702 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 15:37:35,173 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 15:37:36,614 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 15:37:38,106 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8410
+INFO 2021-11-16 15:37:38,212 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 15:39:15,272 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 15:39:16,606 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 15:39:18,050 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 15:39:20,000 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7525
+INFO 2021-11-16 15:39:20,120 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 15:39:33,879 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2021-11-16 15:39:35,835 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+ERROR 2021-11-16 15:39:37,520 log 228 Internal Server Error: /addresses/3/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UpdateAddressView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-16 15:39:37,521 basehttp 154 "PUT /addresses/3/ HTTP/1.1" 500 65414
+INFO 2021-11-16 15:41:19,254 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 15:41:26,673 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7533
+INFO 2021-11-16 15:41:26,764 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 15:41:26,776 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 15:41:26,781 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 15:41:26,845 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 15:41:26,852 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 15:41:26,863 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 15:41:26,865 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12045
+INFO 2021-11-16 15:41:26,919 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 15:41:26,920 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 15:41:26,998 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 15:41:26,998 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 15:41:35,987 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2021-11-16 15:41:36,667 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+ERROR 2021-11-16 15:41:39,044 log 228 Internal Server Error: /addresses/1/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UpdateAddressView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-16 15:41:39,044 basehttp 154 "PUT /addresses/1/ HTTP/1.1" 500 65414
+INFO 2021-11-16 15:41:56,422 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7533
+INFO 2021-11-16 15:41:56,580 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 15:42:31,612 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 15:42:33,521 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 15:42:34,933 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 15:42:36,194 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7531
+INFO 2021-11-16 15:42:36,296 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 15:43:07,885 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 15:43:11,093 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 15:43:14,438 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 15:43:15,152 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 15:43:15,152 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4905
+INFO 2021-11-16 15:43:16,457 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 15:43:18,908 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7533
+INFO 2021-11-16 15:43:19,025 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 15:43:24,019 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2021-11-16 15:43:24,652 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+ERROR 2021-11-16 15:43:27,804 log 228 Internal Server Error: /addresses/3/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UpdateAddressView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-16 15:43:27,805 basehttp 154 "PUT /addresses/3/ HTTP/1.1" 500 65414
+INFO 2021-11-16 15:43:35,582 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7533
+INFO 2021-11-16 15:43:35,722 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 15:45:15,509 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 15:45:17,883 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 15:45:18,899 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 15:45:18,900 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4905
+INFO 2021-11-16 15:45:19,908 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 15:45:21,552 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7533
+INFO 2021-11-16 15:45:21,701 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 15:45:26,156 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2021-11-16 15:45:26,852 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+ERROR 2021-11-16 15:45:28,751 log 228 Internal Server Error: /addresses/3/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UpdateAddressView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-11-16 15:45:28,752 basehttp 154 "PUT /addresses/3/ HTTP/1.1" 500 65414
+INFO 2021-11-16 15:58:40,455 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 15:59:14,310 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 15:59:16,374 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+WARNING 2021-11-16 15:59:16,392 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 15:59:16,393 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4905
+WARNING 2021-11-16 15:59:16,734 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 15:59:16,735 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4905
+INFO 2021-11-16 15:59:17,627 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7533
+INFO 2021-11-16 15:59:17,759 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 15:59:31,946 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2021-11-16 15:59:32,710 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+WARNING 2021-11-16 15:59:34,565 log 228 Forbidden: /addresses/1/
+WARNING 2021-11-16 15:59:34,565 basehttp 154 "PUT /addresses/1/ HTTP/1.1" 403 15
+INFO 2021-11-16 15:59:52,546 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7533
+INFO 2021-11-16 15:59:52,708 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 15:59:54,951 basehttp 154 "GET /areas/?area_id=120000 HTTP/1.1" 200 143
+INFO 2021-11-16 15:59:57,672 basehttp 154 "GET /areas/?area_id=120100 HTTP/1.1" 200 839
+INFO 2021-11-16 15:59:59,309 basehttp 154 "PUT /addresses/3/ HTTP/1.1" 200 309
+INFO 2021-11-16 16:00:05,098 basehttp 154 "GET /areas/?area_id=130000 HTTP/1.1" 200 703
+INFO 2021-11-16 16:00:05,767 basehttp 154 "GET /areas/?area_id=130300 HTTP/1.1" 200 461
+WARNING 2021-11-16 16:00:07,627 log 228 Forbidden: /addresses/1/
+WARNING 2021-11-16 16:00:07,628 basehttp 154 "PUT /addresses/1/ HTTP/1.1" 403 15
+INFO 2021-11-16 16:01:58,690 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7533
+INFO 2021-11-16 16:01:58,778 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 16:01:58,790 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 16:01:58,795 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 16:01:58,810 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 16:01:58,884 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 16:01:58,887 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 16:01:58,891 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 16:01:58,891 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 16:01:58,902 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12045
+INFO 2021-11-16 16:01:58,939 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 16:01:58,984 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 16:02:06,753 basehttp 154 "GET /areas/?area_id=110000 HTTP/1.1" 200 143
+INFO 2021-11-16 16:02:07,490 basehttp 154 "GET /areas/?area_id=110100 HTTP/1.1" 200 845
+INFO 2021-11-16 16:02:09,579 basehttp 154 "PUT /addresses/1/ HTTP/1.1" 200 276
+INFO 2021-11-16 16:02:30,240 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7505
+INFO 2021-11-16 16:02:30,286 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 16:02:30,288 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 16:02:30,296 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 16:02:30,299 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 16:02:30,373 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 16:02:30,376 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12045
+INFO 2021-11-16 16:02:30,385 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 16:02:30,405 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 16:02:30,405 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 16:02:30,451 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 16:02:30,457 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 16:03:29,111 basehttp 154 "GET /areas/?area_id=320000 HTTP/1.1" 200 701
+INFO 2021-11-16 16:03:30,136 basehttp 154 "GET /areas/?area_id=320500 HTTP/1.1" 200 517
+INFO 2021-11-16 16:03:43,448 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 303
+INFO 2021-11-16 16:13:06,342 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 16:13:12,637 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7708
+INFO 2021-11-16 16:13:12,712 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 16:13:12,713 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 16:13:12,729 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 16:13:12,735 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 16:13:12,803 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 16:13:12,808 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12045
+INFO 2021-11-16 16:13:12,819 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 16:13:12,841 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 16:13:12,841 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 16:13:12,898 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 16:13:12,902 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 16:13:20,390 basehttp 154 "GET /areas/?area_id=130000 HTTP/1.1" 200 703
+INFO 2021-11-16 16:13:21,621 basehttp 154 "GET /areas/?area_id=130900 HTTP/1.1" 200 839
+INFO 2021-11-16 16:13:25,103 basehttp 154 "PUT /addresses/4/ HTTP/1.1" 200 327
+INFO 2021-11-16 16:15:22,838 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 16:15:27,476 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 16:15:28,359 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 16:15:28,360 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4905
+INFO 2021-11-16 16:15:30,317 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 16:15:31,977 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7720
+INFO 2021-11-16 16:15:32,072 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2021-11-16 16:15:38,468 base 102 Method Not Allowed (DELETE): /addresses/4/
+WARNING 2021-11-16 16:15:38,468 log 228 Method Not Allowed: /addresses/4/
+WARNING 2021-11-16 16:15:38,468 basehttp 154 "DELETE /addresses/4/ HTTP/1.1" 405 0
+INFO 2021-11-16 16:16:36,246 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 16:16:37,117 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 16:16:37,118 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4905
+INFO 2021-11-16 16:16:38,665 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 16:16:39,995 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7720
+INFO 2021-11-16 16:16:40,106 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+WARNING 2021-11-16 16:16:42,951 base 102 Method Not Allowed (DELETE): /addresses/4/
+WARNING 2021-11-16 16:16:42,952 log 228 Method Not Allowed: /addresses/4/
+WARNING 2021-11-16 16:16:42,952 basehttp 154 "DELETE /addresses/4/ HTTP/1.1" 405 0
+INFO 2021-11-16 16:19:20,442 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 16:19:35,946 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 16:19:38,023 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 16:19:38,781 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 16:19:38,782 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 4905
+INFO 2021-11-16 16:19:39,934 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 16:19:41,132 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7720
+INFO 2021-11-16 16:19:41,239 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 16:19:48,242 basehttp 154 "DELETE /addresses/4/ HTTP/1.1" 200 63
+INFO 2021-11-16 16:20:15,863 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7720
+INFO 2021-11-16 16:20:16,032 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 16:35:21,696 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 16:35:28,950 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 16:35:29,512 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 16:35:29,513 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 5098
+INFO 2021-11-16 16:35:30,912 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 16:35:32,059 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7720
+INFO 2021-11-16 16:35:32,168 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 16:35:34,099 basehttp 154 "PUT /addresses/4/default/ HTTP/1.1" 200 75
+INFO 2021-11-16 16:35:35,638 basehttp 154 "PUT /addresses/3/default/ HTTP/1.1" 200 75
+INFO 2021-11-16 16:35:36,992 basehttp 154 "PUT /addresses/1/default/ HTTP/1.1" 200 75
+INFO 2021-11-16 16:35:40,159 basehttp 154 "PUT /addresses/3/default/ HTTP/1.1" 200 75
+INFO 2021-11-16 16:35:48,489 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7720
+INFO 2021-11-16 16:35:48,651 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 16:35:48,659 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 16:35:48,664 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 16:35:48,669 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 16:35:48,675 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 16:35:48,690 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12045
+INFO 2021-11-16 16:35:48,692 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 16:35:48,765 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 16:35:48,765 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 16:35:48,811 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 16:35:48,824 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 16:35:56,367 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7720
+INFO 2021-11-16 16:35:56,418 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 16:35:56,419 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 16:35:56,434 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 16:35:56,437 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 16:35:56,500 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 16:35:56,510 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12045
+INFO 2021-11-16 16:35:56,518 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 16:35:56,564 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 16:35:56,567 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 16:35:56,663 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 16:35:56,671 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 16:35:59,499 basehttp 154 "PUT /addresses/4/default/ HTTP/1.1" 200 75
+INFO 2021-11-16 16:36:08,512 basehttp 154 "PUT /addresses/1/default/ HTTP/1.1" 200 75
+INFO 2021-11-16 16:46:26,453 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 16:46:28,591 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 16:46:29,246 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 16:46:29,246 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 5098
+INFO 2021-11-16 16:46:32,162 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 16:46:33,407 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7720
+INFO 2021-11-16 16:46:33,535 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 16:55:59,661 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 16:56:16,596 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 16:56:17,436 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 16:56:17,438 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 5098
+INFO 2021-11-16 16:56:18,674 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+WARNING 2021-11-16 16:56:20,372 log 228 Not Found: /info/user_center_pass.html
+WARNING 2021-11-16 16:56:20,373 basehttp 154 "GET /info/user_center_pass.html HTTP/1.1" 404 5143
+WARNING 2021-11-16 16:56:22,105 log 228 Not Found: /info/user_center_order.html
+WARNING 2021-11-16 16:56:22,105 basehttp 154 "GET /info/user_center_order.html HTTP/1.1" 404 5146
+INFO 2021-11-16 16:56:23,900 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7720
+INFO 2021-11-16 16:56:24,008 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 16:56:25,527 basehttp 154 "PUT /addresses/4/default/ HTTP/1.1" 200 75
+INFO 2021-11-16 16:56:26,876 basehttp 154 "PUT /addresses/3/default/ HTTP/1.1" 200 75
+INFO 2021-11-16 16:56:28,090 basehttp 154 "PUT /addresses/1/default/ HTTP/1.1" 200 75
+INFO 2021-11-16 16:56:29,849 basehttp 154 "PUT /addresses/4/default/ HTTP/1.1" 200 75
+INFO 2021-11-16 16:56:31,275 basehttp 154 "PUT /addresses/3/default/ HTTP/1.1" 200 75
+INFO 2021-11-16 16:56:32,851 basehttp 154 "DELETE /addresses/4/ HTTP/1.1" 200 63
+INFO 2021-11-16 16:56:34,662 basehttp 154 "DELETE /addresses/3/ HTTP/1.1" 200 63
+INFO 2021-11-16 16:56:35,704 basehttp 154 "DELETE /addresses/1/ HTTP/1.1" 200 63
+INFO 2021-11-16 16:56:37,045 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7116
+INFO 2021-11-16 16:56:37,167 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 16:56:38,065 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7116
+INFO 2021-11-16 16:56:38,160 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 16:56:38,550 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7116
+INFO 2021-11-16 16:56:38,630 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 16:56:38,724 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7116
+INFO 2021-11-16 16:56:38,831 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 16:56:42,161 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7116
+INFO 2021-11-16 16:56:42,265 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 16:56:51,615 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7116
+INFO 2021-11-16 16:56:51,692 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 16:56:52,387 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7116
+INFO 2021-11-16 16:56:52,463 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 16:56:55,857 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-16 16:56:55,865 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 16:56:56,867 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-16 16:57:01,589 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-16 16:57:01,597 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 16:57:03,169 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 16:57:04,090 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7116
+INFO 2021-11-16 16:57:04,208 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 16:57:05,854 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-16 16:57:05,861 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 16:57:28,252 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-16 16:57:34,491 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-16 16:57:34,498 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 16:58:23,585 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-16 16:58:23,590 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 16:58:25,416 basehttp 154 "GET /register/ HTTP/1.1" 200 5726
+INFO 2021-11-16 16:58:26,455 basehttp 154 "GET /image_codes/cb842dae-deff-4b19-aafc-ca988fe0de36/ HTTP/1.1" 200 3398
+INFO 2021-11-16 16:58:27,798 basehttp 154 "GET /usernames/cbhaichishi/count/ HTTP/1.1" 200 41
+INFO 2021-11-16 16:58:37,286 basehttp 154 "GET /mobile/17764713162/count/ HTTP/1.1" 200 41
+INFO 2021-11-16 16:58:42,907 basehttp 154 "GET /mobile/15229028723/count/ HTTP/1.1" 200 41
+INFO 2021-11-16 16:59:25,056 basehttp 154 "GET /sms_codes/15229028723/?uuid=cb842dae-deff-4b19-aafc-ca988fe0de36&image_code=zpfj HTTP/1.1" 200 81
+INFO 2021-11-16 16:59:50,437 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-11-16 16:59:50,443 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 16:59:51,837 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-16 16:59:56,376 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-16 16:59:56,382 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 16:59:57,438 basehttp 154 "GET /info/ HTTP/1.1" 200 5630
+INFO 2021-11-16 16:59:58,863 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7119
+INFO 2021-11-16 17:00:00,221 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7119
+INFO 2021-11-16 17:00:01,083 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7119
+INFO 2021-11-16 17:00:01,283 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7119
+INFO 2021-11-16 17:00:01,470 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7119
+INFO 2021-11-16 17:00:01,638 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7119
+INFO 2021-11-16 17:00:01,829 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7119
+INFO 2021-11-16 17:00:02,277 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7119
+INFO 2021-11-16 17:00:02,465 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7119
+INFO 2021-11-16 17:02:12,140 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:02:15,223 basehttp 154 "GET /info/ HTTP/1.1" 200 5630
+INFO 2021-11-16 17:02:15,299 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:02:15,310 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:02:15,316 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:02:15,337 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:02:15,341 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:02:15,351 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2892
+INFO 2021-11-16 17:02:15,362 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 17:02:15,388 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 17:02:15,389 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 17:02:17,900 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-16 17:02:17,908 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 17:02:19,626 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-16 17:02:26,725 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-16 17:02:26,735 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 17:02:28,121 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 17:02:29,743 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7116
+INFO 2021-11-16 17:02:29,838 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:03:25,483 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-16 17:03:25,490 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 17:03:25,535 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:03:25,536 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:03:25,544 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:03:25,548 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:03:25,641 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:03:25,659 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-16 17:03:25,667 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-16 17:03:25,675 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 17:03:25,700 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-16 17:03:25,709 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-16 17:03:25,710 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-16 17:03:25,780 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-16 17:03:25,781 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-16 17:03:25,782 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-16 17:03:25,795 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-16 17:03:25,852 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 17:03:25,873 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-16 17:03:25,877 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-16 17:03:25,952 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-16 17:03:25,952 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-16 17:03:25,964 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-16 17:03:26,039 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-16 17:03:26,048 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-16 17:03:26,103 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-16 17:03:26,104 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-16 17:03:26,980 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-16 17:03:27,018 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:03:27,018 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:03:27,028 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:03:27,031 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:03:27,082 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:03:27,110 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 1394
+INFO 2021-11-16 17:03:27,114 basehttp 154 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2021-11-16 17:03:27,114 basehttp 154 "GET /static/images/2.png HTTP/1.1" 200 6015
+INFO 2021-11-16 17:03:27,145 basehttp 154 "GET /static/images/QQ-weixin.png HTTP/1.1" 200 1816
+INFO 2021-11-16 17:03:27,187 basehttp 154 "GET /static/images/login_banner.png HTTP/1.1" 200 319312
+INFO 2021-11-16 17:03:33,897 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-16 17:03:33,906 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 17:03:33,942 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:03:33,942 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:03:33,976 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:03:33,977 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-11-16 17:03:33,980 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:03:34,044 basehttp 154 "GET /static/js/slide.js HTTP/1.1" 200 1822
+INFO 2021-11-16 17:03:34,045 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:03:34,063 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 17:03:34,063 basehttp 154 "GET /static/images/goods/goods002.jpg HTTP/1.1" 200 5377
+INFO 2021-11-16 17:03:34,064 basehttp 154 "GET /static/images/goods/goods001.jpg HTTP/1.1" 200 5391
+INFO 2021-11-16 17:03:34,065 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 1143
+INFO 2021-11-16 17:03:34,066 basehttp 154 "GET /static/images/slide01.jpg HTTP/1.1" 200 67813
+INFO 2021-11-16 17:03:34,067 basehttp 154 "GET /static/images/slide02.jpg HTTP/1.1" 200 89905
+INFO 2021-11-16 17:03:34,073 basehttp 154 "GET /static/images/adv01.jpg HTTP/1.1" 200 39831
+INFO 2021-11-16 17:03:34,076 basehttp 154 "GET /static/images/slide03.jpg HTTP/1.1" 200 70152
+INFO 2021-11-16 17:03:34,078 basehttp 154 "GET /static/images/goods/goods004.jpg HTTP/1.1" 200 6565
+INFO 2021-11-16 17:03:34,079 basehttp 154 "GET /static/images/banner01.jpg HTTP/1.1" 200 23658
+INFO 2021-11-16 17:03:34,079 basehttp 154 "GET /static/images/slide04.jpg HTTP/1.1" 200 107973
+INFO 2021-11-16 17:03:34,079 basehttp 154 "GET /static/images/goods/goods003.jpg HTTP/1.1" 200 8579
+INFO 2021-11-16 17:03:34,083 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 17:03:34,093 basehttp 154 "GET /static/images/goods/goods005.jpg HTTP/1.1" 200 7578
+INFO 2021-11-16 17:03:34,098 basehttp 154 "GET /static/images/banner02.jpg HTTP/1.1" 200 26729
+INFO 2021-11-16 17:03:34,100 basehttp 154 "GET /static/images/goods/goods008.jpg HTTP/1.1" 200 7072
+INFO 2021-11-16 17:03:34,101 basehttp 154 "GET /static/images/banner03.jpg HTTP/1.1" 200 22681
+INFO 2021-11-16 17:03:34,101 basehttp 154 "GET /static/images/goods/goods009.jpg HTTP/1.1" 200 8738
+INFO 2021-11-16 17:03:35,489 basehttp 154 "GET /info/ HTTP/1.1" 200 5630
+INFO 2021-11-16 17:03:35,532 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:03:35,533 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:03:35,543 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:03:35,547 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:03:35,613 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:03:35,614 basehttp 154 "GET /static/js/user_center_info.js HTTP/1.1" 200 2892
+INFO 2021-11-16 17:03:35,615 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 17:03:35,635 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 17:03:35,635 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 17:03:36,520 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7119
+INFO 2021-11-16 17:03:36,565 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:03:36,566 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:03:36,577 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:03:36,580 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:03:36,630 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:03:36,640 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 17:03:36,663 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 17:03:36,663 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 17:03:36,710 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12161
+INFO 2021-11-16 17:03:52,118 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7119
+INFO 2021-11-16 17:03:52,159 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:03:52,159 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:03:52,166 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:03:52,169 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:03:52,245 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:03:52,256 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12161
+INFO 2021-11-16 17:03:52,258 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 17:03:52,261 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 17:03:52,264 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 17:05:08,904 basehttp 154 "GET /info/ HTTP/1.1" 200 5630
+INFO 2021-11-16 17:05:12,063 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-16 17:05:12,069 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 17:05:12,993 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-16 17:05:18,033 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-16 17:05:18,041 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 17:05:19,028 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 17:05:20,138 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7116
+INFO 2021-11-16 17:05:20,228 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:13:57,428 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:13:59,758 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 17:14:01,393 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 17:14:02,446 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7116
+INFO 2021-11-16 17:14:02,486 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2021-11-16 17:14:02,556 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:14:22,855 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7720
+INFO 2021-11-16 17:14:22,963 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:14:24,583 basehttp 154 "PUT /addresses/1/default/ HTTP/1.1" 200 75
+INFO 2021-11-16 17:14:26,731 basehttp 154 "PUT /addresses/4/default/ HTTP/1.1" 200 75
+INFO 2021-11-16 17:20:41,099 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:20:43,522 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 17:20:44,640 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 17:20:44,641 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 5098
+INFO 2021-11-16 17:20:46,191 basehttp 154 "GET /info/ HTTP/1.1" 302 0
+INFO 2021-11-16 17:20:46,208 basehttp 154 "GET /login/?next=/info/ HTTP/1.1" 200 3394
+INFO 2021-11-16 17:20:51,397 basehttp 154 "POST /login/?next=/info/ HTTP/1.1" 302 0
+INFO 2021-11-16 17:20:51,431 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 17:20:53,426 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7720
+INFO 2021-11-16 17:20:53,492 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2021-11-16 17:20:53,571 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:27:14,759 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:27:19,820 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7715
+INFO 2021-11-16 17:27:19,906 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:27:19,945 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:27:19,963 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:27:19,978 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:27:19,992 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:27:20,020 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 17:27:20,080 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 17:27:20,085 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 17:27:20,103 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12161
+INFO 2021-11-16 17:27:20,156 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:27:20,194 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 17:27:59,706 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7715
+INFO 2021-11-16 17:27:59,782 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:27:59,782 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:27:59,788 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:27:59,790 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:27:59,861 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:27:59,861 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12161
+INFO 2021-11-16 17:27:59,876 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 17:27:59,908 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 17:27:59,909 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 17:27:59,978 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:27:59,987 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 17:28:05,752 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7715
+INFO 2021-11-16 17:28:05,842 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:28:05,849 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:28:05,870 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:28:05,872 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:28:05,963 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:28:05,972 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12161
+INFO 2021-11-16 17:28:05,975 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 17:28:06,027 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 17:28:06,027 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 17:28:06,121 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:28:06,132 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 17:29:23,411 basehttp 154 "PUT /addresses/1/default/ HTTP/1.1" 200 75
+INFO 2021-11-16 17:29:30,175 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7715
+INFO 2021-11-16 17:29:30,229 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:29:30,230 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:29:30,254 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:29:30,256 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:29:30,317 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:29:30,327 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12161
+INFO 2021-11-16 17:29:30,339 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 17:29:30,364 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 17:29:30,366 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 17:29:30,433 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:29:30,439 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 17:29:50,299 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:29:52,289 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7715
+INFO 2021-11-16 17:29:52,351 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:29:52,353 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:29:52,353 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:29:52,355 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:29:52,423 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:29:52,424 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12043
+INFO 2021-11-16 17:29:52,442 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 17:29:52,471 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 17:29:52,475 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 17:29:52,535 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:29:52,538 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+WARNING 2021-11-16 17:29:54,361 log 228 Not Found: /addresses/1/title/
+WARNING 2021-11-16 17:29:54,362 basehttp 154 "PUT /addresses/1/title/ HTTP/1.1" 404 5119
+WARNING 2021-11-16 17:30:13,765 log 228 Not Found: /addresses/1/title/
+WARNING 2021-11-16 17:30:13,766 basehttp 154 "PUT /addresses/1/title/ HTTP/1.1" 404 5119
+WARNING 2021-11-16 17:30:14,408 log 228 Not Found: /addresses/1/title/
+WARNING 2021-11-16 17:30:14,409 basehttp 154 "PUT /addresses/1/title/ HTTP/1.1" 404 5119
+INFO 2021-11-16 17:33:47,888 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\urls.py changed, reloading.
+INFO 2021-11-16 17:33:48,462 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:34:12,182 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:34:19,408 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 17:34:21,727 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+INFO 2021-11-16 17:34:22,726 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7712
+INFO 2021-11-16 17:34:22,774 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2021-11-16 17:34:22,826 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:34:24,804 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7712
+INFO 2021-11-16 17:34:24,877 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:34:26,957 basehttp 154 "PUT /addresses/1/title/ HTTP/1.1" 200 75
+INFO 2021-11-16 17:34:28,172 basehttp 154 "PUT /addresses/1/title/ HTTP/1.1" 200 75
+INFO 2021-11-16 17:34:28,490 basehttp 154 "PUT /addresses/1/title/ HTTP/1.1" 200 75
+INFO 2021-11-16 17:34:28,831 basehttp 154 "PUT /addresses/1/title/ HTTP/1.1" 200 75
+INFO 2021-11-16 17:34:29,867 basehttp 154 "PUT /addresses/1/title/ HTTP/1.1" 200 75
+INFO 2021-11-16 17:34:35,428 basehttp 154 "PUT /addresses/1/title/ HTTP/1.1" 200 75
+INFO 2021-11-16 17:34:43,498 basehttp 154 "PUT /addresses/1/title/ HTTP/1.1" 200 75
+INFO 2021-11-16 17:34:44,184 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7706
+INFO 2021-11-16 17:34:44,230 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:34:44,234 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:34:44,238 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:34:44,240 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:34:44,298 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:34:44,304 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12043
+INFO 2021-11-16 17:34:44,318 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 17:34:44,352 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 17:34:44,353 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 17:34:44,419 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:34:44,424 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 17:34:46,579 basehttp 154 "PUT /addresses/1/title/ HTTP/1.1" 200 75
+INFO 2021-11-16 17:34:47,154 basehttp 154 "PUT /addresses/1/title/ HTTP/1.1" 200 75
+INFO 2021-11-16 17:34:47,303 basehttp 154 "PUT /addresses/1/title/ HTTP/1.1" 200 75
+INFO 2021-11-16 17:34:47,501 basehttp 154 "PUT /addresses/1/title/ HTTP/1.1" 200 75
+INFO 2021-11-16 17:35:36,417 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7706
+INFO 2021-11-16 17:35:36,461 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:35:36,462 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:35:36,471 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:35:36,474 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:35:36,534 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:35:36,534 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12043
+INFO 2021-11-16 17:35:36,554 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 17:35:36,578 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 17:35:36,578 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 17:35:36,627 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:35:36,631 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 17:35:46,348 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7712
+INFO 2021-11-16 17:35:46,396 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:35:46,397 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:35:46,424 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:35:46,426 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:35:46,498 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:35:46,498 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12043
+INFO 2021-11-16 17:35:46,513 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 17:35:46,540 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 17:35:46,542 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 17:35:46,610 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:35:46,614 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 17:35:48,152 basehttp 154 "PUT /addresses/1/title/ HTTP/1.1" 200 75
+INFO 2021-11-16 17:37:31,735 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:37:33,164 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 17:37:34,987 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7704
+INFO 2021-11-16 17:37:35,041 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:37:35,042 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:37:35,057 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:37:35,058 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:37:35,160 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:37:35,161 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12043
+INFO 2021-11-16 17:37:35,177 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 17:37:35,223 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 17:37:35,224 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 17:37:35,300 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:37:35,303 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 17:39:00,874 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:39:03,511 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7704
+INFO 2021-11-16 17:39:03,562 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:39:03,562 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:39:03,587 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:39:03,590 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:39:03,661 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:39:03,662 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12190
+INFO 2021-11-16 17:39:03,672 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 17:39:03,694 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 17:39:03,694 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 17:39:03,766 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:39:03,772 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 17:40:42,729 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:40:47,366 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7711
+INFO 2021-11-16 17:40:47,406 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:40:47,406 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:40:47,416 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:40:47,419 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:40:47,494 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:40:47,495 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12161
+INFO 2021-11-16 17:40:47,505 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 17:40:47,537 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 17:40:47,537 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 17:40:47,610 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:40:47,612 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 17:41:16,837 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7717
+INFO 2021-11-16 17:41:16,881 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 17:41:16,882 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 17:41:16,900 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 17:41:16,903 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 17:41:16,981 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 17:41:16,981 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12161
+INFO 2021-11-16 17:41:16,985 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 17:41:17,016 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 17:41:17,016 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 17:41:17,081 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:41:17,088 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 17:42:36,333 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:44:47,745 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:44:50,165 basehttp 154 "GET /addresses/ HTTP/1.1" 200 7716
+INFO 2021-11-16 17:44:50,323 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2021-11-16 17:44:50,410 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 17:47:22,275 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:47:24,611 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 17:47:25,475 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 17:47:25,475 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 5289
+INFO 2021-11-16 17:47:27,264 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+WARNING 2021-11-16 17:47:28,388 log 228 Not Found: /info/user_center_pass.html
+WARNING 2021-11-16 17:47:28,388 basehttp 154 "GET /info/user_center_pass.html HTTP/1.1" 404 5334
+INFO 2021-11-16 17:50:19,061 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:50:22,878 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 17:50:23,793 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 17:50:23,794 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 5464
+INFO 2021-11-16 17:50:25,339 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+WARNING 2021-11-16 17:50:26,439 log 228 Not Found: /info/user_center_pass.html
+WARNING 2021-11-16 17:50:26,440 basehttp 154 "GET /info/user_center_pass.html HTTP/1.1" 404 5509
+WARNING 2021-11-16 17:50:31,850 log 228 Not Found: /info/user_center_pass.html
+WARNING 2021-11-16 17:50:31,851 basehttp 154 "GET /info/user_center_pass.html HTTP/1.1" 404 5509
+WARNING 2021-11-16 17:50:36,325 log 228 Not Found: /info/user_center_pass.html
+WARNING 2021-11-16 17:50:36,325 basehttp 154 "GET /info/user_center_pass.html HTTP/1.1" 404 5509
+WARNING 2021-11-16 17:50:36,807 log 228 Not Found: /info/user_center_pass.html
+WARNING 2021-11-16 17:50:36,807 basehttp 154 "GET /info/user_center_pass.html HTTP/1.1" 404 5509
+WARNING 2021-11-16 17:50:36,997 log 228 Not Found: /info/user_center_pass.html
+WARNING 2021-11-16 17:50:36,997 basehttp 154 "GET /info/user_center_pass.html HTTP/1.1" 404 5509
+INFO 2021-11-16 17:51:25,806 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\urls.py changed, reloading.
+INFO 2021-11-16 17:51:26,505 autoreload 578 Watching for file changes with StatReloader
+WARNING 2021-11-16 17:51:26,827 log 228 Not Found: /info/user_center_pass.html
+WARNING 2021-11-16 17:51:26,829 basehttp 154 "GET /info/user_center_pass.html HTTP/1.1" 404 5509
+WARNING 2021-11-16 17:51:29,397 log 228 Not Found: /info/user_center_pass.html
+WARNING 2021-11-16 17:51:29,398 basehttp 154 "GET /info/user_center_pass.html HTTP/1.1" 404 5509
+INFO 2021-11-16 17:53:09,245 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:53:10,914 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 17:53:12,566 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+WARNING 2021-11-16 17:53:13,502 log 228 Not Found: /info/user_center_pass.html
+WARNING 2021-11-16 17:53:13,502 basehttp 154 "GET /info/user_center_pass.html HTTP/1.1" 404 5509
+INFO 2021-11-16 17:54:34,751 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:54:36,087 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 17:54:37,607 basehttp 154 "GET /info/ HTTP/1.1" 200 5641
+WARNING 2021-11-16 17:54:38,564 log 228 Not Found: /info/user_center_pass.html
+WARNING 2021-11-16 17:54:38,566 basehttp 154 "GET /info/user_center_pass.html HTTP/1.1" 404 5509
+WARNING 2021-11-16 17:54:44,973 log 228 Not Found: /user_center_pass.html
+WARNING 2021-11-16 17:54:44,973 basehttp 154 "GET /user_center_pass.html HTTP/1.1" 404 5494
+INFO 2021-11-16 17:55:27,576 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:55:28,883 basehttp 154 "GET / HTTP/1.1" 200 43371
+ERROR 2021-11-16 17:55:31,321 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: "'users:password"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 508, in get
+    return render(request, 'user_center_info.html', context=context)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 534, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 61: ''users:password'. Did you forget to register or load this tag?
+ERROR 2021-11-16 17:55:31,325 basehttp 154 "GET /info/ HTTP/1.1" 500 164054
+INFO 2021-11-16 17:55:54,566 autoreload 578 Watching for file changes with StatReloader
+ERROR 2021-11-16 17:55:57,409 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 508, in get
+    return render(request, 'user_center_info.html', context=context)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\defaulttags.py", line 1359, in url
+    viewname = parser.compile_filter(bits[1])
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ''users:password' from ''users:password'
+ERROR 2021-11-16 17:55:57,411 basehttp 154 "GET /info/ HTTP/1.1" 500 172218
+ERROR 2021-11-16 17:55:59,880 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\contrib\auth\mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\pythonItem\logicShop\logicshop\apps\users\views.py", line 508, in get
+    return render(request, 'user_center_info.html', context=context)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\defaulttags.py", line 1359, in url
+    viewname = parser.compile_filter(bits[1])
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "E:\virtualenv\logicShop-0HQnapyp\lib\site-packages\django\template\base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ''users:password' from ''users:password'
+ERROR 2021-11-16 17:55:59,881 basehttp 154 "GET /info/ HTTP/1.1" 500 172083
+INFO 2021-11-16 17:56:13,237 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:56:15,137 basehttp 154 "GET /info/ HTTP/1.1" 200 5632
+INFO 2021-11-16 17:56:16,378 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4833
+WARNING 2021-11-16 17:56:16,449 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+INFO 2021-11-16 17:56:16,496 basehttp 154 "GET /static/js/user_center_pass.js HTTP/1.1" 200 2025
+WARNING 2021-11-16 17:56:16,522 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+INFO 2021-11-16 17:56:17,931 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 17:56:19,846 basehttp 154 "GET /info/ HTTP/1.1" 200 5632
+INFO 2021-11-16 17:56:21,175 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4833
+WARNING 2021-11-16 17:56:21,210 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2021-11-16 17:56:21,277 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+INFO 2021-11-16 17:56:58,500 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4833
+WARNING 2021-11-16 17:56:58,536 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2021-11-16 17:56:58,611 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+INFO 2021-11-16 17:56:59,178 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4833
+WARNING 2021-11-16 17:56:59,215 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2021-11-16 17:56:59,277 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+INFO 2021-11-16 17:56:59,731 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4833
+WARNING 2021-11-16 17:56:59,762 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2021-11-16 17:56:59,828 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+INFO 2021-11-16 17:57:00,264 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4833
+WARNING 2021-11-16 17:57:00,300 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2021-11-16 17:57:00,365 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+INFO 2021-11-16 17:57:00,877 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4833
+WARNING 2021-11-16 17:57:00,908 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2021-11-16 17:57:00,981 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+INFO 2021-11-16 17:57:26,919 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:57:28,336 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 17:57:31,248 basehttp 154 "GET /info/ HTTP/1.1" 200 5632
+INFO 2021-11-16 17:57:32,310 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8167
+INFO 2021-11-16 17:57:32,369 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2021-11-16 17:57:33,707 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4833
+WARNING 2021-11-16 17:57:33,777 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2021-11-16 17:57:33,818 basehttp 154 "GET /static/images/logo.png HTTP/1.1" 404 1669
+WARNING 2021-11-16 17:57:34,856 log 228 Not Found: /change_pwd/user_center_order.html
+WARNING 2021-11-16 17:57:34,857 basehttp 154 "GET /change_pwd/user_center_order.html HTTP/1.1" 404 5530
+INFO 2021-11-16 17:58:00,080 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:58:02,114 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 17:58:03,299 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 17:58:03,300 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 5464
+INFO 2021-11-16 17:58:05,133 basehttp 154 "GET /info/ HTTP/1.1" 200 5632
+INFO 2021-11-16 17:58:06,837 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8167
+INFO 2021-11-16 17:58:11,210 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8167
+WARNING 2021-11-16 17:58:12,425 log 228 Not Found: /addresses/user_center_order.html
+WARNING 2021-11-16 17:58:12,425 basehttp 154 "GET /addresses/user_center_order.html HTTP/1.1" 404 5527
+INFO 2021-11-16 17:58:16,210 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4830
+INFO 2021-11-16 17:58:17,210 basehttp 154 "GET /info/ HTTP/1.1" 200 5632
+INFO 2021-11-16 17:58:19,450 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8167
+INFO 2021-11-16 17:58:22,959 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8167
+INFO 2021-11-16 17:58:28,431 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 17:58:32,159 basehttp 154 "GET / HTTP/1.1" 200 43371
+WARNING 2021-11-16 17:58:33,122 log 228 Not Found: /favicon.ico
+WARNING 2021-11-16 17:58:33,123 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 5464
+INFO 2021-11-16 17:58:34,382 basehttp 154 "GET /info/ HTTP/1.1" 200 5632
+INFO 2021-11-16 17:58:35,701 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8167
+WARNING 2021-11-16 17:58:36,913 log 228 Not Found: /addresses/user_center_order.html
+WARNING 2021-11-16 17:58:36,914 basehttp 154 "GET /addresses/user_center_order.html HTTP/1.1" 404 5527
+INFO 2021-11-16 17:58:39,106 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4830
+INFO 2021-11-16 17:58:42,005 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8167
+INFO 2021-11-16 17:59:11,813 basehttp 154 "GET /info/ HTTP/1.1" 200 5632
+INFO 2021-11-16 17:59:12,478 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8167
+INFO 2021-11-16 17:59:14,856 basehttp 154 "GET /info/ HTTP/1.1" 200 5632
+INFO 2021-11-16 17:59:17,153 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8167
+INFO 2021-11-16 17:59:18,683 basehttp 154 "GET /info/ HTTP/1.1" 200 5632
+INFO 2021-11-16 17:59:19,452 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8167
+WARNING 2021-11-16 17:59:20,071 log 228 Not Found: /addresses/user_center_order.html
+WARNING 2021-11-16 17:59:20,072 basehttp 154 "GET /addresses/user_center_order.html HTTP/1.1" 404 5527
+INFO 2021-11-16 17:59:22,430 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4830
+INFO 2021-11-16 17:59:36,025 basehttp 154 "POST /change_pwd/ HTTP/1.1" 302 0
+INFO 2021-11-16 17:59:36,063 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-16 17:59:40,635 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-16 17:59:40,642 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 17:59:41,909 basehttp 154 "GET /info/ HTTP/1.1" 200 5632
+WARNING 2021-11-16 17:59:43,530 log 228 Not Found: /info/user_center_order.html
+WARNING 2021-11-16 17:59:43,530 basehttp 154 "GET /info/user_center_order.html HTTP/1.1" 404 5512
+INFO 2021-11-16 17:59:45,399 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4830
+WARNING 2021-11-16 17:59:47,458 log 228 Not Found: /change_pwd/user_center_order.html
+WARNING 2021-11-16 17:59:47,459 basehttp 154 "GET /change_pwd/user_center_order.html HTTP/1.1" 404 5530
+WARNING 2021-11-16 17:59:49,691 log 228 Not Found: /change_pwd/user_center_order.html
+WARNING 2021-11-16 17:59:49,692 basehttp 154 "GET /change_pwd/user_center_order.html HTTP/1.1" 404 5530
+INFO 2021-11-16 17:59:51,707 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8167
+INFO 2021-11-16 17:59:51,821 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2021-11-16 18:00:37,364 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 18:00:38,656 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 18:00:40,336 basehttp 154 "GET /info/ HTTP/1.1" 200 5632
+INFO 2021-11-16 18:00:41,620 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8167
+INFO 2021-11-16 18:01:06,974 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8167
+INFO 2021-11-16 18:02:02,031 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8167
+INFO 2021-11-16 18:02:02,082 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 18:02:02,192 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 18:02:02,194 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 18:02:02,209 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 18:02:02,214 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 18:02:02,227 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12161
+INFO 2021-11-16 18:02:02,236 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 18:02:02,273 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 18:02:02,275 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 18:03:23,109 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 18:03:36,039 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 18:03:37,591 basehttp 154 "GET /info/ HTTP/1.1" 200 5632
+INFO 2021-11-16 18:03:38,814 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8167
+INFO 2021-11-16 18:03:56,533 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 18:03:59,335 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8167
+INFO 2021-11-16 18:05:13,711 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 18:05:16,284 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8167
+INFO 2021-11-16 18:05:16,349 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2021-11-16 18:05:54,520 autoreload 203 E:\pythonItem\logicShop\logicshop\apps\users\views.py changed, reloading.
+INFO 2021-11-16 18:05:55,241 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 18:06:18,363 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 18:06:21,136 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 18:06:22,837 basehttp 154 "GET /info/ HTTP/1.1" 200 5632
+INFO 2021-11-16 18:06:23,839 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8666
+INFO 2021-11-16 18:06:24,008 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 18:06:26,934 basehttp 154 "GET /info/ HTTP/1.1" 200 5632
+INFO 2021-11-16 18:06:27,522 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8666
+INFO 2021-11-16 18:06:27,638 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 18:06:32,160 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4830
+INFO 2021-11-16 18:06:33,092 basehttp 154 "GET /info/ HTTP/1.1" 200 5632
+INFO 2021-11-16 18:06:33,791 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4830
+INFO 2021-11-16 18:06:34,403 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8666
+INFO 2021-11-16 18:06:34,500 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 18:06:39,548 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-16 18:06:39,554 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 18:06:40,704 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-16 18:06:45,470 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-16 18:06:45,479 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 18:06:46,904 basehttp 154 "GET /info/ HTTP/1.1" 200 5621
+INFO 2021-11-16 18:06:47,754 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8069
+INFO 2021-11-16 18:06:48,985 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8069
+INFO 2021-11-16 18:07:51,456 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 18:07:54,131 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8074
+INFO 2021-11-16 18:07:54,167 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2021-11-16 18:07:58,244 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8074
+INFO 2021-11-16 18:08:09,328 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 18:09:21,861 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 18:09:22,251 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8069
+ERROR 2021-11-16 18:09:22,253 basehttp 154 "GET /addresses/ HTTP/1.1" 500 59
+INFO 2021-11-16 18:09:23,323 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8069
+INFO 2021-11-16 18:09:30,456 basehttp 154 "GET /info/ HTTP/1.1" 200 5621
+INFO 2021-11-16 18:09:31,559 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-11-16 18:09:31,568 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 18:09:33,263 basehttp 154 "GET /login/ HTTP/1.1" 200 3394
+INFO 2021-11-16 18:09:38,127 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-11-16 18:09:38,134 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 18:09:39,310 basehttp 154 "GET /info/ HTTP/1.1" 200 5632
+INFO 2021-11-16 18:09:40,721 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8666
+INFO 2021-11-16 18:09:40,841 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 18:11:32,821 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 18:11:34,235 basehttp 154 "GET / HTTP/1.1" 200 43371
+INFO 2021-11-16 18:11:36,930 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8666
+INFO 2021-11-16 18:11:36,981 basehttp 154 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2021-11-16 18:11:37,102 basehttp 154 "GET /static/css/main.css HTTP/1.1" 200 40091
+INFO 2021-11-16 18:11:37,103 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12907
+INFO 2021-11-16 18:11:37,112 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-11-16 18:11:37,181 basehttp 154 "GET /static/images/icons.png HTTP/1.1" 200 7740
+INFO 2021-11-16 18:11:37,182 basehttp 154 "GET /static/images/left_bg.jpg HTTP/1.1" 200 1367
+INFO 2021-11-16 18:11:37,195 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-11-16 18:11:37,199 basehttp 154 "GET /static/images/1.png HTTP/1.1" 200 3555
+INFO 2021-11-16 18:11:37,213 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 200 12161
+INFO 2021-11-16 18:11:37,249 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 18:11:37,284 basehttp 154 "GET /static/images/edit.png HTTP/1.1" 200 1244
+INFO 2021-11-16 18:13:03,284 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 18:13:06,472 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8666
+INFO 2021-11-16 18:13:06,732 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 18:13:07,683 basehttp 154 "GET /info/ HTTP/1.1" 200 5632
+INFO 2021-11-16 18:13:08,562 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8666
+INFO 2021-11-16 18:13:08,677 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 18:13:12,061 basehttp 154 "DELETE /addresses/1/ HTTP/1.1" 200 63
+INFO 2021-11-16 18:13:13,497 basehttp 154 "PUT /addresses/3/default/ HTTP/1.1" 200 75
+WARNING 2021-11-16 18:13:14,771 log 228 Not Found: /addresses/user_center_order.html
+WARNING 2021-11-16 18:13:14,771 basehttp 154 "GET /addresses/user_center_order.html HTTP/1.1" 404 5527
+INFO 2021-11-16 18:13:17,254 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4830
+INFO 2021-11-16 18:14:48,120 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 18:14:52,084 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4830
+INFO 2021-11-16 18:14:52,724 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4830
+INFO 2021-11-16 18:14:53,125 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4830
+INFO 2021-11-16 18:14:53,668 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4830
+INFO 2021-11-16 18:14:54,338 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4830
+INFO 2021-11-16 18:15:39,549 autoreload 578 Watching for file changes with StatReloader
+INFO 2021-11-16 18:15:41,575 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4830
+INFO 2021-11-16 18:15:43,668 basehttp 154 "GET /info/ HTTP/1.1" 200 5632
+INFO 2021-11-16 18:15:47,949 basehttp 154 "GET /addresses/ HTTP/1.1" 200 8479
+INFO 2021-11-16 18:15:48,004 basehttp 154 "GET /static/js/user_center_site.js HTTP/1.1" 304 0
+INFO 2021-11-16 18:15:48,086 basehttp 154 "GET /areas/ HTTP/1.1" 200 1774
+INFO 2021-11-16 18:15:52,111 basehttp 154 "GET /change_pwd/ HTTP/1.1" 200 4830
