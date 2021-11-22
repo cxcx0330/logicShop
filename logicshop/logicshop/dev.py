@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'verifications',  # 验证模块
     'oauth',  # 第三方登录模块
     'areas',  # 省市区三级联动
+    'goods'  # 商品模块
 ]
 
 MIDDLEWARE = [
@@ -240,3 +241,8 @@ EMAIL_FROM = '管理员大爹<ycx03301122@163.com>'
 
 # 　激活邮箱验证的主链接
 EMAIL_VERIFY_URL = 'http://www.meiduo.site:8000/emails/verification/'
+
+# 返回文件的路径
+DEFAULT_FILE_STORAGE = 'utils.fastdfs.fdfs_storage.FastDFSStorage'
+# 　文件路径
+FAST_BASE_URL = 'http://118.178.232.251:8888/'

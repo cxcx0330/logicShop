@@ -38,9 +38,11 @@ class ChangePasswordView(LoginRequiredMixin, View):
         if not all([old_password, new_password, new_password2]):
             return http.HttpResponseForbidden('缺少必传参数')
         try:
-            request.user.check_password(old_password)
+            result = request.user.check_password(old_password)
+            if not result:
+                return render(request, 'user_center_pass.html', {'origin_pwd_errmsg': '原始密码错误'})
         except Exception as e:
-            return render(request, 'user_center_pass.html', {'origin_pwd_errmsg':'原始密码错误'})
+            return render(request, 'user_center_pass.html', {'origin_pwd_errmsg': '原始密码错误'})
         if not re.match(r'^[0-9A-Za-z]{8,20}$', new_password):
             return http.HttpResponseForbidden('密码最少8位，最长20位')
         if new_password != new_password2:
@@ -60,6 +62,7 @@ class ChangePasswordView(LoginRequiredMixin, View):
 
         # # 响应密码修改结果：重定向到登录界面
         return response
+
 
 class UpdateTitleAddressView(LoginRequiredJSONMixin, View):
     """设置地址标题"""

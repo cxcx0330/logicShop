@@ -70,8 +70,8 @@
                             <label>当前密码：</label>
                             <input type="password" v-model="old_password" @blur="check_old_password" name="old_password">
 							<span v-show="error_old_password" class="old_pwd_error">密码最少8位，最长20位</span>
-                            {% if origin_password_errmsg %}
-                                <span class="old_pwd_error">{{ origin_password_errmsg }}</span>
+                            {% if origin_pwd_errmsg %}
+                                <span class="old_pwd_error">{{ origin_pwd_errmsg }}</span>
                             {% endif %}
                         </div>
                         <div class="form_group">
