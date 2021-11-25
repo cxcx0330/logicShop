@@ -27,5 +27,9 @@ urlpatterns = [
     # apps/oauth app
     path('', include('oauth.urls')),
     # apps/areas app
-    path('', include('areas.urls'))
+    path('', include('areas.urls')),
+    # apps/goods app
+    path('', include('goods.urls')),
+    # 　search总路由
+    path('search/', include('haystack.urls')),
 ]
