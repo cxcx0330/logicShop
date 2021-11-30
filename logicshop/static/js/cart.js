@@ -13,7 +13,7 @@ let vm = new Vue({
         selected_all(){
             let selected=true;
             for(let i=0; i<this.carts.length; i++){
-                if(this.carts[i].selected==false){
+                if(this.carts[i].selected===false){
                     selected=false;
                     break;
                 }

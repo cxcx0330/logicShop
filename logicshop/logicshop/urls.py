@@ -32,4 +32,6 @@ urlpatterns = [
     path('', include('goods.urls')),
     # 　search总路由
     path('search/', include('haystack.urls')),
+    # 　购物车总路由
+    path('', include('carts.urls'))
 ]

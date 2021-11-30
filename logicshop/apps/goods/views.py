@@ -1,16 +1,110 @@
 from django import http
 from django.core.paginator import Paginator
 from django.shortcuts import render
+from django.utils import timezone
 from django.views import View
 
 from contents.utils import get_categories
 from utils.response_code import RETCODE
 from . import constants
-from .models import GoodsCategory, SKU
+from .models import GoodsCategory, SKU, SKUSpecification, SPUSpecification, GoodsVisitCount
 from .utils import get_breadcrumb
 
 
 # Create your views here.
+
+
+class DetailVisitView(View):
+    """详情页分类商品访问量"""
+
+    def post(self, request, category_id):
+        """记录分类商品访问量"""
+        try:
+            category = GoodsCategory.objects.get(id=category_id)
+        except GoodsCategory.DoesNotExist:
+            return http.HttpResponseForbidden('缺少必传参数')
+        # 获取今天的日期
+        t = timezone.localtime()
+        today_str = '%d-%02d-%02d' % (t.year, t.month, t.day)
+        try:
+            # 存在记录 修改记录
+            counts_data = GoodsVisitCount.objects.get(date=today_str, category=category.id)
+            # 不存在记录新增
+
+        except Exception as e:
+            counts_data = GoodsVisitCount()
+        try:
+            counts_data.category = category
+            counts_data.count += 1
+            counts_data.date = today_str
+            counts_data.save()
+        except Exception as e:
+            return http.HttpResponseForbidden('统计失败')
+
+        # 响应结果
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK'})
+
+
+class DetailGoodsView(View):
+    """商品的详情页面"""
+
+    def get(self, request, sku_id):
+        # 校验参数
+        try:
+            sku = SKU.objects.get(id=sku_id)
+        except Exception as e:
+            return render(request, '404.html')
+        # 　查询商品分类
+        categories = get_categories()
+        # 　查询并完成面包屑
+        # 使用封装的思想，需要传入参数category
+        breadcrumb = get_breadcrumb(sku.category)
+        # 第一次进入详情页面使用默认值
+        # 构建当前商品的规格键 当前的默认规格
+        sku_specs = SKUSpecification.objects.filter(sku__id=sku_id).order_by('spec_id')
+        sku_key = []
+        for spec in sku_specs:
+            sku_key.append(spec.option.id)
+
+        # 获取当前商品的所有SKU
+        spu_id = sku.spu_id
+        skus = SKU.objects.filter(spu_id=spu_id)
+
+        # 构建不同规格参数（选项）的sku字典
+        spec_sku_map = {}
+        for s in skus:
+            # 获取sku的规格参数
+            s_specs = s.specs.order_by('spec_id')
+            # 用于形成规格参数-sku字典的键
+            key = []
+            for spec in s_specs:
+                key.append(spec.option.id)
+            # 向规格参数-sku字典添加记录
+            spec_sku_map[tuple(key)] = s.id
+
+        # 获取当前商品的规格信息
+        goods_specs = SPUSpecification.objects.filter(spu_id=spu_id).order_by('id')
+        # 若当前sku的规格信息不完整，则不再继续
+        if len(sku_key) < len(goods_specs):
+            return
+        for index, spec in enumerate(goods_specs):
+            # 复制当前sku的规格键
+            key = sku_key[:]
+            # 该规格的选项
+            spec_options = spec.options.all()
+            for option in spec_options:
+                # 在规格参数sku字典中查找符合当前规格的sku
+                key[index] = option.id
+                option.sku_id = spec_sku_map.get(tuple(key))
+            spec.spec_options = spec_options
+        context = {
+            'categories': categories,
+            'breadcrumb': breadcrumb,
+            'sku': sku,
+            'specs': goods_specs
+        }
+        return render(request, 'detail.html', context=context)
+
 
 class HotGoodsView(View):
     """热销排行"""

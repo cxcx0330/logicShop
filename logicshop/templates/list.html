@@ -31,7 +31,7 @@
                     <span>|</span>
                     <a href="{% url 'users:info' %}">用户中心</a>
                     <span>|</span>
-                    <a href="cart.html">我的购物车</a>
+                    <a href="{% url 'carts:info' %}">我的购物车</a>
                     <span>|</span>
                     <a href="user_center_order.html">我的订单</a>
                 </div>
@@ -149,8 +149,8 @@
                 {% for sku in page_skus %}
                 <div>
                     <li>
-                        <a href="detail.html"><img src="{{ sku.default_image.url}}"></a>
-                        <h4><a href="detail.html">{{sku.name}}</a></h4>
+                        <a href="{% url 'goods:detail' sku.id %}"><img src="{{ sku.default_image.url}}"></a>
+                        <h4><a href="{% url 'goods:detail' sku.id %}">{{sku.name}}</a></h4>
                         <div class="operate">
                             <span class="price">￥{{sku.price}}</span>
                             <span class="unit">台</span>

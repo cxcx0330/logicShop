@@ -58,6 +58,8 @@ class QQAuthUserView(View):
             response = redirect(next)
             response.set_cookie('username', oauth_user.user.username, max_age=3600 * 24)
 
+            # 登录成功后合并购物车
+
             # 响应结果
             return response
 
@@ -101,6 +103,8 @@ class QQAuthUserView(View):
             oauth_qq_user = OAuthQQUser.objects.create(user=user, openid=openid)
         except Exception as e:
             return render(request, 'oauth_callback.html', {'account_errmsg': '账号或者密码错误'})
+        # 登录成功后合并购物车
+
         # 重定向到首页
         login(request, oauth_qq_user.user)
         next = request.GET.get('state')

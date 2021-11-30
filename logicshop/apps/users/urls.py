@@ -32,6 +32,8 @@ urlpatterns = [
     # 修改title的路由
     re_path(r'^addresses/(?P<address_id>\d+)/title/$', views.UpdateTitleAddressView.as_view()),
     # 修改密码的路由
-    path('change_pwd/', views.ChangePasswordView.as_view(), name='password')
+    path('change_pwd/', views.ChangePasswordView.as_view(), name='password'),
+    # 用户浏览记录
+    path('browse_histories/', views.UserBrowserHistory.as_view())
 
 ]

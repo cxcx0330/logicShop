@@ -1,6 +1,6 @@
 import json
 import re
-
+from carts.utils import merge_carts_cookies_redis
 from django import http
 from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -9,6 +9,7 @@ from django.views import View
 from django_redis import get_redis_connection
 
 from celery_tasks.email.tasks import send_verify_email
+from goods.models import SKU
 from utils.response_code import RETCODE
 from utils.views import LoginRequiredJSONMixin
 from . import constants
@@ -19,6 +20,90 @@ from .utils import generate_verify_email_url, check_verify_email_token
 
 # LAFEKSXRRAIVKTTG
 # Create your views here.
+class UserBrowserHistory(LoginRequiredJSONMixin, View):
+    """用户浏览记录"""
+
+    def post(self, request):
+        """保存用户浏览记录"""
+        json_str = request.body.decode()
+        json_dict = json.loads(json_str)
+        sku_id = json_dict.get('sku_id')
+
+        # 校验参数
+        try:
+            SKU.objects.get(id=sku_id)
+        except SKU.DoesNotExist:
+            return http.HttpResponseForbidden('sku_id不存在')
+
+        redis_conn = get_redis_connection('history')
+        user = request.user
+        pl = redis_conn.pipeline()
+        # 去重复
+        pl.lrem('history_%s' % user.id, 0, sku_id)
+        # 保存
+        pl.lpush('history_%s' % user.id, sku_id)
+        # 截取
+        pl.ltrim('history_%s' % user.id, 0, 4)
+        # 执行
+        pl.execute()
+
+        # 响应结果
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK'})
+
+    def get(self, request):
+        """查询用户商品浏览器记录"""
+
+        # 连接
+        redis_conn = get_redis_connection('history')
+        # 用户
+        user = request.user
+        # 查询redis中以用户为键的全部数据
+        sku_ids = redis_conn.lrange('history_%s' % user.id, 0, -1)
+        # print(sku_ids)
+
+        skus = []
+        for sku_id in sku_ids:
+            # 循环获取每个商品的数据
+            sku = SKU.objects.get(id=sku_id)
+            skus.append({
+                'id': sku.id,
+                'name': sku.name,
+                'price': sku.price,
+                'default_image_url': sku.default_image.url,
+
+            })
+
+        return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK', 'skus': skus})
+
+
+# class UserBrowserHistory(LoginRequiredJSONMixin, View):
+#     """用户浏览记录"""
+#
+#     def post(self, request):
+#         """保存用户浏览记录"""
+#         # 接收参数
+#         json_dict = json.loads(request.body.decode())
+#         sku_id = json_dict.get('sku_id')
+#         # 校验参数
+#         try:
+#             SKU.objects.get(id=sku_id)
+#         except SKU.DoesNotExist:
+#             return http.HttpResponseForbidden('sku不存在')
+#         # 保存用户浏览数据
+#         redis_conn = get_redis_connection('history')
+#         pl = redis_conn.pipeline()
+#         user_id = request.user.id
+#         # 先去重
+#         pl.lrem('history_%s' % user_id, 0, sku_id)
+#         # 再存储
+#         pl.lpush('history_%s' % user_id, sku_id)
+#         # 最后截取
+#         pl.ltrim('history_%s' % user_id, 0, 4)
+#         # 执行管道
+#         pl.execute()
+#         # 响应结果
+#         return http.JsonResponse({'code': RETCODE.OK, 'errmsg': 'OK'})
+
 
 class ChangePasswordView(LoginRequiredMixin, View):
     """修改密码"""
@@ -453,6 +538,11 @@ class LoginView(View):
                 response = redirect(reverse('contents:index'))
             # 　前端需要获取username
             response.set_cookie('username', user.username, max_age=3600 * 24)
+
+            # 登录成功后合并购物车
+            # 删除了购物车cookies的response，直接进行返回
+            response=merge_carts_cookies_redis(request,user,response)
+
             # 响应登录结果
             return response
         else:
